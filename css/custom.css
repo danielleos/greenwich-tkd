@@ -1,5 +1,4 @@
-/* Your custom css code goes here */
-.container > .pic-div {
+p.date {
     display: flex;
     flex-direction: column;
     justify-content: center;
