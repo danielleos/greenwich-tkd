@@ -87,10 +87,9 @@
                     </div>
                     <div class="col-md-4">
                       <h2 class="probootstrap-heading">Enter</h2>
-                      <form>
-                            <input type="text" name="password" placeholder="Password">
-                            <input type="submit" value="Submit" onClick="enterPassword()">
-                      </form><br>
+                          <input type="text" id="password" placeholder="Password">
+                          <input type="submit" value="Submit" onClick="enterPassword()">
+                          <br>
                       <div id="password.error"></div>
                       <p>Don't know the password? <a href="mailto:enquiry@greenwichtaekwondo.com">Email</a> the club to request access.</p>
                     </div>
@@ -164,7 +163,7 @@
     <script>
       function enterPassword() {
         var passwordAttempts = 1;
-        var pass1 = document.getElementsByName("password").value;
+        var pass1 = document.getElementById("password").value;
         while (passwordAttempts < 3) {
           if (pass1.toLowerCase() == "password") {
             window.open('members-password.html');
@@ -175,9 +174,11 @@
             var t = document.createTextNode("That password is incorrect. Please try again.");
             para.appendChild(t);
             document.getElementById("password.error").appendChild(para);
+          }
         }
-        if (pass1.toLowerCase()!="password" & passwordAttempts == 3)
+        if (pass1.toLowerCase()!="password" & passwordAttempts == 3) {
           document.getElementById("password.error").innerHTML = "<p>What are you, an idiot? The password is password, idiot</p>";
+        }
       }
     </script>
 
