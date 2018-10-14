@@ -4,3 +4,35 @@
     flex-direction: column;
     justify-content: center;
 }
+
+
+/* Ryan's changes */
+
+body.modal-open .modalcontent {
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+
+.modal-content {
+  border-radius: 0px;
+  border-color: white;
+}
+
+.modal-footer {
+  background: black;
+}
+
+.modal-header {
+  background: black;
+}
+
+.modal-title {
+  color: white;
+}
+
+.passwordinput {
+  width: 100%;
+}
