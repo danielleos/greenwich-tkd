@@ -166,7 +166,10 @@
         var pass1 = document.getElementById("password").value;
         while (passwordAttempts < 3) {
           if (pass1.toLowerCase() == "password") {
-            window.open('members-password.html');
+            var top  = window.pageYOffset || document.documentElement.scrollTop;
+            var params = "'_self', 'top="+top+"'";
+            console.log(params);
+            window.open('members-password.html', params);
             break;
           } else {
             passwordAttempts+=1;
