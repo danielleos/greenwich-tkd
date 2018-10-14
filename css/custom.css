@@ -1,6 +1,29 @@
-/* Your custom css code goes here */
-.container > .pic-div {
+p.date {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    align-self: flex-end;
+    color: black;
+    text-align: right;
+    margin-top: 62px;
+    margin-right: 50px;
+}
+
+.blog-post {
+    display: flex;
+}
+
+.category-general {
+    
+}
+
+.category-gradings {
+
+}
+
+.category-competitions {
+
+}
+
+.category-seminars {
+
 }
