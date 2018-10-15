@@ -12,3 +12,8 @@ Original: https://greenwichtaekwondo.com/index.htm
 - [ ] Events page
 - [ ] Members area (theory)
 - [ ] Gallery
+
+### In progress
+- [x] About Club page
+- [x] News page
+- [x] Members area
