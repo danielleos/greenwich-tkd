@@ -14,6 +14,6 @@ Original: https://greenwichtaekwondo.com/index.htm
 - [ ] Gallery
 
 ### In progress
-- [x] About Club page
-- [x] News page
-- [x] Members area
+- About Club page
+- News page
+- Members area
