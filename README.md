@@ -8,7 +8,7 @@ Original: https://greenwichtaekwondo.com/index.htm
 - [x] About Taekwon-Do page
 - [ ] About the Club & Training page
 - [x] Contact page
-- [ ] News page
+- [x] News page
 - [ ] Events page
 - [ ] Members area (theory)
 - [ ] Gallery
