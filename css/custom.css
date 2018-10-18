@@ -32,10 +32,19 @@ p.date {
   margin-top: 20px;
 }
 
+.page {
+  display: none;
+}
+
+.page-active {
+  display: block;
+}
+
 /* Next & Previous buttons for pagination */
 .pagination {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-around;
   text-align: center;
   width: 100%;
 }
