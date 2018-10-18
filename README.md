@@ -17,5 +17,4 @@ Original: https://greenwichtaekwondo.com/index.htm
 ### In progress
 - About Club page
   - Need photos for placeholders
-- News page
 - Members area
