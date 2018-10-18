@@ -181,8 +181,8 @@
         <!-- END OF PAGE -->
         <div class="col-md-12 text-center">
           <ul class="pagination">
-            <li><a href="#news" onclick="return show('page1');">< Newer</a> </li>
-            <li><a href="#news" onclick="return show('page1');">Older ></a></li>
+            <li><a href="#news" onclick="return get_newer_page();">< Newer</a> </li>
+            <li><a href="#news" onclick="return get_older_page();">Older ></a></li>
           </ul>
         </div>
       </div>
@@ -254,19 +254,41 @@
   <script src="js/main.min.js"></script>
   <script src="js/custom.js"></script>
   <script>
-    function show(current_page) {
-      var next_page = getNextPage(current_page);
+    function get_older_page(current_page) {
+      var last_page = getNextPage(current_page, false);
       document.getElementById(next_page).style.display = 'block';
       document.getElementById(current_page).style.display = 'none';
       return false;
     }
 
-    function getNextPage(current) {
+    function get_newer_page(current_page) {
+      var next_page = getNextPage(current_page, true);
+      document.getElementById(next_page).style.display = 'block';
+      document.getElementById(current_page).style.display = 'none';
+      return false;
+    }
+
+    function getNextPage(current, is_newer) {
       var current_page_id = current;
-      var current_page_num = current_page_id.replace(/^\D+/g, '');
-      var next_page_num = current_page_num + 1;
-      var next_page = current_page_id.replace(current_page_num, next_page_num);
-      return next_page;
+      var current_page_num = 0;
+      var next_page_num = 0;
+      var next_page_id = '';
+      if (is_newer) {  // newer page, page number goes up
+        current_page_id = current;
+        current_page_num = parseInt(current_page_id)
+        next_page_num = current_page_num + 1;
+        next_page_id = current_page_id.replace(current_page_num, next_page_num);
+      } else {  // older page, page number goes down
+        current_page_id = current;
+        current_page_num = parseInt(current_page_id);
+        if (current_page_num == 1) {  // if current page is the oldest, want to 
+          next_page_id = current_page_id;
+        } else {
+          next_page_num = current_page_num - 1;
+          next_page_id = current_page_id.replace(current_page_num, next_page_num);
+        }
+      }
+      return next_page_id;
     }
   </script>
 

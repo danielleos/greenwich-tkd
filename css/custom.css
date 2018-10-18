@@ -13,19 +13,19 @@ p.date {
 }
 
 .category-general {
-    
+  color: black;
 }
 
 .category-gradings {
-
+  color: black;
 }
 
 .category-competitions {
-
+  color: black;
 }
 
 .category-seminars {
-
+  color: black;
 }
 
 .container {
@@ -43,7 +43,6 @@ p.date {
 .pagination {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
   text-align: center;
   width: 100%;
 }
