@@ -86,3 +86,102 @@ body.modal-open .modalcontent {
 .passwordinput {
   width: 100%;
 }
+
+.belt {
+  height: 40px;
+  margin-bottom:4px;
+  width: 100%;
+  display: flex;
+}
+
+.belt:hover {
+  border: 3px solid orange;
+  cursor: pointer;
+}
+
+#white {
+  background: #EEF0F2;
+}
+
+#yellowtag {
+  background: #EEF0F2;
+}
+
+#yellow {
+  background: #FFE840;
+}
+
+#greentag {
+  background: #FFE840;
+}
+
+#green {
+  background: #11A84D;
+}
+
+#bluetag {
+  background: #11A84D;
+}
+
+#blue {
+  background: #0A30FF;
+}
+
+#redtag {
+  background: #0A30FF;
+}
+
+#red {
+  background: #FF0200;
+}
+
+#blacktag {
+  background: #FF0200;
+}
+
+#black {
+  background: #000000;
+}
+
+#black > p {
+  text-align: right;
+  color: #FAE43E;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.4em;
+  padding: 5px;
+}
+
+#belt1 {
+  width: 90%;
+  height: 100%;
+}
+
+#belt1a {
+  width: 3%;
+  height: 100%;
+  background: #FFE840;
+}
+
+#belt1b {
+  width: 3%;
+  height: 100%;
+  background: #11A84D;
+}
+
+#belt1c {
+  width: 3%;
+  height: 100%;
+  background: #0A30FF;
+}
+
+#belt1d {
+  width: 3%;
+  height: 100%;
+  background: #FF0200;
+}
+
+#belt1e {
+  width: 3%;
+  height: 100%;
+  background: #000000;
+}
