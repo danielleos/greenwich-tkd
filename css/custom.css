@@ -42,6 +42,18 @@ body.modal-open .modalcontent {
   margin-bottom:4px;
   width: 100%;
   display: flex;
+  text-align: right;
+}
+
+.belt > p {
+  width: 100%;
+  line-height: 1.2;
+  color: #FAE43E;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.4em;
+  padding: 5px;
+  margin-right: 50px;
+  text-align: right;
 }
 
 .belt:hover {
@@ -91,14 +103,6 @@ body.modal-open .modalcontent {
 
 #black {
   background: #000000;
-}
-
-#black > p {
-  text-align: right;
-  color: #FAE43E;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 1.4em;
-  padding: 5px;
 }
 
 #belt1 {
