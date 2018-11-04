@@ -1,7 +1,8 @@
-p.date {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 60px;
 }
 
 .index-photos {
