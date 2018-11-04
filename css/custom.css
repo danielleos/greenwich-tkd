@@ -38,51 +38,7 @@
 }
 
 .blog-post {
-    display: flex;
-}
-
-.category-general {
-  color: black;
-}
-
-.category-gradings {
-  color: black;
-}
-
-.category-competitions {
-  color: black;
-}
-
-.category-seminars {
-  color: black;
-}
-
-.container {
-  margin-top: 20px;
-}
-
-.page {
-  display: none;
-}
-
-.page-active {
-  display: block;
-}
-
-/* Next & Previous buttons for pagination */
-.pagination {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  text-align: center;
-  width: 100%;
-}
-
-.pagination a {
-  color: #96c7f5;
-  float: left;
-  padding: 8px 16px;
-  text-decoration: none;
 }
 
 /* Ryan's changes */
