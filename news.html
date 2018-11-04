@@ -98,6 +98,7 @@
             </div>
           </div>
           <!-- end of post -->
+          <!-- Buttons for Page 2 -->
           <div class="col-md-12 text-center" id="page2buttons">
             <ul class="pagination">
               <!-- If there's a new post, remove this disabled here and put on most recent! -->
@@ -114,7 +115,6 @@
           <div class="blog-post col-md-12" id="3">
             <div class="col-md-3 col-md-push-3">
               <p class="date">14 October 2018</p>
-              <!-- <i class="category-competitions"></i> -->
             </div>
             <div class="col-md-6 col-md-push-3">
               <article>
@@ -153,6 +153,7 @@
             </div>
           </div>
           <!-- end of post -->
+          <!-- Buttons for Page 1 -->
           <div class="col-md-12 text-center buttons" id="page1buttons">
             <ul class="pagination">
               <li><a href="#news" onclick="return get_newer_page(getCurrentPageId('page1buttons'));">< Newer</a></li>
@@ -254,6 +255,48 @@
   <script src="js/scripts.min.js"></script>
   <script src="js/main.min.js"></script>
   <script src="js/custom.js"></script>
+  <script>
+    function getCurrentPageId(current_div_id) {
+      var current_div_id = document.getElementById(current_div_id);
+      var parent_div_id = String(current_div_id.parentNode.id);
+      return parent_div_id;
+    }
+
+    function get_older_page(current_page_id) {
+      var last_page_id = getNextPage(current_page_id, false);
+      document.getElementById(last_page_id).style.display = 'block';
+      document.getElementById(current_page_id).style.display = 'none';
+      return false;
+    }
+
+    function get_newer_page(current_page_id) {
+      var next_page = getNextPage(current_page_id, true);
+      document.getElementById(next_page).style.display = 'block';
+      document.getElementById(current_page_id).style.display = 'none';
+      return false;
+    }
+
+    function getNextPage(current, is_newer) {
+      var current_page_id = current;
+      var current_page_num = 0;
+      var next_page_num = 0;
+      var next_page_id = '';
+      if (is_newer) {  // newer page, page number goes up
+        current_page_num = parseInt(current_page_id.match(/\d+/g));
+        next_page_num = current_page_num + 1;
+        next_page_id = current_page_id.replace(current_page_num, next_page_num);
+      } else {  // older page, page number goes down
+        current_page_num = parseInt(current_page_id.match(/\d+/g));
+        if (current_page_num == 1) {  // if current page is the oldest, want to 
+          next_page_id = current_page_id;
+        } else {
+          next_page_num = current_page_num - 1;
+          next_page_id = current_page_id.replace(current_page_num, next_page_num);
+        }
+      }
+      return next_page_id;
+    }
+  </script>
 
 </body>
 
