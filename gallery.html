@@ -79,8 +79,65 @@
         <div class="row probootstrap-gutter60 mb50">
           <div class="col-md-12">
             <h2 class="probootstrap-heading">Gallery</h2>
-            <p>Photo reel / slideshow / folders / whatever...</p>
+            <!--  -->
+            <div class="gallery-row">
+              <div class="gallery-col">
+                <img src="img/gallery/fu-micah-sq.jpg" onclick="open_gallery_modal();current_slide(1)" class="gallery-img hover-shadow gallery-cursor">
+              </div>
+              <div class="gallery-col">
+                <img src="img/gallery/fu-micah-sq.jpg" onclick="open_gallery_modal();current_slide(2)" class="gallery-img hover-shadow gallery-cursor">
+              </div>
+              <div class="gallery-col">
+                <img src="img/gallery/fu-micah-sq.jpg" onclick="open_gallery_modal();current_slide(3)" class="gallery-img hover-shadow gallery-cursor">
+              </div>
+              <div class="gallery-col">
+                <img src="img/gallery/fu-micah-sq.jpg" onclick="open_gallery_modal();current_slide(4)" class="gallery-img hover-shadow gallery-cursor">
+              </div>
+            </div>
+            
+            <div id="gallery-modal" class="gallery-modal">
+              <span class="gallery-close gallery-cursor" onclick="close_gallery_modal()">&times;</span>
+              <div class="gallery-modal-content">
+                <a class="gallery-prev" onclick="plus_slides(-1)">&#10094;</a>
+                <a class="gallery-next" onclick="plus_slides(1)">&#10095;</a>
+
+                <div class="gallery-slides">
+                  <div class="gallery-number">1 / 4</div>
+                  <img src="img/gallery/fu-micah-sq.jpg" class="gallery-img">
+                </div>
+                <div class="gallery-slides">
+                  <div class="gallery-number">2 / 4</div>
+                  <img src="img/gallery/fu-micah-sq.jpg" class="gallery-img">
+                </div>
+                <div class="gallery-slides">
+                  <div class="gallery-number">3 / 4</div>
+                  <img src="img/gallery/fu-micah-sq.jpg" class="gallery-img">
+                </div>
+                <div class="gallery-slides">
+                  <div class="gallery-number">4 / 4</div>
+                  <img src="img/gallery/fu-micah-sq.jpg" class="gallery-img">
+                </div>
+            
+                <div class="caption-container">
+                  <p id="gallery-caption"></p>
+                </div>
+                <div class="gallery-col">
+                  <img class="gallery-demo gallery-cursor gallery-img" src="img/gallery/fu-micah-sq.jpg" onclick="current_slide(1)" alt="1">
+                </div>
+                <div class="gallery-col">
+                  <img class="gallery-demo gallery-cursor gallery-img" src="img/gallery/fu-micah-sq.jpg" onclick="current_slide(2)" alt="2">
+                </div>
+                <div class="gallery-col">
+                  <img class="gallery-demo gallery-cursor gallery-img" src="img/gallery/fu-micah-sq.jpg" onclick="current_slide(3)" alt="3">
+                </div>
+                <div class="gallery-col">
+                  <img class="gallery-demo gallery-cursor gallery-img" src="img/gallery/fu-micah-sq.jpg" onclick="current_slide(4)" alt="4">
+                </div>
+              </div>
+            </div>
+            <!--  -->
           </div>
+        </div>
       </div>
     </section>
 
