@@ -23,7 +23,7 @@
 
   <!-- START: header -->
 
-  <header role="banner" class="probootstrap-header">
+  <header id="navbar-banner" role="banner" class="probootstrap-header">
     <div class="container-fluid">
       <a href="index.html" class="probootstrap-logo">Greenwich TKD<span>.</span></a>
 
@@ -57,7 +57,7 @@
   <!-- END: header -->
 
   <!-- START: section -->
-  <section class="probootstrap-intro probootstrap-intro-inner" style="background-image: url(img/assets/itf-bg-blur.png);"
+  <section id="gallery-header" class="probootstrap-intro probootstrap-intro-inner" style="background-image: url(img/assets/itf-bg-blur.png);"
     data-stellar-background-ratio="0.5">
     <div class="container">
       <div class="row">
@@ -77,10 +77,181 @@
     <section id="next-section" class="probootstrap-section">
       <div class="container">
         <div class="row probootstrap-gutter60 mb50">
-          <div class="col-md-12">
-            <h2 class="probootstrap-heading">Gallery</h2>
-            <p>Photo reel / slideshow / folders / whatever...</p>
+          <!-- COLLECTION START -->
+          <div id="ITFEnglandChamps2018" class="col-md-12">
+            <h2 class="probootstrap-heading">ITF England Championships 2018</h2>
+            <div class="gallery-row">
+              <div class="gallery-col">
+                <img src="img/gallery/itf_england_champs_2018/IMG-20181028-1.jpg" onclick="open_gallery_modal('gallery-modal-1');current_slide(1)" class="gallery-img-thumbnail hover-shadow gallery-cursor">
+              </div>
+              <div class="gallery-col">
+                <img src="img/gallery/itf_england_champs_2018/IMG-20181028-2.jpg" onclick="open_gallery_modal('gallery-modal-1');current_slide(2)" class="gallery-img-thumbnail hover-shadow gallery-cursor">
+              </div>
+              <div class="gallery-col">
+                <img src="img/gallery/itf_england_champs_2018/IMG-20181028-3.jpg" onclick="open_gallery_modal('gallery-modal-1');current_slide(3)" class="gallery-img-thumbnail hover-shadow gallery-cursor">
+              </div>
+              <div class="gallery-col">
+                <img src="img/gallery/itf_england_champs_2018/IMG-20181028-4.jpg" onclick="open_gallery_modal('gallery-modal-1');current_slide(4)" class="gallery-img-thumbnail hover-shadow gallery-cursor">
+              </div>
+              <div class="gallery-col">
+                <img src="img/gallery/itf_england_champs_2018/IMG-20181028-5.jpg" onclick="open_gallery_modal('gallery-modal-1');current_slide(5)"
+                  class="gallery-img-thumbnail hover-shadow gallery-cursor">
+              </div>
+              <div class="gallery-col">
+                <img src="img/gallery/itf_england_champs_2018/IMG-20181028-6.jpg" onclick="open_gallery_modal('gallery-modal-1');current_slide(6)"
+                  class="gallery-img-thumbnail hover-shadow gallery-cursor">
+              </div>
+            </div>
+            <div id="gallery-modal-1" class="gallery-modal">
+              <span class="gallery-close gallery-cursor" onclick="close_gallery_modal('gallery-modal-1')">&times;</span>
+              <div class="gallery-modal-content">
+                <a class="gallery-prev" onclick="plus_slides(-1)">&#10094;</a>
+                <a class="gallery-next" onclick="plus_slides(1)">&#10095;</a>
+                <div class="gallery-slides">
+                  <div class="gallery-number">1 / 6</div>
+                  <img src="img/gallery/itf_england_champs_2018/IMG-20181028-1.jpg" class="gallery-img">
+                </div>
+                <div class="gallery-slides">
+                  <div class="gallery-number">2 / 6</div>
+                  <img src="img/gallery/itf_england_champs_2018/IMG-20181028-2.jpg" class="gallery-img">
+                </div>
+                <div class="gallery-slides">
+                  <div class="gallery-number">3 / 6</div>
+                  <img src="img/gallery/itf_england_champs_2018/IMG-20181028-3.jpg" class="gallery-img">
+                </div>
+                <div class="gallery-slides">
+                  <div class="gallery-number">4 / 6</div>
+                  <img src="img/gallery/itf_england_champs_2018/IMG-20181028-4.jpg" class="gallery-img">
+                </div>
+                <div class="gallery-slides">
+                  <div class="gallery-number">5 / 6</div>
+                  <img src="img/gallery/itf_england_champs_2018/IMG-20181028-5.jpg" class="gallery-img">
+                </div>
+                <div class="gallery-slides">
+                  <div class="gallery-number">6 / 6</div>
+                  <img src="img/gallery/itf_england_champs_2018/IMG-20181028-6.jpg" class="gallery-img">
+                </div>
+                <div class="caption-container">
+                  <p id="gallery-caption-1"></p>
+                </div>
+                <div class="thumbnails-center">
+                  <div class="lightbox-thumbnail-container">
+                    <img class="gallery-demo gallery-cursor lightbox-thumbnail" src="img/gallery/itf_england_champs_2018/IMG-20181028-1.jpg" onclick="current_slide(1)" alt="1">
+                  </div>
+                  <div class="lightbox-thumbnail-container">
+                    <img class="gallery-demo gallery-cursor lightbox-thumbnail" src="img/gallery/itf_england_champs_2018/IMG-20181028-2.jpg" onclick="current_slide(2)" alt="2">
+                  </div>
+                  <div class="lightbox-thumbnail-container">
+                    <img class="gallery-demo gallery-cursor lightbox-thumbnail" src="img/gallery/itf_england_champs_2018/IMG-20181028-3.jpg" onclick="current_slide(3)" alt="3">
+                  </div>
+                  <div class="lightbox-thumbnail-container">
+                    <img class="gallery-demo gallery-cursor lightbox-thumbnail" src="img/gallery/itf_england_champs_2018/IMG-20181028-4.jpg" onclick="current_slide(4)" alt="4">
+                  </div>
+                  <div class="lightbox-thumbnail-container">
+                    <img class="gallery-demo gallery-cursor lightbox-thumbnail" src="img/gallery/itf_england_champs_2018/IMG-20181028-5.jpg"
+                      onclick="current_slide(5)" alt="5">
+                  </div>
+                  <div class="lightbox-thumbnail-container">
+                    <img class="gallery-demo gallery-cursor lightbox-thumbnail" src="img/gallery/itf_england_champs_2018/IMG-20181028-6.jpg"
+                      onclick="current_slide(6)" alt="6">
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          <!-- COLLECTION END -->
+          <!-- COLLECTION START -->
+          <div id="Socials" class="col-md-12">
+            <h2 class="probootstrap-heading">Socials</h2>
+            <div class="gallery-row">
+              <div class="gallery-col">
+                <img src="img/gallery/socials/IMG-20180927.jpg" onclick="open_gallery_modal('gallery-modal-2');current_slide(7)"
+                  class="gallery-img-thumbnail hover-shadow gallery-cursor">
+              </div>
+              <div class="gallery-col">
+                <img src="img/gallery/socials/IMG-20181006.jpg" onclick="open_gallery_modal('gallery-modal-2');current_slide(8)"
+                  class="gallery-img-thumbnail hover-shadow gallery-cursor">
+              </div>
+              <div class="gallery-col">
+                <img src="img/gallery/socials/IMG-20181014.jpg" onclick="open_gallery_modal('gallery-modal-2');current_slide(9)"
+                  class="gallery-img-thumbnail hover-shadow gallery-cursor">
+              </div>
+              <div class="gallery-col">
+                <img src="img/gallery/socials/IMG-20181021.jpg" onclick="open_gallery_modal('gallery-modal-2');current_slide(10)"
+                  class="gallery-img-thumbnail hover-shadow gallery-cursor">
+              </div>
+              <div class="gallery-col">
+                <img src="img/gallery/socials/IMG-20181025.jpg" onclick="open_gallery_modal('gallery-modal-2');current_slide(11)"
+                  class="gallery-img-thumbnail hover-shadow gallery-cursor">
+              </div>
+              <div class="gallery-col">
+                <img src="img/gallery/socials/IMG-20181103.jpg" onclick="open_gallery_modal('gallery-modal-2');current_slide(12)"
+                  class="gallery-img-thumbnail hover-shadow gallery-cursor">
+              </div>
+            </div>
+            <div id="gallery-modal-2" class="gallery-modal">
+              <span class="gallery-close gallery-cursor" onclick="close_gallery_modal('gallery-modal-2')">&times;</span>
+              <div class="gallery-modal-content">
+                <a class="gallery-prev" onclick="plus_slides(-1)">&#10094;</a>
+                <a class="gallery-next" onclick="plus_slides(1)">&#10095;</a>
+                <div class="gallery-slides">
+                  <div class="gallery-number">1 / 6</div>
+                  <img src="img/gallery/socials/IMG-20180927.jpg" class="gallery-img">
+                </div>
+                <div class="gallery-slides">
+                  <div class="gallery-number">2 / 6</div>
+                  <img src="img/gallery/socials/IMG-20181006.jpg" class="gallery-img">
+                </div>
+                <div class="gallery-slides">
+                  <div class="gallery-number">3 / 6</div>
+                  <img src="img/gallery/socials/IMG-20181014.jpg" class="gallery-img">
+                </div>
+                <div class="gallery-slides">
+                  <div class="gallery-number">4 / 6</div>
+                  <img src="img/gallery/socials/IMG-20181021.jpg" class="gallery-img">
+                </div>
+                <div class="gallery-slides">
+                  <div class="gallery-number">5 / 6</div>
+                  <img src="img/gallery/socials/IMG-20181025.jpg" class="gallery-img">
+                </div>
+                <div class="gallery-slides">
+                  <div class="gallery-number">6 / 6</div>
+                  <img src="img/gallery/socials/IMG-20181103.jpg" class="gallery-img">
+                </div>
+                <div class="caption-container">
+                  <p id="gallery-caption-2"></p>
+                </div>
+                <div class="thumbnails-center">
+                  <div class="lightbox-thumbnail-container">
+                    <img class="gallery-demo gallery-cursor lightbox-thumbnail" src="img/gallery/socials/IMG-20180927.jpg"
+                      onclick="current_slide(7)" alt="27th September 2018: Luca's Leaving Meal">
+                  </div>
+                  <div class="lightbox-thumbnail-container">
+                    <img class="gallery-demo gallery-cursor lightbox-thumbnail" src="img/gallery/socials/IMG-20181006.jpg"
+                      onclick="current_slide(8)" alt="6th October 2018">
+                  </div>
+                  <div class="lightbox-thumbnail-container">
+                    <img class="gallery-demo gallery-cursor lightbox-thumbnail" src="img/gallery/socials/IMG-20181014.jpg"
+                      onclick="current_slide(9)" alt="14th October 2018: Go-Karting">
+                  </div>
+                  <div class="lightbox-thumbnail-container">
+                    <img class="gallery-demo gallery-cursor lightbox-thumbnail" src="img/gallery/socials/IMG-20181021.jpg"
+                      onclick="current_slide(10)" alt="21st October 2018">
+                  </div>
+                  <div class="lightbox-thumbnail-container">
+                    <img class="gallery-demo gallery-cursor lightbox-thumbnail" src="img/gallery/socials/IMG-20181025.jpg"
+                      onclick="current_slide(11)" alt="25th October 2018">
+                  </div>
+                  <div class="lightbox-thumbnail-container">
+                    <img class="gallery-demo gallery-cursor lightbox-thumbnail" src="img/gallery/socials/IMG-20181103.jpg"
+                      onclick="current_slide(12)" alt="3rd November 2018: Lanoir's Birthday Get Together">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- COLLECTION END -->
+        </div>
       </div>
     </section>
 

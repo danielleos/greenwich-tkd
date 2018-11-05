@@ -1,3 +1,6 @@
+// ###############################
+// ######### NEWS PAGE ###########
+// ###############################
 function getCurrentPageId(current_div_id) {
 	var current_div_id = document.getElementById(current_div_id);
 	var parent_div_id = String(current_div_id.parentNode.id);
@@ -48,6 +51,73 @@ function get_div_height(div_id) {
 	return div_height;
 }
 
+// ###############################
+// ########## GALLERY ############
+// ###############################
+var modal_one = document.getElementById('gallery-modal-1');
+var modal_two = document.getElementById('gallery-modal-2');
+window.onclick = function (event) {
+	if (event.target == modal_one || event.target == modal_two) {
+		modal_one.style.display = "none";
+		modal_two.style.display = "none";
+		document.getElementById('gallery-header').style.display = "block";
+		document.getElementById('navbar-banner').style.display = "block";
+	}
+}
+
+// function close_modal_anywhere(gallery_modal_id) {
+// 	var modal_id = document.getElementById(gallery_modal_id);
+// 	window.onclick = function (event) {
+// 		if (event.target == modal_id) {
+// 			modal_id.style.display = "none";
+// 		}
+// 	}
+// }
+
+function open_gallery_modal(gallery_modal_id) {
+	document.getElementById(gallery_modal_id).style.display = "block";
+	document.getElementById('gallery-header').style.display = "none";
+	document.getElementById('navbar-banner').style.display = "none";
+}
+
+function close_gallery_modal(gallery_modal_id) {
+	document.getElementById(gallery_modal_id).style.display = "none";
+	document.getElementById('gallery-header').style.display = "block";
+	document.getElementById('navbar-banner').style.display = "block";
+}
+
+var slide_index = 1;
+show_slides(slide_index);
+
+function plus_slides(n) {
+	show_slides(slide_index += n);
+}
+
+function current_slide(n) {
+	show_slides(slide_index = n);
+}
+
+function show_slides(n) {
+	var i;
+	var slides = document.getElementsByClassName("gallery-slides");
+	var dots = document.getElementsByClassName("gallery-demo");
+	var captionText = document.getElementById("gallery-caption-2");
+	if (n > slides.length) { slide_index = 1 }
+	if (n < 1) { slide_index = slides.length }
+	for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";
+	}
+	for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" gallery-active", "");
+	}
+	slides[slide_index - 1].style.display = "block";
+	dots[slide_index - 1].className += " gallery-active";
+	captionText.innerHTML = dots[slide_index - 1].alt;
+}
+
+// ##############################
+// ########## JQUERY ############
+// ##############################
 jQuery(document).ready(function() {
 	
 	"use strict";
