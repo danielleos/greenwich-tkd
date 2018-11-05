@@ -429,7 +429,7 @@ body.modal-open .modalcontent {
 }
 
 .panel-body {
-  padding: 1.5em;
+  padding: 1em;
   background-color: #fff;
   text-align: left;
   width: 100%;
@@ -444,6 +444,10 @@ body.modal-open .modalcontent {
 	.panel-body {
     max-width: 100%;
 	}
+}
+.panel-body h5 {
+  font-size: 18px;
+  font-weight: 900;
 }
 /* ################################ */
 /* ###### END OF COLLAPSIBLE ###### */
