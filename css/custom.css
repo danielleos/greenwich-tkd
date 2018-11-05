@@ -271,19 +271,19 @@ body.modal-open .modalcontent {
 }
 @media only screen and (max-width: 768px) {
 	.collapse-panel {
-      max-width: 100%;
-    }
-    .panel-default {
-      max-width: 100%;
-    }
+    max-width: 100%;
+  }
+  .panel-default {
+    max-width: 100%;
+  }
 }
 @media only screen and (max-width: 992px) {
 	.collapse-panel {
-      max-width: 100%;
-    }
-    .panel-default {
-      max-width: 100%;
-    }
+    max-width: 100%;
+  }
+  .panel-default {
+    max-width: 100%;
+  }
 }
 
 .panel-heading a {
