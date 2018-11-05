@@ -24,10 +24,24 @@
 // ###############################
 // ####### THEORY MODALS #########
 // ###############################
-function openTheoryModal(grade) {
-	document.getElementById(grade).style.display = "block";
-	document.getElementById('gallery-header').style.display = "none";
+function open_theory_modal(pattern) {
+	document.getElementById(pattern).style.display = "block";
+	document.getElementById('members-header').style.display = "none";
 	document.getElementById('navbar-banner').style.display = "none";
+}
+function close_theory_modal(pattern) {
+	document.getElementById(pattern).style.display = "none";
+	document.getElementById('members-header').style.display = "block";
+	document.getElementById('navbar-banner').style.display = "block";
+}
+var theory_modal_one = document.getElementById('saju-jirugi');
+window.onclick = function (event) {
+	if (event.target == modal_one || event.target == modal_two) {
+		modal_one.style.display = "none";
+		modal_two.style.display = "none";
+		document.getElementById('members-header').style.display = "block";
+		document.getElementById('navbar-banner').style.display = "block";
+	}
 }
 
 // ###############################

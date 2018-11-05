@@ -21,7 +21,7 @@
 
 <body>
   <!-- START: header -->
-  <header role="banner" class="probootstrap-header">
+  <header id="navbar-banner" role="banner" class="probootstrap-header">
     <div class="container-fluid">
       <a href="index.html" class="probootstrap-logo">Greenwich TKD<span>.</span></a>
 
@@ -55,7 +55,7 @@
   <!-- END: header -->
 
   <!-- START: section -->
-  <section class="probootstrap-intro probootstrap-intro-inner" style="background-image: url(img/assets/itf-bg-blur.png);"
+  <section id="members-header" class="probootstrap-intro probootstrap-intro-inner" style="background-image: url(img/assets/itf-bg-blur.png);"
     data-stellar-background-ratio="0.5">
     <div class="container">
       <div class="row">
@@ -94,7 +94,7 @@
                     <div class="panel-body">
                       <h5>Grading Syllabus: Promotion to 9th kup</h5>
                       <ol>
-                        <li>Saju Jirugi / Four Directional Punch <a href="" onclick="openTheoryModal('saju-jirugi');">[Watch
+                        <li>Saju Jirugi / Four Directional Punch <a onclick="open_theory_modal('saju-jirugi');">[Watch
                             Video]</a></li>
                         <li>Saju Makgi / Four Directional Block</li>
                         <li>Narani so Kaunde Jirugi / Parallel Stance Middle Punch</li>
@@ -463,6 +463,21 @@
     </div>
   </div>
   <!-- End of Password Modal -->
+  <!-- Saju Jirugi Modal -->
+  <!-- <div class="col-md-12">
+    <div id="saju-jirugi" class="gallery-modal">
+      <span class="gallery-close gallery-cursor" onclick="close_theory_modal('saju-jirugi')">&times;</span>
+      <div class="gallery-modal-content">
+        <div class="gallery-slides">
+          <div class="gallery-number">1 / 6</div>
+          <video controls>
+            <source src="members-info/beginner/Four Direction Punch & Block Information/4 Direction Punch.avi" type="video/avi">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- End of Saju Jirugi Modal -->
 
   <script src="js/scripts.min.js"></script>
   <script src="js/main.min.js"></script>
