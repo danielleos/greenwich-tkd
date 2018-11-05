@@ -54,19 +54,36 @@ function get_div_height(div_id) {
 // ###############################
 // ########## GALLERY ############
 // ###############################
-var modal = document.getElementById('gallery-modal');
+var modal_one = document.getElementById('gallery-modal-1');
+var modal_two = document.getElementById('gallery-modal-2');
 window.onclick = function (event) {
-	if (event.target == modal) {
-		modal.style.display = "none";
+	if (event.target == modal_one || event.target == modal_two) {
+		modal_one.style.display = "none";
+		modal_two.style.display = "none";
+		document.getElementById('gallery-header').style.display = "block";
+		document.getElementById('navbar-banner').style.display = "block";
 	}
 }
 
-function open_gallery_modal() {
-	document.getElementById('gallery-modal').style.display = "block";
+// function close_modal_anywhere(gallery_modal_id) {
+// 	var modal_id = document.getElementById(gallery_modal_id);
+// 	window.onclick = function (event) {
+// 		if (event.target == modal_id) {
+// 			modal_id.style.display = "none";
+// 		}
+// 	}
+// }
+
+function open_gallery_modal(gallery_modal_id) {
+	document.getElementById(gallery_modal_id).style.display = "block";
+	document.getElementById('gallery-header').style.display = "none";
+	document.getElementById('navbar-banner').style.display = "none";
 }
 
-function close_gallery_modal() {
-	document.getElementById('gallery-modal').style.display = "none";
+function close_gallery_modal(gallery_modal_id) {
+	document.getElementById(gallery_modal_id).style.display = "none";
+	document.getElementById('gallery-header').style.display = "block";
+	document.getElementById('navbar-banner').style.display = "block";
 }
 
 var slide_index = 1;
@@ -84,7 +101,7 @@ function show_slides(n) {
 	var i;
 	var slides = document.getElementsByClassName("gallery-slides");
 	var dots = document.getElementsByClassName("gallery-demo");
-	var captionText = document.getElementById("gallery-caption");
+	var captionText = document.getElementById("gallery-caption-2");
 	if (n > slides.length) { slide_index = 1 }
 	if (n < 1) { slide_index = slides.length }
 	for (i = 0; i < slides.length; i++) {
