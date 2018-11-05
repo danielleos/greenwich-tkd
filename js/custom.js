@@ -1,3 +1,27 @@
+// ##############################
+// ########## JQUERY ############
+// ##############################
+$(window).on('load', function () {
+	$('#password-modal').modal('show');
+});
+$('#password-modal').modal({
+	backdrop: 'static',
+	keyboard: false
+});
+function passwordEntry() {
+	var pword = document.getElementById("psw").value;
+	if (pword == "password") {
+		$('#password-modal').modal('toggle');
+	} else {
+		$("#passworderror").html("<p style='color:red'>Wrong password. Please try again.</p>");
+	}
+}
+$("#psw").keyup(function (event) {
+	if (event.keyCode === 13) {
+		passwordEntry();
+	}
+});
+
 // ###############################
 // ######### NEWS PAGE ###########
 // ###############################
@@ -118,11 +142,28 @@ function show_slides(n) {
 }
 
 // ##############################
-// ########## JQUERY ############
+// ########## THEORY ############
 // ##############################
-jQuery(document).ready(function() {
-	
-	"use strict";
-	// Your custom js code goes here.
 
-});
+var collapsibleList = document.getElementsByClassName("collapsible");
+for (var i = 0; i < collapsibleList.length; i++) {
+	collapsibleList[i].addEventListener("click", function () {
+		this.classList.toggle("active");
+		var currentId = this.id;
+		var content = this.nextElementSibling;
+		if (content.style.maxHeight) {  // if the content is open
+			content.style.maxHeight = null;  // close it
+		} else {  // if the element is closed
+			var allCollapsibles = collapsibleList;  // get HTMLCollection
+			for (var j = 0; j < collapsibleList.length; j++) {  // for every element
+				if ((allCollapsibles[j].classList.contains("active")) && (allCollapsibles[j].id !== currentId)) {  // if that element has the active class and it does not have the currentId of the one that has been clicked
+					content.style.maxHeight = null;  // remove the maxHeight value - close it
+				} else if (allCollapsibles[j].id == currentId) {  // if that element doesn't have the active class
+					content.style.maxHeight = content.scrollHeight + "px";  // open the element
+				}
+			}
+			// content.style.maxHeight = content.scrollHeight + "px";
+			// console.log("add maxHeight: " + content.style.maxHeight);
+		}
+	});
+}

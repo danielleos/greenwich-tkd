@@ -255,7 +255,7 @@ body.modal-open .modalcontent {
   color: white;
 }
 
-.passwordinput {
+.login {
   width: 100%;
 }
 
@@ -360,4 +360,136 @@ body.modal-open .modalcontent {
   width: 3%;
   height: 100%;
   background: #000000;
+}
+
+/* ############################# */
+/* ######## COLLAPSIBLE ######## */
+/* ############################# */
+.collapse-panel .panel-default > .panel-heading {
+  padding: 0;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+	.collapse-panel {
+        max-width: 100%;
+    }
+    .panel-default {
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 992px) {
+	.collapse-panel {
+        max-width: 100%;
+    }
+    .panel-default {
+        max-width: 100%;
+    }
+}
+
+.panel-heading a {
+    padding: 18px;
+    width: 100%;
+    display: block;
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+.white a {
+  background-color: #EEF0F2;
+}
+.yellow a {
+  background-color: #FFE840;
+}
+.green a {
+  background-color: #11A84D;
+} 
+.blue a {
+  background-color: #0A30FF;
+  color: #fff;
+}
+.red a {
+  background-color: #FF0200;
+  color: #fff;
+}
+.black a {
+  background-color: #000;
+  color: #fff;
+}
+@media only screen and (max-width: 768px) {
+	.panel-heading {
+        max-width: 100%;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.panel-heading {
+        max-width: 100%;
+	}
+}
+
+.panel {
+    border: none;
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+	.panel {
+        max-width: 100%;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.panel {
+        max-width: 100%;
+	}
+}
+
+.panel-heading a:after {
+    content: "\2501";
+    position: absolute;
+    right: 20px;
+}
+
+.panel-heading a.collapsed:after {
+    content: "\254b";
+}
+
+.white a.collapsed {
+  background: #EEF0F2;
+  color: #000;
+}
+.yellow a.collapsed {
+  background: #FFE840;
+  color: #000;
+}
+.green a.collapsed {
+  background: #11A84D;
+  color: #000;
+}
+.blue a.collapsed {
+  background: #0A30FF;
+  color: #fff;
+}
+.red a.collapsed {
+  background: #FF0200;
+  color: #fff;
+}
+.black a.collapsed {
+  background: #000;
+  color: #fff;
+}
+
+.panel-body {
+    padding: 1.5em;
+    background-color: #fff;
+    text-align: left;
+    width: 100%;
+    border: none;
+}
+@media only screen and (max-width: 768px) {
+	.panel-body {
+        max-width: 100%;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.panel-body {
+        max-width: 100%;
+	}
 }
