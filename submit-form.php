@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['email'])) {
-    $email_to = "example@example.com"; //change to greenwich tkd email
+    $email_to = "danielle.oh.es@gmail.com"; //change to greenwich tkd email when in production
 
     function died($error) {
         echo "Error(s) have been found with the form you submitted. ";
