@@ -24,7 +24,11 @@
 // ###############################
 // ####### THEORY MODALS #########
 // ###############################
-
+function openTheoryModal(grade) {
+	document.getElementById(grade).style.display = "block";
+	document.getElementById('gallery-header').style.display = "none";
+	document.getElementById('navbar-banner').style.display = "none";
+}
 
 // ###############################
 // ######### NEWS PAGE ###########
