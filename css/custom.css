@@ -351,7 +351,7 @@ body.modal-open .modalcontent {
   float: right;
   margin-right: 40px;
   margin-top: -18px;
-  width: 6%;
+  width: 5%;
   height: 55px;
   background-color: #FFE840;
 }
@@ -359,7 +359,7 @@ body.modal-open .modalcontent {
   float: right;
   margin-right: 40px;
   margin-top: -18px;
-  width: 6%;
+  width: 5%;
   height: 55px;
   background-color: #11A84D;
 }
@@ -367,7 +367,7 @@ body.modal-open .modalcontent {
   float: right;
   margin-right: 40px;
   margin-top: -18px;
-  width: 6%;
+  width: 5%;
   height: 55px;
   background-color: #0A30FF;
 }
@@ -375,7 +375,7 @@ body.modal-open .modalcontent {
   float: right;
   margin-right: 40px;
   margin-top: -18px;
-  width: 6%;
+  width: 5%;
   height: 55px;
   background-color: #FF0200;
 }
@@ -383,9 +383,20 @@ body.modal-open .modalcontent {
   float: right;
   margin-right: 40px;
   margin-top: -18px;
-  width: 6%;
+  width: 5%;
   height: 55px;
   background-color: #000;
+}
+.dans {
+  float: right;
+  margin-right: 40px;
+  margin-top: -16px;
+  text-align: center;
+  width: 6%;
+  height: 55px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 42px;
+  color: #FFE840;
 }
 
 .panel-heading a.collapsed:after {
