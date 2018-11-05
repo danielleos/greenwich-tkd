@@ -259,140 +259,40 @@ body.modal-open .modalcontent {
   width: 100%;
 }
 
-.belt {
-  height: 40px;
-  margin-bottom:4px;
-  width: 100%;
-  display: flex;
-  text-align: right;
-}
-
-.belt > p {
-  width: 100%;
-  line-height: 1.2;
-  color: #FAE43E;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 1.4em;
-  padding: 5px;
-  margin-right: 50px;
-  text-align: right;
-}
-
-.belt:hover {
-  border: 3px solid orange;
-  cursor: pointer;
-}
-
-#white {
-  background: #EEF0F2;
-}
-
-#yellowtag {
-  background: #EEF0F2;
-}
-
-#yellow {
-  background: #FFE840;
-}
-
-#greentag {
-  background: #FFE840;
-}
-
-#green {
-  background: #11A84D;
-}
-
-#bluetag {
-  background: #11A84D;
-}
-
-#blue {
-  background: #0A30FF;
-}
-
-#redtag {
-  background: #0A30FF;
-}
-
-#red {
-  background: #FF0200;
-}
-
-#blacktag {
-  background: #FF0200;
-}
-
-#black {
-  background: #000000;
-}
-
-#belt1 {
-  width: 90%;
-  height: 100%;
-}
-
-#belt1a {
-  width: 3%;
-  height: 100%;
-  background: #FFE840;
-}
-
-#belt1b {
-  width: 3%;
-  height: 100%;
-  background: #11A84D;
-}
-
-#belt1c {
-  width: 3%;
-  height: 100%;
-  background: #0A30FF;
-}
-
-#belt1d {
-  width: 3%;
-  height: 100%;
-  background: #FF0200;
-}
-
-#belt1e {
-  width: 3%;
-  height: 100%;
-  background: #000000;
-}
+/* Danielle's changes  */
 
 /* ############################# */
 /* ######## COLLAPSIBLE ######## */
 /* ############################# */
 .collapse-panel .panel-default > .panel-heading {
   padding: 0;
+  margin-top: 10px;
   width: 100%;
 }
 @media only screen and (max-width: 768px) {
 	.collapse-panel {
-        max-width: 100%;
+      max-width: 100%;
     }
     .panel-default {
-        max-width: 100%;
+      max-width: 100%;
     }
 }
 @media only screen and (max-width: 992px) {
 	.collapse-panel {
-        max-width: 100%;
+      max-width: 100%;
     }
     .panel-default {
-        max-width: 100%;
+      max-width: 100%;
     }
 }
 
 .panel-heading a {
-    padding: 18px;
-    width: 100%;
-    display: block;
-    position: relative;
-    color: rgb(0, 0, 0);
-    text-align: left;
+  padding: 18px;
+  width: 100%;
+  display: block;
+  position: relative;
+  color: rgb(0, 0, 0);
+  text-align: left;
 }
 .white a {
   background-color: #EEF0F2;
@@ -417,38 +317,79 @@ body.modal-open .modalcontent {
 }
 @media only screen and (max-width: 768px) {
 	.panel-heading {
-        max-width: 100%;
+    max-width: 100%;
 	}
 }
 @media only screen and (max-width: 992px) {
 	.panel-heading {
-        max-width: 100%;
+    max-width: 100%;
 	}
 }
 
 .panel {
-    border: none;
-    width: 100%;
+  border: none;
+  width: 100%;
 }
 @media only screen and (max-width: 768px) {
 	.panel {
-        max-width: 100%;
+    max-width: 100%;
 	}
 }
 @media only screen and (max-width: 992px) {
 	.panel {
-        max-width: 100%;
+    max-width: 100%;
 	}
 }
 
 .panel-heading a:after {
-    content: "\2501";
-    position: absolute;
-    right: 20px;
+  content: "\2501";
+  position: absolute;
+  right: 20px;
+}
+
+.yellow-tag {
+  float: right;
+  margin-right: 40px;
+  margin-top: -18px;
+  width: 6%;
+  height: 55px;
+  background-color: #FFE840;
+}
+.green-tag {
+  float: right;
+  margin-right: 40px;
+  margin-top: -18px;
+  width: 6%;
+  height: 55px;
+  background-color: #11A84D;
+}
+.blue-tag {
+  float: right;
+  margin-right: 40px;
+  margin-top: -18px;
+  width: 6%;
+  height: 55px;
+  background-color: #0A30FF;
+}
+.red-tag {
+  float: right;
+  margin-right: 40px;
+  margin-top: -18px;
+  width: 6%;
+  height: 55px;
+  background-color: #FF0200;
+}
+.black-tag {
+  float: right;
+  margin-right: 40px;
+  margin-top: -18px;
+  width: 6%;
+  height: 55px;
+  background-color: #000;
 }
 
 .panel-heading a.collapsed:after {
-    content: "\254b";
+  content: "\254b";
 }
 
 .white a.collapsed {
@@ -477,19 +418,22 @@ body.modal-open .modalcontent {
 }
 
 .panel-body {
-    padding: 1.5em;
-    background-color: #fff;
-    text-align: left;
-    width: 100%;
-    border: none;
+  padding: 1.5em;
+  background-color: #fff;
+  text-align: left;
+  width: 100%;
+  border: none;
 }
 @media only screen and (max-width: 768px) {
 	.panel-body {
-        max-width: 100%;
+    max-width: 100%;
 	}
 }
 @media only screen and (max-width: 992px) {
 	.panel-body {
-        max-width: 100%;
+    max-width: 100%;
 	}
 }
+/* ################################ */
+/* ###### END OF COLLAPSIBLE ###### */
+/* ################################ */
