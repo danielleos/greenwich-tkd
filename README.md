@@ -12,7 +12,7 @@ Original: https://greenwichtaekwondo.com/index.htm
 - [ ] Events page
 - [ ] Members area (theory)
 - [ ] Gallery
-  - [ ] Photos!!
+  - [x] Photos!!
 
 ### In progress
 - About Club page
