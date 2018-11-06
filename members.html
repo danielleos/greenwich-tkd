@@ -94,9 +94,18 @@
                     <div class="panel-body">
                       <h5>Grading Syllabus: Promotion to 9th kup</h5>
                       <ol>
-                        <li>Saju Jirugi / Four Directional Punch <a onclick="open_theory_modal('saju-jirugi');">[Watch
-                            Video]</a></li>
-                        <li>Saju Makgi / Four Directional Block</li>
+                        <li>
+                          Saju Jirugi / Four Directional Punch
+                          <a class="modal-text-cursor" data-toggle="modal" data-target="#saju-jirugi">
+                            [Watch Video]
+                          </a>
+                        </li>
+                        <li>
+                          Saju Makgi / Four Directional Block
+                          <a class="modal-text-cursor" data-toggle="modal" data-target="#saju-makgi">
+                            [Watch Video]
+                          </a>
+                        </li>
                         <li>Narani so Kaunde Jirugi / Parallel Stance Middle Punch</li>
                         <li>Moving Forwards & Backwards</li>
                         <ul>
@@ -464,19 +473,52 @@
   </div>
   <!-- End of Password Modal -->
   <!-- Saju Jirugi Modal -->
-  <!-- <div class="col-md-12">
-    <div id="saju-jirugi" class="gallery-modal">
-      <span class="gallery-close gallery-cursor" onclick="close_theory_modal('saju-jirugi')">&times;</span>
-      <div class="gallery-modal-content">
-        <div class="gallery-slides">
-          <div class="gallery-number">1 / 6</div>
-          <video controls>
-            <source src="members-info/beginner/Four Direction Punch & Block Information/4 Direction Punch.avi" type="video/avi">
-          </video>
+  <div class="modal fade" id="saju-jirugi" tabindex="-1" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="modal-title">Saju Jirugi</h4>
+        </div>
+        <div class="modal-body">
+          <div class="video-container">
+            <video class="patterns-video" controls>
+              <source src="members-info/beginner/Four Direction Punch & Block Information/4-direction-Punch.mp4">
+            </video>
+          </div>
+          <div class="caption">
+            <p>Saju Jirugi</p>
+          </div>
+        </div>
+        <div class="modal-footer treatment-modal">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
+  <!-- End of Saju Jirugi Modal -->
+  <!-- Saju Jirugi Modal -->
+  <div class="modal fade" id="saju-makgi" tabindex="-1" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="modal-title">Saju Makgi</h4>
+        </div>
+        <div class="modal-body">
+          <div class="video-container">
+            <video class="patterns-video" controls>
+              <source src="members-info/beginner/Four Direction Punch & Block Information/4-direction-Block.mp4">
+            </video>
+          </div>
+          <div class="caption">
+            <p>Saju Makgi</p>
+          </div>
+        </div>
+        <div class="modal-footer treatment-modal">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- End of Saju Jirugi Modal -->
 
   <script src="js/scripts.min.js"></script>

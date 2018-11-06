@@ -24,25 +24,12 @@
 // ###############################
 // ####### THEORY MODALS #########
 // ###############################
-function open_theory_modal(pattern) {
-	document.getElementById(pattern).style.display = "block";
-	document.getElementById('members-header').style.display = "none";
-	document.getElementById('navbar-banner').style.display = "none";
-}
-function close_theory_modal(pattern) {
-	document.getElementById(pattern).style.display = "none";
-	document.getElementById('members-header').style.display = "block";
-	document.getElementById('navbar-banner').style.display = "block";
-}
-var theory_modal_one = document.getElementById('saju-jirugi');
-window.onclick = function (event) {
-	if (event.target == modal_one || event.target == modal_two) {
-		modal_one.style.display = "none";
-		modal_two.style.display = "none";
-		document.getElementById('members-header').style.display = "block";
-		document.getElementById('navbar-banner').style.display = "block";
-	}
-}
+// modals
+// (function ($) {
+// 	$('#myModal').on('shown.bs.modal', function () {
+// 		$('#myInput').trigger('focus')
+// 	});
+// })(jQuery);
 
 // ###############################
 // ######### NEWS PAGE ###########
@@ -110,15 +97,6 @@ window.onclick = function (event) {
 		document.getElementById('navbar-banner').style.display = "block";
 	}
 }
-
-// function close_modal_anywhere(gallery_modal_id) {
-// 	var modal_id = document.getElementById(gallery_modal_id);
-// 	window.onclick = function (event) {
-// 		if (event.target == modal_id) {
-// 			modal_id.style.display = "none";
-// 		}
-// 	}
-// }
 
 function open_gallery_modal(gallery_modal_id) {
 	document.getElementById(gallery_modal_id).style.display = "block";

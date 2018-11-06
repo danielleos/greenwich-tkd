@@ -452,3 +452,39 @@ body.modal-open .modalcontent {
 /* ################################ */
 /* ###### END OF COLLAPSIBLE ###### */
 /* ################################ */
+
+/* ################################ */
+/* ######### VIDEO MODALS ######### */
+/* ################################ */
+.modal-open {
+  width: 100%;
+}
+.modal-close {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  color: #2C3E50;
+}
+.caption {
+  text-align: left;
+}
+.caption h3 {
+  padding-bottom: 5px;
+}
+.caption p {
+  padding: 10px;
+}
+.modal-body {
+  text-align: center;
+}
+.modal-text-cursor {
+  cursor: pointer;
+}
+.video-container {
+  width: 100%;
+  display: inline-block;
+}
+.patterns-video {
+  width: 100%;
+  height: 100%;
+}
