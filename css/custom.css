@@ -472,10 +472,11 @@ body.modal-open .modalcontent {
   padding-bottom: 5px;
 }
 .caption p {
-  padding: 10px;
+  padding: 10px 20px;;
 }
-.modal-body {
+.theory-modal-body {
   text-align: center;
+  background-color: #fff;
 }
 .modal-text-cursor {
   cursor: pointer;
