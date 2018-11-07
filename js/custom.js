@@ -1,6 +1,105 @@
-// ##############################
-// ########## JQUERY ############
-// ##############################
+var saju_jirugi_korean = "Junbi jase: Narani junbi sogi<br> \
+Orun \
+<ol> \
+	<li>Orun gunnun so ap joomuk kaunde baro ap jirugi</li> \
+	<li>Wen gunnun so bakat palmok najunde bakuro baro yop makgi</li> \
+	<li>1 lo</li> \
+	<li>2 lo</li> \
+	<li>1 lo</li> \
+	<li>2 lo</li> \
+	<li>1 lo</li> \
+	<li>Narani junbi sogi (orunbal e wenbal)</li> \
+</ol > \
+Wen \
+<ol> \
+	<li>Wen gunnun so ap joomuk kaunde baro ap jirugi</li> \
+	<li>Orun gunnun so bakat palmok najunde bakuro baro yop makgi</li> \
+	<li>1 lo</li> \
+	<li>2 lo</li> \
+	<li>1 lo</li> \
+	<li>2 lo</li> \
+	<li>1 lo</li> \
+	<li>Narani junbi sogi (wenbal e orunbal)</li> \
+</ol> \
+";
+
+var saju_jirugi_english = "Ready posture: Parallel ready stance<br> \
+Right \
+<ol> \
+	<li>Right walking stance forefist middle obverse front punch</li> \
+	<li>Left walking stance outer forearm low outward obverse side block</li> \
+	<li>As 1</li> \
+	<li>As 2</li> \
+	<li>As 1</li> \
+	<li>As 2</li> \
+	<li>As 1</li> \
+	<li>Parallel ready stance (right foot to left foot)</li> \
+</ol > \
+Wen \
+<ol> \
+	<li>Left walking stance forefist middle obverse front punch</li> \
+	<li>Right walking stance outer forearm low outward obverse side block</li> \
+	<li>As 1</li> \
+	<li>As 2</li> \
+	<li>As 1</li> \
+	<li>As 2</li> \
+	<li>As 1</li> \
+	<li>Parallel ready stance (left foot to right foot)</li> \
+</ol> \
+";
+
+var chonji_korean = "Junbi jase: Narani junbi sogi<br> \
+<ol> \
+	<li>Wen gunnun so palmok najunde makgi</li> \
+	<li>Orun gunnun so kaunde jirugi</li> \
+	<li>Orun gunnun so palmok najunde makgi</li> \
+	<li>Wen gunnun so kaunde jirugi</li> \
+	<li>1 lo</li> \
+	<li>2 lo</li> \
+	<li>3 lo</li> \
+	<li>4 lo</li> \
+	<li>Orun niunja so an palmok kaunde yop makgi</li> \
+	<li>2 lo</li> \
+	<li>Wen niunja so an palmok kaunde yop makgi</li> \
+	<li>4 lo</li> \
+	<li>9 lo</li> \
+	<li>2 lo</li> \
+	<li>11 lo</li> \
+	<li>4 lo</li> \
+	<li>2 lo</li> \
+	<li>4 lo</li> \
+	<li>2 lo</li> \
+	<li>Narani junbi sogi (wenbal e orunbal)</li> \
+</ol> \
+";
+
+var chonji_english = "Ready posture: Parallel ready stance<br> \
+<ol> \
+	<li>Left walking stance forearm low block</li> \
+	<li>Right walking stance middle punch</li> \
+	<li>Right walking stance forearm low block</li> \
+	<li>Left walking stance middle punch</li> \
+	<li>As 1</li> \
+	<li>As 2</li> \
+	<li>As 3</li> \
+	<li>As 4</li> \
+	<li>Right L-stance inner forearm middle side block</li> \
+	<li>As 2</li> \
+	<li>Left L-stance inner forearm middle side block</li> \
+	<li>As 4</li> \
+	<li>As 9</li> \
+	<li>As 2</li> \
+	<li>As 11</li> \
+	<li>As 4</li> \
+	<li>As 2</li> \
+	<li>As 4</li> \
+	<li>As 2</li> \
+	<li>Parallel ready stance (left foot to right foot)</li> \
+</ol> \
+";
+// ######################################
+// ########## PASSWORD MODAL ############
+// ######################################
 // $(window).on('load', function () {
 // 	$('#password-modal').modal('show');
 // });
@@ -24,12 +123,52 @@
 // ###############################
 // ####### THEORY MODALS #########
 // ###############################
-// modals
-// (function ($) {
-// 	$('#myModal').on('shown.bs.modal', function () {
-// 		$('#myInput').trigger('focus')
-// 	});
-// })(jQuery);
+
+function switch_lang() {
+	var elements = document.getElementsByClassName("english_button");
+	for (var i = 0; i < elements.length; i++) {
+		if (elements[i].classList.contains('english')) {
+			elements[i].innerHTML = '[Click for Korean]';
+			elements[i].classList.replace('english', 'korean');
+		} else if (elements[i].classList.contains('korean')) {
+			elements[i].innerHTML = '[Click for English]';
+			elements[i].classList.replace('korean', 'english');
+		}
+	}
+}
+
+function saju_jirugi() {
+	var pattern = document.getElementById("saju-jirugi-korean");
+	if (pattern.classList.contains('english')) {
+		pattern.innerHTML = saju_jirugi_korean;
+		pattern.classList.replace('english', 'korean');
+	} else if (pattern.classList.contains('korean')) {
+		pattern.innerHTML = saju_jirugi_english;
+		pattern.classList.replace('korean', 'english');
+	}
+}
+
+function saju_makgi() {
+	var pattern = document.getElementById("saju-jirugi-korean");
+	if (pattern.classList.contains('english')) {
+		pattern.innerHTML = saju_makgi_korean;
+		pattern.classList.replace('english', 'korean');
+	} else if (pattern.classList.contains('korean')) {
+		pattern.innerHTML = saju_makgi_english;
+		pattern.classList.replace('korean', 'english');
+	}
+}
+
+function chonji() {
+	var pattern = document.getElementById("chonji-korean");
+	if (pattern.classList.contains('english')) {
+		pattern.innerHTML = chonji_korean;
+		pattern.classList.replace('english', 'korean');
+	} else if (pattern.classList.contains('korean')) {
+		pattern.innerHTML = chonji_english;
+		pattern.classList.replace('korean', 'english');
+	}
+}
 
 // ###############################
 // ######### NEWS PAGE ###########
