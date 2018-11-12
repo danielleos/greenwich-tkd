@@ -239,7 +239,7 @@ var do_san_english = "Ready posture: Parallel ready stance<br> \
 	<li>Right walking stance middle reverse punch</li> \
 	<li>Right L-stance knife-hand middle guarding block</li> \
 	<li>Right walking stance middle straight fingertip thrust</li> \
-	<li>Release from grab, left walking stance back-fist high side strike<li> \
+	<li>Release from grab, left walking stance back-fist high side strike</li> \
 	<li>Right walking stance back-fist high side strike</li> \
 	<li>Left walking stance outer forearm outward high side block</li> \
 	<li>Left walking stance middle reverse punch</li> \
@@ -247,11 +247,11 @@ var do_san_english = "Ready posture: Parallel ready stance<br> \
 	<li>Right walking stance middle reverse punch</li> \
 	<li>Left walking stance outer forearm high wedging block</li> \
 	<li>Right middle front snap kick (Hands stay in same position as in 13)</li> \
-	<li>Right walking stance middle obverse punch (fast motion)<li> \
+	<li>Right walking stance middle obverse punch (fast motion)</li> \
 	<li>Right walking stance middle reverse punch (fast motion)</li> \
 	<li>Right walking stance outer forearm high wedging block</li> \
 	<li>Left middle front snap kick (Hands stay in same position as in 17)</li> \
-	<li>Left walking stance middle obverse punch (fast motion)<li> \
+	<li>Left walking stance middle obverse punch (fast motion)</li> \
 	<li>Left walking stance middle reverse punch (fast motion)</li> \
 	<li>Left walking stance outer forearm rising block</li> \
 	<li>Right walking stance outer forearm rising block</li> \
