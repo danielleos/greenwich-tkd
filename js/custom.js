@@ -493,12 +493,84 @@ Closed ready stance B (left foot to right foot) \
 var toi_gye_korean = "Junbi jase: Moa junbi sogi B<br> \
 <ol> \
 	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
 </ol> \
 Moa junbi sogi B (wenbal e orunbal) \
 ";
 var toi_gye_english = "Ready posture: Closed ready stance B<br> \
 <ol> \
-	<li></li> \
+	<li>Right L-stance inner forearm middle block</li> \
+	<li>Left walking stance upset fingertip low thrust</li> \
+	<li>Close stance right back fist side back strike, extending the left arm to the side - downward (slow motion)</li> \
+	<li>Left L-stance inner forearm middle block</li> \
+	<li>Right walking stance upset fingertip low thrust</li> \
+	<li>Close stance left back fist side back strike, extending the right arm to the side - downward (slow motion)</li> \
+	<li>Left walking stance X-fist pressing block (continuous motion)</li> \
+	<li>Left walking stance twin fist high vertical punch (continuous motion)</li> \
+	<li>Right middle front snap kick (hands as in 8)</li> \
+	<li>Right walking stance middle punch</li> \
+	<li>Right walking stance middle reverse punch</li> \
+	<li>Close stance twin side elbow thrust (slow motion)</li> \
+	<li>Stamping motion, sitting stance right outer forearm W - shape block</li> \
+	<li>Stamping motion, sitting stance left outer forearm W - shape block</li> \
+	<li>Stamping motion, sitting stance left outer forearm W - shape block</li> \
+	<li>Stamping motion, sitting stance right outer forearm W - shape block</li> \
+	<li>Stamping motion, sitting stance left outer forearm W - shape block</li> \
+	<li>Stamping motion, sitting stance left outer forearm W - shape block</li> \
+	<li>Right L-stance double forearm low pushing block</li> \
+	<li>Left walking stance, extending both hands upward as if to grab the opponent’s head</li> \
+	<li>Right knee upward kick, pulling both hands downward</li> \
+	<li>Right L-stance knife-hand middle guarding block</li> \
+	<li>Left low side front snap kick (hands as in 22)</li> \
+	<li>Left walking stance flat fingertip high thrust</li> \
+	<li>Left L-stance knife-hand middle guarding block</li> \
+	<li>Right low side front snap kick (hands as in 25)</li> \
+	<li>Right walking stance flat fingertip high thrust</li> \
+	<li>Right L-stance back fist obverse side back strike and forearm low reverse block</li> \
+	<li>Jump to right X-stance X-fist pressing block</li> \
+	<li>Right walking stance double forearm high block</li> \
+	<li>Right L-stance knife-hand low guarding block</li> \
+	<li>Left walking stance inner forearm circular block</li> \
+	<li>Left L-stance knife-hand low guarding block</li> \
+	<li>Right walking stance inner forearm circular block</li> \
+	<li>Left walking stance inner forearm circular block</li> \
+	<li>Right walking stance inner forearm circular block</li> \
+	<li>Sitting stance right fist middle punch</li> \
 </ol> \
 Closed ready stance B (left foot to right foot) \
 ";
