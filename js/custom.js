@@ -489,6 +489,19 @@ var joong_gun_english = "Ready posture: Closed ready stance B<br> \
 </ol> \
 Closed ready stance B (left foot to right foot) \
 ";
+
+var toi_gye_korean = "Junbi jase: Moa junbi sogi B<br> \
+<ol> \
+	<li></li> \
+</ol> \
+Moa junbi sogi B (wenbal e orunbal) \
+";
+var toi_gye_english = "Ready posture: Closed ready stance B<br> \
+<ol> \
+	<li></li> \
+</ol> \
+Closed ready stance B (left foot to right foot) \
+";
 // ######################################
 // ########## PASSWORD MODAL ############
 // ######################################
