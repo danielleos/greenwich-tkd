@@ -316,7 +316,7 @@ var won_hyo_english = "Ready posture: Closed ready stance A<br> \
 	<li>Right fixed stance middle side punch</li> \
 	<li>Left walking stance inner forearm circular block</li> \
 	<li>Right low front snap kick (hands in same position as 19)</li> \
-	<li>Right walking stance middle reverse punch<li> \
+	<li>Right walking stance middle reverse punch</li> \
 	<li>Right walking stance inner forearm circular block</li> \
 	<li>Left low front snap kick (hands in same position as 22)</li> \
 	<li>Left walking stance middle reverse punch</li> \
