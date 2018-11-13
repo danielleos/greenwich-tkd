@@ -283,85 +283,6 @@ body.modal-open .modalcontent {
   cursor: pointer;
 }
 
-#white {
-  background: #EEF0F2;
-}
-
-#yellowtag {
-  background: #EEF0F2;
-}
-
-#yellow {
-  background: #FFE840;
-}
-
-#greentag {
-  background: #FFE840;
-}
-
-#green {
-  background: #11A84D;
-}
-
-#bluetag {
-  background: #11A84D;
-}
-
-#blue {
-  background: #0A30FF;
-}
-
-#redtag {
-  background: #0A30FF;
-}
-
-#red {
-  background: #FF0200;
-}
-
-#blacktag {
-  background: #FF0200;
-}
-
-#black {
-  background: #000000;
-}
-
-#belt1 {
-  width: 90%;
-  height: 100%;
-}
-
-#belt1a {
-  width: 3%;
-  height: 100%;
-  background: #FFE840;
-}
-
-#belt1b {
-  width: 3%;
-  height: 100%;
-  background: #11A84D;
-}
-
-#belt1c {
-  width: 3%;
-  height: 100%;
-  background: #0A30FF;
-}
-
-#belt1d {
-  width: 3%;
-  height: 100%;
-  background: #FF0200;
-}
-
-#belt1e {
-  width: 3%;
-  height: 100%;
-  background: #000000;
-}
-
 /* ############################# */
 /* ######## COLLAPSIBLE ######## */
 /* ############################# */
@@ -402,7 +323,7 @@ body.modal-open .modalcontent {
 }
 .green a {
   background-color: #11A84D;
-} 
+}
 .blue a {
   background-color: #0A30FF;
   color: #fff;
@@ -492,4 +413,214 @@ body.modal-open .modalcontent {
 	.panel-body {
         max-width: 100%;
 	}
+}
+
+/* ################################### */
+/* ############ QUIZ ############## */
+/* ################################### */
+
+.quiz-container {
+  background: black;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  overflow:hidden;
+}
+
+.quiz-card {
+  margin-top: 8%;
+  width: 45%;
+  height: 80%;
+}
+
+.quiz-header {
+  color: white;
+  text-decoration: underline;
+}
+
+.quiz-right-top {
+  color: white;
+  margin-right: 10%;
+}
+
+.quiz-right-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 10%;
+}
+
+.quiz-right-bottom-box {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  width: 25%;
+  height: 0;
+  padding-bottom: 25%;
+}
+
+.quiz-right-bottom-box-inner {
+  position: absolute;
+  border: 1px solid white;
+  width: 90%;
+  height: 90%;
+}
+
+.quiz-right-bottom-box-inner:hover {
+  position: absolute;
+  border: 1px solid white;
+  width: 95%;
+  height: 95%;
+  cursor: pointer;
+}
+
+#white {
+  background: #EEF0F2;
+}
+
+#yellow-tag {
+  background: linear-gradient(
+  to bottom,
+  #EEF0F2,
+  #EEF0F2 70%,
+  #FFE840 20%,
+  #FFE840
+);
+background-size: 100% 100%;
+}
+
+#yellow {
+  background: #FFE840;
+}
+
+#green-tag {
+  background: linear-gradient(
+  to bottom,
+  #FFE840,
+  #FFE840 70%,
+  #11A84D 20%,
+  #11A84D
+);
+background-size: 100% 100%;
+}
+
+#green {
+  background: #11A84D;
+}
+
+#blue-tag {
+  background: linear-gradient(
+  to bottom,
+  #11A84D,
+  #11A84D 70%,
+  #0A30FF 20%,
+  #0A30FF
+);
+background-size: 100% 100%;
+}
+
+#blue {
+  background: #0A30FF;
+}
+
+#red-tag {
+  background: linear-gradient(
+  to bottom,
+  #0A30FF,
+  #0A30FF 70%,
+  #FF0200 20%,
+  #FF0200
+);
+background-size: 100% 100%;
+}
+
+#red {
+  background: #FF0200;
+}
+
+#black-tag {
+  background: linear-gradient(
+  to bottom,
+  #FF0200,
+  #FF0200 70%,
+  #000000 20%,
+  #000000
+);
+background-size: 100% 100%;
+}
+
+#black1 {
+  background: #000000;
+}
+
+#black1 > p {
+  color: orange;
+  font-size: 4em;
+  font-family: 'Times New Roman';
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#black2 {
+  background: #000000;
+}
+
+#black2 > p {
+  color: orange;
+  font-size: 4em;
+    font-family: 'Times New Roman';
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.quiz-left-top {
+  color: white;
+  margin-left: 10%;
+  height: 82%;
+}
+
+.quiz-left-bottom {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  justify-content: center;
+}
+
+.lives {
+  margin-top: 15px;
+  font-size: 3em;
+  font-family: 'Nunito', sans-serif;
+  color: orange;
+  font-weight: bold;
+}
+
+.quiz-button {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 90%;
+  height: 80px;
+  border: 1px solid white;
+  text-align: center;
+  color: white;
+}
+
+.quiz-button:hover {
+  color: orange;
+  border: 1px solid orange;
+  cursor: pointer;
+}
+
+.instructors {
+  display: flex;
+  justify-content: center;
 }

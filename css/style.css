@@ -118,6 +118,15 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   transition: .8s all ease-out;
 }
 
+.probootstrap-header-no-transition {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  z-index: 4;
+  position: absolute;
+  background: rgba(0, 0, 0, 1);
+}
+
 .probootstrap-header:hover, .probootstrap-header:focus, .probootstrap-header:active {
   background: rgba(0, 0, 0, 0.55);
 }
