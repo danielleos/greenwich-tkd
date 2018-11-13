@@ -278,145 +278,8 @@ body.modal-open .modalcontent {
   text-align: right;
 }
 
-.belt:hover {
-  border: 3px solid orange;
-  cursor: pointer;
-}
-
-/* ############################# */
-/* ######## COLLAPSIBLE ######## */
-/* ############################# */
-.collapse-panel .panel-default > .panel-heading {
-  padding: 0;
-  width: 100%;
-}
-@media only screen and (max-width: 768px) {
-	.collapse-panel {
-        max-width: 100%;
-    }
-    .panel-default {
-        max-width: 100%;
-    }
-}
-@media only screen and (max-width: 992px) {
-	.collapse-panel {
-        max-width: 100%;
-    }
-    .panel-default {
-        max-width: 100%;
-    }
-}
-
-.panel-heading a {
-    padding: 18px;
-    width: 100%;
-    display: block;
-    position: relative;
-    color: rgb(0, 0, 0);
-    text-align: left;
-}
-.white a {
-  background-color: #EEF0F2;
-}
-.yellow a {
-  background-color: #FFE840;
-}
-.green a {
-  background-color: #11A84D;
-}
-.blue a {
-  background-color: #0A30FF;
-  color: #fff;
-}
-.red a {
-  background-color: #FF0200;
-  color: #fff;
-}
-.black a {
-  background-color: #000;
-  color: #fff;
-}
-@media only screen and (max-width: 768px) {
-	.panel-heading {
-        max-width: 100%;
-	}
-}
-@media only screen and (max-width: 992px) {
-	.panel-heading {
-        max-width: 100%;
-	}
-}
-
-.panel {
-    border: none;
-    width: 100%;
-}
-@media only screen and (max-width: 768px) {
-	.panel {
-        max-width: 100%;
-	}
-}
-@media only screen and (max-width: 992px) {
-	.panel {
-        max-width: 100%;
-	}
-}
-
-.panel-heading a:after {
-    content: "\2501";
-    position: absolute;
-    right: 20px;
-}
-
-.panel-heading a.collapsed:after {
-    content: "\254b";
-}
-
-.white a.collapsed {
-  background: #EEF0F2;
-  color: #000;
-}
-.yellow a.collapsed {
-  background: #FFE840;
-  color: #000;
-}
-.green a.collapsed {
-  background: #11A84D;
-  color: #000;
-}
-.blue a.collapsed {
-  background: #0A30FF;
-  color: #fff;
-}
-.red a.collapsed {
-  background: #FF0200;
-  color: #fff;
-}
-.black a.collapsed {
-  background: #000;
-  color: #fff;
-}
-
-.panel-body {
-    padding: 1.5em;
-    background-color: #fff;
-    text-align: left;
-    width: 100%;
-    border: none;
-}
-@media only screen and (max-width: 768px) {
-	.panel-body {
-        max-width: 100%;
-	}
-}
-@media only screen and (max-width: 992px) {
-	.panel-body {
-        max-width: 100%;
-	}
-}
-
 /* ################################### */
-/* ############ QUIZ ############## */
+/* ############### QUIZ ############## */
 /* ################################### */
 
 .quiz-container {
@@ -623,4 +486,248 @@ background-size: 100% 100%;
 .instructors {
   display: flex;
   justify-content: center;
+}
+
+.belt:hover {
+  border: 3px solid orange;
+  cursor: pointer;
+}
+
+/* ####################################### */
+/* ############ END OF QUIZ ############## */
+/* ####################################### */
+
+/* Danielle's changes  */
+
+/* ############################# */
+/* ######## COLLAPSIBLE ######## */
+/* ############################# */
+.collapse-panel .panel-default > .panel-heading {
+  padding: 0;
+  margin-top: 10px;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+	.collapse-panel {
+    max-width: 100%;
+  }
+  .panel-default {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+	.collapse-panel {
+    max-width: 100%;
+  }
+  .panel-default {
+    max-width: 100%;
+  }
+}
+
+.panel-heading a {
+  padding: 18px;
+  width: 100%;
+  display: block;
+  position: relative;
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+.white a {
+  background-color: #EEF0F2;
+}
+.yellow a {
+  background-color: #FFE840;
+}
+.green a {
+  background-color: #11A84D;
+}
+.blue a {
+  background-color: #0A30FF;
+  color: #fff;
+}
+.red a {
+  background-color: #FF0200;
+  color: #fff;
+}
+.black a {
+  background-color: #000;
+  color: #fff;
+}
+@media only screen and (max-width: 768px) {
+	.panel-heading {
+    max-width: 100%;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.panel-heading {
+    max-width: 100%;
+	}
+}
+
+.panel {
+  border: none;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+	.panel {
+    max-width: 100%;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.panel {
+    max-width: 100%;
+	}
+}
+
+.panel-heading a:after {
+  content: "\2501";
+  position: absolute;
+  right: 20px;
+}
+
+.yellow-tag {
+  float: right;
+  margin-right: 40px;
+  margin-top: -18px;
+  width: 5%;
+  height: 55px;
+  background-color: #FFE840;
+}
+.green-tag {
+  float: right;
+  margin-right: 40px;
+  margin-top: -18px;
+  width: 5%;
+  height: 55px;
+  background-color: #11A84D;
+}
+.blue-tag {
+  float: right;
+  margin-right: 40px;
+  margin-top: -18px;
+  width: 5%;
+  height: 55px;
+  background-color: #0A30FF;
+}
+.red-tag {
+  float: right;
+  margin-right: 40px;
+  margin-top: -18px;
+  width: 5%;
+  height: 55px;
+  background-color: #FF0200;
+}
+.black-tag {
+  float: right;
+  margin-right: 40px;
+  margin-top: -18px;
+  width: 5%;
+  height: 55px;
+  background-color: #000;
+}
+.dans {
+  float: right;
+  margin-right: 40px;
+  margin-top: -16px;
+  text-align: center;
+  width: 6%;
+  height: 55px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 42px;
+  color: #FFE840;
+}
+
+.panel-heading a.collapsed:after {
+  content: "\254b";
+}
+
+.white a.collapsed {
+  background: #EEF0F2;
+  color: #000;
+}
+.yellow a.collapsed {
+  background: #FFE840;
+  color: #000;
+}
+.green a.collapsed {
+  background: #11A84D;
+  color: #000;
+}
+.blue a.collapsed {
+  background: #0A30FF;
+  color: #fff;
+}
+.red a.collapsed {
+  background: #FF0200;
+  color: #fff;
+}
+.black a.collapsed {
+  background: #000;
+  color: #fff;
+}
+
+.panel-body {
+  padding: 1em;
+  background-color: #fff;
+  text-align: left;
+  width: 100%;
+  border: none;
+}
+@media only screen and (max-width: 768px) {
+	.panel-body {
+    max-width: 100%;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.panel-body {
+    max-width: 100%;
+	}
+}
+
+.panel-body h5 {
+  font-size: 18px;
+  font-weight: 900;
+}
+/* ################################ */
+/* ###### END OF COLLAPSIBLE ###### */
+/* ################################ */
+
+/* ################################ */
+/* ######### VIDEO MODALS ######### */
+/* ################################ */
+.modal-open {
+  width: 100%;
+}
+.modal-close {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  color: #2C3E50;
+}
+.caption {
+  padding: 10px 20px;
+  text-align: left;
+}
+.caption h5 {
+  font-size: 18px;
+  font-weight: 900;
+  padding-bottom: 5px;
+}
+.theory-modal-body {
+  text-align: center;
+  background-color: #fff;
+}
+.modal-text-cursor {
+  cursor: pointer;
+}
+.video-container {
+  width: 100%;
+  display: inline-block;
+}
+.patterns-video {
+  width: 100%;
+  height: 100%;
+}
+.english, .korean {
+  cursor: pointer;
 }
