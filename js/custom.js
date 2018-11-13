@@ -367,7 +367,7 @@ var yul_gok_korean = "Junbi jase: Narani junbi sogi<br> \
 	<li>Orun gunnun so kaunde bandae ap joomuk jirugi</li> \
 	<li>Twigi e wen kyocha so nopunde dung joomuk yop taerigi</li> \
 	<li>Orun gunnun so nopunde doo palmok makgi</li> \
-	<li>(Orunbal e wenbal) wen gunnung so nopunde doo palmok makgi</li> \
+	<li>(Orunbal e wenbal) wen gunnun so nopunde doo palmok makgi</li> \
 </ol> \
 Narani junbi sogi (wenbal e orunbal) \
 ";
