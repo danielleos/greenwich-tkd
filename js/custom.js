@@ -294,7 +294,7 @@ var won_hyo_korean = "Junbi jase: Moa junbi sogi A<br> \
 </ol> \
 Moa junbi sogi A (orunbal e wenbal) \
 ";
-var won_hyo_english = "Ready posture: Closed ready stance A<br> \
+var won_hyo_english = "Ready posture: Close ready stance A<br> \
 <ol> \
 	<li>Right L-stance twin forearm block</li> \
 	<li>Right L-stance high knife-hand inward strike (and left fist to right shoulder)</li> \
@@ -325,7 +325,7 @@ var won_hyo_english = "Ready posture: Closed ready stance A<br> \
 	<li>Right L-stance middle forearm guarding block</li> \
 	<li>Left L-stance middle forearm guarding block</li> \
 </ol> \
-Closed ready stance A (right foot to left foot) \
+Close ready stance A (right foot to left foot) \
 ";
 
 var yul_gok_korean = "Junbi jase: Narani junbi sogi<br> \
@@ -452,7 +452,7 @@ var joong_gun_korean = "Junbi jase: Moa junbi sogi B<br> \
 </ol> \
 Moa junbi sogi B (wenbal e orunbal) \
 ";
-var joong_gun_english = "Ready posture: Closed ready stance B<br> \
+var joong_gun_english = "Ready posture: Close ready stance B<br> \
 <ol> \
 	<li>Right L-stance middle reverse knife-hand block</li> \
 	<li>Left low side front snap kick (hands as in 1)</li> \
@@ -483,11 +483,11 @@ var joong_gun_english = "Ready posture: Closed ready stance B<br> \
 	<li>Left low stance reverse palm pressing block (slow motion)</li> \
 	<li>Left L-stance middle forearm guarding block</li> \
 	<li>Right low stance reverse palm pressing block (slow motion)</li> \
-	<li>(Left foot to right foot) closed stance right angle punch (slow motion)</li> \
+	<li>(Left foot to right foot) close stance right angle punch (slow motion)</li> \
 	<li>Right fixed stance U-shape block</li> \
 	<li>Left fixed stance U-shape block</li> \
 </ol> \
-Closed ready stance B (left foot to right foot) \
+Close ready stance B (left foot to right foot) \
 ";
 
 var toi_gye_korean = "Junbi jase: Moa junbi sogi B<br> \
@@ -532,7 +532,7 @@ var toi_gye_korean = "Junbi jase: Moa junbi sogi B<br> \
 </ol> \
 Moa junbi sogi B (wenbal e orunbal) \
 ";
-var toi_gye_english = "Ready posture: Closed ready stance B<br> \
+var toi_gye_english = "Ready posture: Close ready stance B<br> \
 <ol> \
 	<li>Right L-stance middle inner forearm block</li> \
 	<li>Left walking stance low upset fingertip thrust</li> \
@@ -572,7 +572,76 @@ var toi_gye_english = "Ready posture: Closed ready stance B<br> \
 	<li>Right walking stance inner forearm circular block</li> \
 	<li>Sitting stance middle right fist punch</li> \
 </ol> \
-Closed ready stance B (left foot to right foot) \
+Close ready stance B (left foot to right foot) \
+";
+
+var hwa_rang_korean = "Junbi jase: Moa junbi sogi C<br> \
+<ol> \
+	<li>Annun so wen kaunde miro makgi</li> \
+	<li>Annun so orun kaunde jirugi</li> \
+	<li>Annun so wen kaunde jirugi</li> \
+	<li>Wen niunja so sang palmok makgi</li> \
+	<li>Wen niunja so wen ollyo jirugi (orun yop joomuk e wen okkae)</li> \
+	<li>Orun gojung so orun kaunde jirugi</li> \
+	<li>Wen soojik so orun naeryo sonkal taerigi</li> \
+	<li>Wen gunnun so kaunde baro jirugi</li> \
+	<li>Wen gunnun so najunde palmok makgi</li> \
+	<li>Orun gunnun so kaunde baro jirugi</li> \
+	<li>(Wenbal e orunbal) wen sonbadak e orun joomuk (orun palkup bakuro 45 do gubulinda)</li> \
+	<li>Orun kaunde yopcha jirugi (yangson bandae danggida), geuttae wen niunja so kaunde bakuro sonkal taerigi</li> \
+	<li>Wen gunnun so kaunde baro jirugi</li> \
+	<li>Orun gunnun so kaunde baro jirugi</li> \
+	<li>Orun niunja so kaunde sonkal daebi makgi</li> \
+	<li>Orun gunnun so kaunde sun sonkut tulgi</li> \
+	<li>Orun niunja so kaunde sonkal daebi makgi</li> \
+	<li>Orun nopunde dollyo changi (barun dongjak)</li> \
+	<li>Wen nopunde dollyo chagi, geuttae orun niunja so kaunde sonkal daebi makgi (barun dongjak)</li> \
+	<li>Wen gunnun so najunde palmok makgi</li> \
+	<li>Orun niunja kaunde baro jirugi</li> \
+	<li>Wen niunja so kaunde baro jirugi</li> \
+	<li>Orun niunja kaunde baro jirugi</li> \
+	<li>Wen gunnun so kyocha joomuk noollo makgi</li> \
+	<li>Orun niunja so orun yop palkup tulgi</li> \
+	<li>(Wenbal e orunbal) moa so yopap orun an palmok makgi, (wen palmok chug podda - naeryo)</li> \
+	<li>Moa so yopap wen an palmok makgi, (orun palmok chug podda - naeryo)</li> \
+	<li>Orun niunja so kaunde sonkal daebi makgi</li> \
+	<li>(Wenbal e orunbal) wen niunja so kaunde sonkal daebi makgi</li> \
+</ol> \
+Moa junbi sogi C (orunbal e wenbal) \
+";
+var hwa_rang_english = "Ready posture: Close ready stance C<br> \
+<ol> \
+	<li>Sitting stance left middle pushing block</li> \
+	<li>Sitting stance right middle punch</li> \
+	<li>Sitting stance left middle punch</li> \
+	<li>Left L-stance twin forearm block</li> \
+	<li>Left L-stance left upward punch (right side fist to left shoulder)</li> \
+	<li>Right fixed stance right middle punch</li> \
+	<li>Left vertical stance right downward knife-hand strike</li> \
+	<li>Left walking stance middle obverse punch</li> \
+	<li>Left walking stance low forearm block</li> \
+	<li>Right walking stance middle obverse punch</li> \
+	<li>(Left foot to right foot) Left palm to right forefist (bending right elbow 45 degrees outward)</li> \
+	<li>Right middle side piercing kick (pulling hands in opposite direction), then left L-stance middle outward knife-hand strike</li> \
+	<li>Left walking stance middle obverse punch</li> \
+	<li>Right walking stance middle obverse punch</li> \
+	<li>Right L-stance middle knife-hand guarding block</li> \
+	<li>Right walking stance middle straight fingertip thrust</li> \
+	<li>Right L-stance middle knife-hand guarding block</li> \
+	<li>Right high turning kick (fast motion)</li> \
+	<li>Left high turning kick, then right L-stance middle knife-hand guarding block (fast motion)</li> \
+	<li>Left walking stance low forearm block</li> \
+	<li>Right L-stance middle obverse punch</li> \
+	<li>Left L-stance middle obverse punch</li> \
+	<li>Right L-stance middle obverse punch</li> \
+	<li>Left walking stance X-fist pressing block</li> \
+	<li>Right L-stance right side elbow thrust</li> \
+	<li>(Left foot to right foot) close stance side front right inner forearm block, extending left forearm to the side - downward</li> \
+	<li>Close stance side front left inner forearm block, extending right forearm to the side - downward</li> \
+	<li>Right L-stance middle knife-hand guarding block</li> \
+	<li>(Left foot to right foot) left L-stance middle knife-hand guarding block</li> \
+</ol> \
+Close ready stance C (right foot to left foot) \
 ";
 // ######################################
 // ########## PASSWORD MODAL ############
