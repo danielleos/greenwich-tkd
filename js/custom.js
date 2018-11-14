@@ -408,7 +408,7 @@ var yul_gok_english = "Ready posture: Parallel ready stance<br> \
 	<li>Left walking stance middle reverse punch</li> \
 	<li>Right walking stance high outer forearm side block</li> \
 	<li>Right walking stance middle reverse punch</li> \
-	<li>Jump to left X-stance high back fist side strike</li> \
+	<li>Jump to left X-stance high back-fist side strike</li> \
 	<li>Right walking stance high double forearm block</li> \
 	<li>Left walking stance high double forearm block</li> \
 </ol> \
@@ -492,54 +492,54 @@ Closed ready stance B (left foot to right foot) \
 
 var toi_gye_korean = "Junbi jase: Moa junbi sogi B<br> \
 <ol> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
+	<li>Orun niunja so kaunde an palmok makgi</li> \
+	<li>Wen gunnun so najunde dwijibun sonkut tulgi</li> \
+	<li>Moa so orun dung joomuk yopdwi taerigi, (wenpal chug podda - naeryo) (neurin dongjak)</li> \
+	<li>Wen niunja so kaunde an palmok makgi</li> \
+	<li>Orun gunnun so najunde dwijibun sonkut tulgi</li> \
+	<li>Moa so wen dung joomuk yopdwi taerigi, (orunpal chug podda - naeryo) (neurin dongjak)</li> \
+	<li>Wen gunnun so kyocha joomuk noollo makgi (yongsok dongjak)</li> \
+	<li>Wen gunnun so nopunde sang joomuk sewo jirugi (yongsok dongjak)</li> \
+	<li>Orun kaunde apcha busigi (son 8 lo)</li> \
+	<li>Orun gunnun so kaunde jirugi</li> \
+	<li>Orun gunnun so kaunde bandae jirugi</li> \
+	<li>Moa so sang yop palkup tulgi (naerin dongjak)</li> \
+	<li>(Gurunun dongjak) annun so orun bakat palmok san makgi</li> \
+	<li>(Gurunun dongjak) annun so wen bakat palmok san makgi</li> \
+	<li>(Gurunun dongjak) annun so wen bakat palmok san makgi</li> \
+	<li>(Gurunun dongjak) annun so orun bakat palmok san makgi</li> \
+	<li>(Gurunun dongjak) annun so wen bakat palmok san makgi</li> \
+	<li>(Gurunun dongjak) annun so wen bakat palmok san makgi</li> \
+	<li>Orun niunja so najunde doo palmok miro makgi</li> \
+	<li>Wen gunnun so (yangson wi naelida, moli umkyeo jabgo)</li> \
+	<li>Orun moorup ollyo chagi (yangson naeryo danggida)</li> \
+	<li>Orun niunja kaunde sonkal daebi makgi</li> \
+	<li>Wen najunde yop apcha busigi (son 22 lo)</li> \
+	<li>Wen gunnun so nopunde opun sonkut tulgi</li> \
+	<li>Wen niunja so kaunde sonkal daebi makgi</li> \
+	<li>Orun najunde yop apcha busigi (son 25 lo)</li> \
+	<li>Orun gunnun so nopunde opun sonkut tulgi</li> \
+	<li>Orun niunja so dung joomuk baro yopdwi taerigi gwa najunde bandae palmok makgi</li> \
+	<li>Twigi e orun kyocha so kyocha joomuk noollo makgi</li> \
+	<li>Orun gunnun so nopunde doo palmok makgi</li> \
+	<li>Orun niunja so najunde sonkal daebi makgi</li> \
+	<li>Wen gunnun so an palmok dollimyo makgi</li> \
+	<li>Wen niunja so najunde sonkal daebi makgi</li> \
+	<li>Orun gunnun so an palmok dollimyo makgi</li> \
+	<li>Wen gunnun so an palmok dollimyo makgi</li> \
+	<li>Orun gunnun so an palmok dollimyo makgi</li> \
+	<li>Annun so kaunde orun joomuk jirugi</li> \
 </ol> \
 Moa junbi sogi B (wenbal e orunbal) \
 ";
 var toi_gye_english = "Ready posture: Closed ready stance B<br> \
 <ol> \
-	<li>Right L-stance inner forearm middle block</li> \
-	<li>Left walking stance upset fingertip low thrust</li> \
-	<li>Close stance right back fist side back strike, extending the left arm to the side - downward (slow motion)</li> \
+	<li>Right L-stance middle inner forearm block</li> \
+	<li>Left walking stance low upset fingertip thrust</li> \
+	<li>Close stance right back-fist side back strike, extending the left arm to the side - downward (slow motion)</li> \
 	<li>Left L-stance middle inner forearm block</li> \
 	<li>Right walking stance low upset fingertip thrust</li> \
-	<li>Close stance left back fist side back strike, extending the right arm to the side - downward (slow motion)</li> \
+	<li>Close stance left back-fist side back strike, extending the right arm to the side - downward (slow motion)</li> \
 	<li>Left walking stance X-fist pressing block (continuous motion)</li> \
 	<li>Left walking stance high twin fist vertical punch (continuous motion)</li> \
 	<li>Right middle front snap kick (hands as in 8)</li> \
@@ -561,7 +561,7 @@ var toi_gye_english = "Ready posture: Closed ready stance B<br> \
 	<li>Left L-stance middle knife-hand guarding block</li> \
 	<li>Right low side front snap kick (hands as in 25)</li> \
 	<li>Right walking stance high flat fingertip thrust</li> \
-	<li>Right L-stance back fist obverse side back strike and low forearm reverse block</li> \
+	<li>Right L-stance back-fist obverse side back strike and low reverse forearm block</li> \
 	<li>Jump to right X-stance X-fist pressing block</li> \
 	<li>Right walking stance high double forearm block</li> \
 	<li>Right L-stance low knife-hand guarding block</li> \
