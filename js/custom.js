@@ -270,7 +270,7 @@ var won_hyo_korean = "Junbi jase: Moa junbi sogi A<br> \
 	<li>Wen niunja so nopunde sonkal anuro taerigi (gwa orun joomuk e wen okkae)</li> \
 	<li>Orun gojung so kaunde yop jirugi</li> \
 	<li>(Orunbal e wenbal) orun guburyo junbi sogi A</li> \
-	<li>Wen kaunde yopcha jirugi</li> \
+	<li>Wen kaunde yop cha jirugi</li> \
 	<li>Orun niunja so kaunde sonkal daebi makgi</li> \
 	<li>Wen niunja so kaunde sonkal daebi makgi</li> \
 	<li>Orun niunja so kaunde sonkal daebi makgi</li> \
@@ -288,7 +288,7 @@ var won_hyo_korean = "Junbi jase: Moa junbi sogi A<br> \
 	<li>Wen najunde apcha busigi (son 22 lo)</li> \
 	<li>Wen gunnun so kaunde bandae jirugi</li> \
 	<li>Wen goburyo junbi sogi A</li> \
-	<li>Orun kaunde yopcha busigi</li> \
+	<li>Orun kaunde yop cha busigi</li> \
 	<li>Orun niunja so kaunde palmok daebi makgi</li> \
 	<li>Wen niunja so kaunde palmok daebi makgi</li> \
 </ol> \
@@ -352,10 +352,10 @@ var yul_gok_korean = "Junbi jase: Narani junbi sogi<br> \
 	<li>Wen gunnun so kaunde baro ap joomuk jirugi (yongyol dongjak)</li> \
 	<li>Orun gunnun so kaunde baro ap joomuk jirugi</li> \
 	<li>Orun guburyo junbi sogi A</li> \
-	<li>Wen kaunde yopcha jirugi</li> \
+	<li>Wen kaunde yop cha jirugi</li> \
 	<li>Wen gunnun so bandae ap palkup taerigi (taerigi wen sonbadak)</li> \
 	<li>Wen guburyo junbi sogi A</li> \
-	<li>Orun kaunde yopcha jirugi</li> \
+	<li>Orun kaunde yop cha jirugi</li> \
 	<li>Orun gunnun so bandae ap palkup taerigi (taerigi orun sonbadak)</li> \
 	<li>Orun niunja so sang sonkal daebi makgi</li> \
 	<li>Orun gunnun so kaunde sun sonkut tulgi</li> \
@@ -438,10 +438,10 @@ var joong_gun_korean = "Junbi jase: Moa junbi sogi B<br> \
 	<li>Orun gunnun so nopunde bandae jirugi (barun dongjak)</li> \
 	<li>Wen gunnun so nopunde doo palmok makgi</li> \
 	<li>Orun niunja so kaunde yop jirugi</li> \
-	<li>Orun kaunde yopcha jirugi</li> \
+	<li>Orun kaunde yop cha jirugi</li> \
 	<li>Orun gunnun so nopunde doo palmok makgi</li> \
 	<li>Wen niunja so kaunde yop jirugi</li> \
-	<li>Wen kaunde yopcha jirugi</li> \
+	<li>Wen kaunde yop cha jirugi</li> \
 	<li>Orun niunja so kaunde palmok daebi makgi</li> \
 	<li>Wen nachuo so bandae sonbadak noollo makgi (neurin dongjak)</li> \
 	<li>Wen niunja so kaunde palmok daebi makgi</li> \
@@ -553,8 +553,8 @@ var toi_gye_english = "Ready posture: Close ready stance B<br> \
 	<li>Stamping motion, sitting stance left outer forearm W-shape block</li> \
 	<li>Stamping motion, sitting stance left outer forearm W-shape block</li> \
 	<li>Right L-stance low double forearm pushing block</li> \
-	<li>Left walking stance, extending both hands upward as if to grab the opponent’s head</li> \
-	<li>Right knee upward kick, pulling both hands downward</li> \
+	<li>Left walking stance (extending both hands upward as if to grab the opponent’s head)</li> \
+	<li>Right knee upward kick (pulling both hands downward)</li> \
 	<li>Right L-stance middle knife-hand guarding block</li> \
 	<li>Left low side front snap kick (hands as in 22)</li> \
 	<li>Left walking stance high flat fingertip thrust</li> \
@@ -588,7 +588,7 @@ var hwa_rang_korean = "Junbi jase: Moa junbi sogi C<br> \
 	<li>Wen gunnun so najunde palmok makgi</li> \
 	<li>Orun gunnun so kaunde baro jirugi</li> \
 	<li>(Wenbal e orunbal) wen sonbadak e orun joomuk (orun palkup bakuro 45 do gubulinda)</li> \
-	<li>Orun kaunde yopcha jirugi (yangson bandae danggida), geuttae wen niunja so kaunde bakuro sonkal taerigi</li> \
+	<li>Orun kaunde yop cha jirugi (yangson bandae danggida), geuttae wen niunja so kaunde bakuro sonkal taerigi</li> \
 	<li>Wen gunnun so kaunde baro jirugi</li> \
 	<li>Orun gunnun so kaunde baro jirugi</li> \
 	<li>Orun niunja so kaunde sonkal daebi makgi</li> \
@@ -602,8 +602,8 @@ var hwa_rang_korean = "Junbi jase: Moa junbi sogi C<br> \
 	<li>Orun niunja kaunde baro jirugi</li> \
 	<li>Wen gunnun so kyocha joomuk noollo makgi</li> \
 	<li>Orun niunja so orun yop palkup tulgi</li> \
-	<li>(Wenbal e orunbal) moa so yopap orun an palmok makgi, (wen palmok chug podda - naeryo)</li> \
-	<li>Moa so yopap wen an palmok makgi, (orun palmok chug podda - naeryo)</li> \
+	<li>(Wenbal e orunbal) moa so yopap orun an palmok makgi (wen palmok chug podda - naeryo)</li> \
+	<li>Moa so yopap wen an palmok makgi (orun palmok chug podda - naeryo)</li> \
 	<li>Orun niunja so kaunde sonkal daebi makgi</li> \
 	<li>(Wenbal e orunbal) wen niunja so kaunde sonkal daebi makgi</li> \
 </ol> \
@@ -636,8 +636,8 @@ var hwa_rang_english = "Ready posture: Close ready stance C<br> \
 	<li>Right L-stance middle obverse punch</li> \
 	<li>Left walking stance X-fist pressing block</li> \
 	<li>Right L-stance right side elbow thrust</li> \
-	<li>(Left foot to right foot) close stance side front right inner forearm block, extending left forearm to the side - downward</li> \
-	<li>Close stance side front left inner forearm block, extending right forearm to the side - downward</li> \
+	<li>(Left foot to right foot) close stance side front right inner forearm block (extending left forearm to the side - downward)</li> \
+	<li>Close stance side front left inner forearm block (extending right forearm to the side - downward)</li> \
 	<li>Right L-stance middle knife-hand guarding block</li> \
 	<li>(Left foot to right foot) left L-stance middle knife-hand guarding block</li> \
 </ol> \
@@ -646,71 +646,71 @@ Close ready stance C (right foot to left foot) \
 
 var choong_moo_korean = "Junbi jase: Narani junbi sogi<br> \
 <ol> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
+	<li>Orun niunja so sang sonkal makgi</li> \
+	<li>Orun gunnun so baro nopunde ap sonkal taerigi (wen dwitson e ap ima)</li> \
+	<li>Wen niunja so kaunde sonkal daebi makgi</li> \
+	<li>Wen gunnun so nopunde opun sonkut tulgi</li> \
+	<li>Orun niunja so kaunde sonkal daebi makgi</li> \
+	<li>Wen guburyo sogi A</li> \
+	<li>Orun kaunde yop cha jirugi</li> \
+	<li>Orun niunja so kaunde sonkal daebi makgi</li> \
+	<li>Orun twimyo yop cha jirugi, wen niunja so kaunde sonkal daebi makgi</li> \
+	<li>Orun niunja so wen najunde palmok makgi</li> \
+	<li>Wen gunnun so (yangson wi naelida, moli umkyeo jabgo)</li> \
+	<li>Orun moorup ollyo chagi (yangson naeryo danggida)</li> \
+	<li>(Orunbal e wenbal) wen gunnun so orun nopunde bandae sonkal ap taerigi (wen dwitson e orun palkup)</li> \
+	<li>Orun nopunde dolly chagi (barun dongjak)</li> \
+	<li>Wen kaunde dwit cha jirugi (barun dongjak)</li> \
+	<li>Wen niunja so kaunde palmok daebi makgi</li> \
+	<li>Wen kaunde dollyo chagi</li> \
+	<li>(Wenbal e orunbal) orun gojung so digutja makgi</li> \
+	<li>Twigi gwa hwejon e wen niunja so kaunde sonkal daebi makgi</li> \
+	<li>Wen gunnun so orun najunde dwijibun sonkut tulgi</li> \
+	<li>Orun niunja so (wenbal danggida) orun yop dung joomuk taerigi gwa wen najunde palmok makgi</li> \
+	<li>Orun gunnun so orun kaunde sun sonkut tulgi</li> \
+	<li>Wen gunnun so wen nopunde doo palmok makgi</li> \
+	<li>Annun so orun kaunde palmok makgi, geuttae orun nopunde yop dung joomuk taerigi</li> \
+	<li>Orun kaunde yop cha jirugi</li> \
+	<li>Wen kaunde yop cha jirugi</li> \
+	<li>Wen niunja so kyocha so kyocha sonkal momchau makgi</li> \
+	<li>Wen gunnun so sang sonbadak ollyo makgi</li> \
+	<li>Orun gunnun so orun palmok chookyo makgi</li> \
+	<li>Orun gunnun so kaunde bandae jirugi</li> \
 </ol> \
 Narani junbi sogi (wenbal e orunbal) \
 ";
 var choong_moo_english = "Ready posture: Parallel ready stance<br> \
 <ol> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
-	<li></li> \
+	<li>Right L-stance twin knife-hand block</li> \
+	<li>Right walking stance obverse high front knife-hand strike (bring left back-hand in front of forehead)</li> \
+	<li>Left L-stance middle knife-hand guarding block</li> \
+	<li>Left walking stance high flat fingertip thrust</li> \
+	<li>Right L-stance middle knife-hand guarding block</li> \
+	<li>Left bending ready stance A</li> \
+	<li>Right middle side piercing kick</li> \
+	<li>Right L-stance middle knife-hand guarding block</li> \
+	<li>Right flying side piercing kick, left L-stance middle knife-hand guarding block</li> \
+	<li>Right L-stance left low forearm block</li> \
+	<li>Left walking stance (extending both hands upward as if to grab the opponent’s head)</li> \
+	<li>Right knee upward kick (pulling both hands downward)</li> \
+	<li>(Right foot to left foot) left walking stance right high reverse knife-hand front strike (left back-hand to right elbow)</li> \
+	<li>Right high turning kick (fast motion)</li> \
+	<li>Left middle back piercing kick (fast motion)</li> \
+	<li>Left L-stance middle forearm guarding block</li> \
+	<li>Left middle turning kick</li> \
+	<li>(Left foot to right foot) right fixed stance U-shape block</li> \
+	<li>Jump and spin to left L-stance middle knife-hand guarding block</li> \
+	<li>Left walking stance right low upset fingertip thrust</li> \
+	<li>Right L-stance (pulling left foot) right side back-fist strike and left low forearm block</li> \
+	<li>Right walking stance right middle straight fingertip thrust</li> \
+	<li>Left walking stance left high double forearm block</li> \
+	<li>Sitting stance right middle forearm block, then right high side back-fist strike</li> \
+	<li>Right middle side piercing kick</li> \
+	<li>Left middle side piercing kick</li> \
+	<li>Left L-stance X-knife-hand checking block</li> \
+	<li>Left walking stance twin palm upward block</li> \
+	<li>Right walking stance right forearm rising block</li> \
+	<li>Right walking stance middle reverse punch</li> \
 </ol> \
 Parallel ready stance (left foot to right foot) \
 ";
