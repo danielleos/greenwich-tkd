@@ -731,3 +731,41 @@ background-size: 100% 100%;
 .english, .korean {
   cursor: pointer;
 }
+/* ####################################### */
+/* ######### END OF VIDEO MODALS ######### */
+/* ####################################### */
+
+/* ######################################## */
+/* ######### COLOUR CODING THEORY ######### */
+/* ######################################## */
+.stance:hover, .stance:hover ~ .stance {
+  background-color: red;
+  color: white;
+}
+.section:hover, .section:hover ~ .section {
+  background-color: blue;
+  color: white;
+}
+.technique:hover, .technique:hover ~ .technique {
+  background-color: orange;
+  color: white;
+}
+.direction:hover, .direction:hover ~ .direction {
+  background-color: slateblue;
+  color: white;
+}
+.tool:hover, .tool:hover ~ .tool {
+  background-color: greenyellow;
+  color: black;
+}
+.movement:hover, .movement:hover ~ .movement {
+  background-color: hotpink;
+  color: white;
+}
+.number:hover, .number:hover ~ .number {
+  background-color: green;
+  color: white;
+}
+/* ######################################## */
+/* ##### END OF COLOUR CODING THEORY ###### */
+/* ######################################## */
