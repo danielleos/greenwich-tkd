@@ -643,6 +643,77 @@ var hwa_rang_english = "Ready posture: Close ready stance C<br> \
 </ol> \
 Close ready stance C (right foot to left foot) \
 ";
+
+var choong_moo_korean = "Junbi jase: Narani junbi sogi<br> \
+<ol> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+</ol> \
+Narani junbi sogi (wenbal e orunbal) \
+";
+var choong_moo_english = "Ready posture: Parallel ready stance<br> \
+<ol> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+	<li></li> \
+</ol> \
+Parallel ready stance (left foot to right foot) \
+";
 // ######################################
 // ########## PASSWORD MODAL ############
 // ######################################
