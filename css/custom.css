@@ -751,7 +751,7 @@ background-size: 100% 100%;
   color: white;
 }
 .direction:hover, .direction:hover ~ .direction {
-  background-color: slateblue;
+  background-color: orangered;
   color: white;
 }
 .tool:hover, .tool:hover ~ .tool {
