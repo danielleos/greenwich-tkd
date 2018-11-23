@@ -570,6 +570,22 @@ background-size: 100% 100%;
 /* ############ END OF QUIZ ############## */
 /* ####################################### */
 
+  .quiz-banner {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 4vw;
+    width: 100%;
+    height: 54px;
+    background: white;
+    border: 5px dashed #F37E2F;
+    font-weight: bold;
+    color: #F37E2F;
+  }
+
+  .quiz-banner-inside > a{
+    color: #F37E2F;
+  }
+
 /* Danielle's changes  */
 
 /* ############################# */
