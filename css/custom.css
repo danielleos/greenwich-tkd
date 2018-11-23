@@ -345,6 +345,7 @@ body.modal-open .modalcontent {
 }
 
 #yellow-tag {
+  opacity: 0.5;
   background: linear-gradient(
   to bottom,
   #EEF0F2,
@@ -356,10 +357,12 @@ background-size: 100% 100%;
 }
 
 #yellow {
+  opacity: 0.5;
   background: #FFE840;
 }
 
 #green-tag {
+  opacity: 0.5;
   background: linear-gradient(
   to bottom,
   #FFE840,
@@ -371,10 +374,12 @@ background-size: 100% 100%;
 }
 
 #green {
+  opacity: 0.5;
   background: #11A84D;
 }
 
 #blue-tag {
+  opacity: 0.5;
   background: linear-gradient(
   to bottom,
   #11A84D,
@@ -386,10 +391,12 @@ background-size: 100% 100%;
 }
 
 #blue {
+  opacity: 0.5;
   background: #0A30FF;
 }
 
 #red-tag {
+  opacity: 0.5;
   background: linear-gradient(
   to bottom,
   #0A30FF,
@@ -401,10 +408,12 @@ background-size: 100% 100%;
 }
 
 #red {
+  opacity: 0.5;
   background: #FF0200;
 }
 
 #black-tag {
+  opacity: 0.5;
   background: linear-gradient(
   to bottom,
   #FF0200,
@@ -416,11 +425,12 @@ background-size: 100% 100%;
 }
 
 #black1 {
+  opacity: 0.5;
   background: #000000;
 }
 
 #black1 > p {
-  color: orange;
+  color: #FFE840;
   font-size: 4em;
   font-family: 'Times New Roman';
   text-align: center;
@@ -430,11 +440,12 @@ background-size: 100% 100%;
 }
 
 #black2 {
+  opacity: 0.5;
   background: #000000;
 }
 
 #black2 > p {
-  color: orange;
+  color: #FFE840;
   font-size: 4em;
     font-family: 'Times New Roman';
   text-align: center;
@@ -483,14 +494,76 @@ background-size: 100% 100%;
   cursor: pointer;
 }
 
-.instructors {
+.quiz-button-nohov {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 90%;
+  height: 80px;
+  border: 1px solid white;
+  text-align: center;
+  color: white;
+}
+
+.next {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 90%;
+  height: 40px;
+  border: 1px solid white;
+  text-align: center;
+  color: white;
+}
+
+.next:hover {
+  color: orange;
+  border: 1px solid orange;
+  cursor: pointer;
+}
+
+.instructors > h1 {
+  font-size: 2.4em;
+  color: white;
+}
+
+.instructors > h2 {
+  font-size: 5.4em;
+  color: white;
+  line-height: 80%;
+  margin-top: -20px;
 }
 
 .belt:hover {
   border: 3px solid orange;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1053px) {
+  .quiz-card {
+    margin-top: 12%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .quiz-container {
+    background: black;
+    display: block;
+    justify-content: space-evenly;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow: inherit;
+  }
+  .quiz-card {
+    margin-top: 12%;
+    width: 100%;
+    height: inherit;
+  }
 }
 
 /* ####################################### */
@@ -731,6 +804,7 @@ background-size: 100% 100%;
 .english, .korean {
   cursor: pointer;
 }
+
 /* ####################################### */
 /* ######### END OF VIDEO MODALS ######### */
 /* ####################################### */
