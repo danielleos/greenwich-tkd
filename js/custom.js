@@ -357,9 +357,9 @@ var yul_gok_korean = "Junbi jase: Narani junbi sogi<br> \
 	<li>Wen guburyo junbi sogi A</li> \
 	<li>Orun kaunde yop cha jirugi</li> \
 	<li>Orun gunnun so bandae ap palkup taerigi (taerigi orun sonbadak)</li> \
-	<li>Orun niunja so sang sonkal daebi makgi</li> \
+	<li>Orun niunja so sang sonkal makgi</li> \
 	<li>Orun gunnun so kaunde sun sonkut tulgi</li> \
-	<li>Wen niunja so sang sonkal daebi makgi</li> \
+	<li>Wen niunja so sang sonkal makgi</li> \
 	<li>Wen gunnun so kaunde sun sonkut tulgi</li> \
 	<li>Wen gunnun so nopunde bakat palmok yop makgi</li> \
 	<li>Wen gunnun so kaunde bandae ap joomuk jirugi</li> \
