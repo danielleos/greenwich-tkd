@@ -779,17 +779,13 @@ function get_older_page(current_page_id) {
 	var last_page_id = getNextPage(current_page_id, false);
 	document.getElementById(last_page_id).style.display = 'block';
 	document.getElementById(current_page_id).style.display = 'none';
-	var height_to_scroll = get_div_height('news-header');
-	$(this).scrollTop(height_to_scroll);
 	return false;
 }
 
 function get_newer_page(current_page_id) {
-	var next_page = getNextPage(current_page_id, true);
-	document.getElementById(next_page).style.display = 'block';
+	var next_page_id = getNextPage(current_page_id, true);
+	document.getElementById(next_page_id).style.display = 'block';
 	document.getElementById(current_page_id).style.display = 'none';
-	var height_to_scroll = get_div_height('news-header');
-	$(this).scrollTop(height_to_scroll);
 	return false;
 }
 
@@ -812,11 +808,6 @@ function getNextPage(current, is_newer) {
 		}
 	}
 	return next_page_id;
-}
-
-function get_div_height(div_id) {
-	var div_height = document.getElementById(div_id).clientHeight;
-	return div_height;
 }
 
 // ###############################
@@ -862,6 +853,7 @@ function show_slides(n) {
 	var dots = document.getElementsByClassName("gallery-demo");
 	var caption_text_one = document.getElementById("gallery-caption-1");
 	var caption_text_two = document.getElementById("gallery-caption-2");
+	var slide_index = 0;
 	if (n > slides.length) { slide_index = 1 }
 	if (n < 1) { slide_index = slides.length }
 	for (i = 0; i < slides.length; i++) {
