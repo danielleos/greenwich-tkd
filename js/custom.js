@@ -602,8 +602,8 @@ var hwa_rang_korean = "Junbi jase: Moa junbi sogi C<br> \
 	<li>Orun niunja kaunde baro jirugi</li> \
 	<li>Wen gunnun so kyocha joomuk noollo makgi</li> \
 	<li>Orun niunja so orun yop palkup tulgi</li> \
-	<li>(Wenbal e orunbal) moa so yopap orun an palmok makgi (wen palmok chug podda - naeryo)</li> \
-	<li>Moa so yopap wen an palmok makgi (orun palmok chug podda - naeryo)</li> \
+	<li>(Wenbal e orunbal) moa so yobap orun an palmok makgi (wen palmok chug podda - naeryo)</li> \
+	<li>Moa so yobap wen an palmok makgi (orun palmok chug podda - naeryo)</li> \
 	<li>Orun niunja so kaunde sonkal daebi makgi</li> \
 	<li>(Wenbal e orunbal) wen niunja so kaunde sonkal daebi makgi</li> \
 </ol> \
