@@ -33,7 +33,7 @@
 			e.preventDefault();
 			$('html, body').animate({
 	      scrollTop: $('body').offset().top
-	    }, 700, 'easeInOutExpo');
+	    }, 700, 'easeOutExpo');
 		});
 	}
 
@@ -42,7 +42,7 @@
 			e.preventDefault();
 			$('html, body').animate({
       	scrollTop: $( $.attr(this, 'href') ).offset().top
-    	}, 700, 'easeInOutExpo');
+    	}, 700, 'easeOutExpo');
 		});
 
 		$(window).scroll(function(){
