@@ -726,7 +726,7 @@ $('#password-modal').modal({
 });
 function passwordEntry() {
 	var pword = document.getElementById("psw").value;
-	if (pword == "password") {
+	if (pword == "Junbi2019") {
 		$('#password-modal').modal('toggle');
 	} else {
 		$("#passworderror").html("<p style='color:red'>Wrong password. Please try again.</p>");
