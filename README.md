@@ -9,12 +9,10 @@ Original: https://greenwichtaekwondo.com/index.htm
 - [ ] About the Club & Training page
 - [x] Contact page
 - [x] News page
-- [ ] Events page
-- [ ] Members area (theory)
-- [ ] Gallery
-  - [x] Photos!!
+- [x] Events page (basic calendar)
+- [x] Members area (theory)
+- [ ] Gallery - need to fix
 
 ### In progress
 - About Club page
   - Need photos for placeholders
-- Members area
