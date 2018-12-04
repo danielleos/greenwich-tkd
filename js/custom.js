@@ -717,26 +717,26 @@ Parallel ready stance (left foot to right foot) \
 // ######################################
 // ########## PASSWORD MODAL ############
 // ######################################
-// $(window).on('load', function () {
-// 	$('#password-modal').modal('show');
-// });
-// $('#password-modal').modal({
-// 	backdrop: 'static',
-// 	keyboard: false
-// });
-// function passwordEntry() {
-// 	var pword = document.getElementById("psw").value;
-// 	if (pword == "password") {
-// 		$('#password-modal').modal('toggle');
-// 	} else {
-// 		$("#passworderror").html("<p style='color:red'>Wrong password. Please try again.</p>");
-// 	}
-// }
-// $("#psw").keyup(function (event) {
-// 	if (event.keyCode === 13) {
-// 		passwordEntry();
-// 	}
-// });
+$(window).on('load', function () {
+	$('#password-modal').modal('show');
+});
+$('#password-modal').modal({
+	backdrop: 'static',
+	keyboard: false
+});
+function passwordEntry() {
+	var pword = document.getElementById("psw").value;
+	if (pword == "password") {
+		$('#password-modal').modal('toggle');
+	} else {
+		$("#passworderror").html("<p style='color:red'>Wrong password. Please try again.</p>");
+	}
+}
+$("#psw").keyup(function (event) {
+	if (event.keyCode === 13) {
+		passwordEntry();
+	}
+});
 // ###############################
 // ####### THEORY MODALS #########
 // ###############################
