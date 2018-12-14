@@ -43,6 +43,12 @@
 .blog-post {
   display: flex;
 }
+
+table, th, td {
+  border: 1px solid gray;
+  padding-right: 10px;
+  padding-left: 5px;
+}
 /* ################################### */
 /* ######## END OF NEWS PAGE ######### */
 /* ################################### */
