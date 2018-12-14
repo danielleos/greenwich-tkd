@@ -813,61 +813,40 @@ function getNextPage(current, is_newer) {
 // ###############################
 // ########## GALLERY ############
 // ###############################
-var modal_one = document.getElementById('gallery-modal-1');
-var modal_two = document.getElementById('gallery-modal-2');
-window.onclick = function (event) {
-	if (event.target == modal_one || event.target == modal_two) {
-		modal_one.style.display = "none";
-		modal_two.style.display = "none";
-		document.getElementById('gallery-header').style.display = "block";
-		document.getElementById('navbar-banner').style.display = "block";
+function openGallery(id) {
+	closeAll();
+	var gallery = document.getElementById('gallery-' + id);
+	var card = document.getElementById('card-' + id);
+	gallery.classList.add('Gallery--active');
+	card.classList.add('Card--active');
+	hideGalleryBannners();
+}
+
+function closeAll() {
+	var galleryActv = document.querySelector('.Gallery--active');
+	var cardActv = document.querySelector('.Card--active');
+	if (galleryActv) {
+		galleryActv.classList.remove('Gallery--active');
 	}
-}
-
-function open_gallery_modal(gallery_modal_id) {
-	document.getElementById(gallery_modal_id).style.display = "block";
-	document.getElementById('gallery-header').style.display = "none";
-	document.getElementById('navbar-banner').style.display = "none";
-}
-
-function close_gallery_modal(gallery_modal_id) {
-	document.getElementById(gallery_modal_id).style.display = "none";
-	document.getElementById('gallery-header').style.display = "block";
-	document.getElementById('navbar-banner').style.display = "block";
-}
-
-var slide_index = 1;
-show_slides(slide_index);
-
-function plus_slides(n) {
-	show_slides(slide_index += n);
-}
-
-function current_slide(n) {
-	show_slides(slide_index = n);
-}
-
-function show_slides(n) {
-	var i;
-	var slides = document.getElementsByClassName("gallery-slides");
-	var dots = document.getElementsByClassName("gallery-demo");
-	var caption_text_one = document.getElementById("gallery-caption-1");
-	var caption_text_two = document.getElementById("gallery-caption-2");
-	var slide_index = 0;
-	if (n > slides.length) { slide_index = 1 }
-	if (n < 1) { slide_index = slides.length }
-	for (i = 0; i < slides.length; i++) {
-		slides[i].style.display = "none";
+	if (cardActv) {
+		cardActv.classList.remove('Card--active');
 	}
-	for (i = 0; i < dots.length; i++) {
-		dots[i].className = dots[i].className.replace(" gallery-active", "");
-	}
-	slides[slide_index - 1].style.display = "block";
-	dots[slide_index - 1].className += " gallery-active";
-	caption_text_one.innerHTML = dots[slide_index - 1].alt;
-	caption_text_two.innerHTML = dots[slide_index - 1].alt;
+	showGalleryBanners();
 }
 
+function hideGalleryBannners() {
+	var navbar = document.getElementById('navbar-banner');
+	var header = document.getElementById('gallery-header');
+	navbar.style.display = 'none';
+	header.style.display = 'none';
+}
+
+function showGalleryBanners() {
+	var navbar = document.getElementById('navbar-banner');
+	var header = document.getElementById('gallery-header');
+	navbar.style.display = 'block';
+	header.style.display = 'block';
+}
 // ##############################
 // ########## THEORY ############
 // ##############################
