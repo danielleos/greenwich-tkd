@@ -837,15 +837,19 @@ function closeAll() {
 function hideGalleryBannners() {
 	var navbar = document.getElementById('navbar-banner');
 	var header = document.getElementById('gallery-header');
+	var footer = document.getElementById('gallery-footer');
 	navbar.style.display = 'none';
 	header.style.display = 'none';
+	footer.style.display = 'none';
 }
 
 function showGalleryBanners() {
 	var navbar = document.getElementById('navbar-banner');
 	var header = document.getElementById('gallery-header');
+	var footer = document.getElementById('gallery-footer');
 	navbar.style.display = 'block';
 	header.style.display = 'block';
+	footer.style.display = 'block';
 }
 // ##############################
 // ########## THEORY ############
