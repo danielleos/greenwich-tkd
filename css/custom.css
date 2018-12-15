@@ -522,6 +522,32 @@ table, th, td {
 #gallery-header {
   display: block;
 }
+@media (max-width: 740px) {
+  .Gallery-images {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .Gallery-image {
+    width: 100%;
+    height: 30rem;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .Gallery-images {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .Gallery-image {
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 10px;
+  }
+}
 
 /* ################################### */
 /* ######### END OF GALLERY ########## */
