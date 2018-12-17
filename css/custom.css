@@ -1,6 +1,33 @@
 footer {
   z-index: 9999;
 }
+
+.aspect-ratio {
+  width: 100%;
+  height: 100%;
+}
+
+.hide-mobile {
+  display: block;
+}
+@media (max-width: 1200px) {
+  .hide-tablet {
+    display: none;
+  }
+  .tablet-text {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .hide-mobile {
+    display: none;
+  }
+  .tablet-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
 /* ################################### */
 /* ########### NEWS PAGE ############# */
 /* ################################### */
