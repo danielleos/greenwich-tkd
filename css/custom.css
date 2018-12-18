@@ -7,9 +7,6 @@ footer {
   height: 100%;
 }
 
-.hide-mobile {
-  display: block;
-}
 @media (max-width: 1200px) {
   .hide-tablet {
     display: none;
