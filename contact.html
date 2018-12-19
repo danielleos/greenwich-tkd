@@ -80,7 +80,7 @@
     <section id="next-section" class="probootstrap-section">
       <div class="container">
         <div class="col-md-6">
-          <form action="submit-form.php" method="post" class="probootstrap-form">
+          <form id="contact-form" action="submit-form.php" method="post" class="probootstrap-form">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
@@ -108,10 +108,11 @@
               <textarea cols="30" rows="10" class="form-control" id="message" name="message" placeholder="Required"
                 required></textarea>
             </div>
+            <!-- <div class="g-recaptcha" data-sitekey="6Ld9RYMUAAAAALq0qS5nGJoErAmcUXipy8U42WsK"></div> -->
+            <div class="g-recaptcha" data-sitekey="6LftRoMUAAAAANDk-OReYLuSp6ayitRxxjkDDspd"></div><br>
             <div class="form-group">
               <input type="submit" class="btn btn-primary" id="submit" name="submit" value="Send Message">
             </div>
-            <div class="g-recaptcha" data-sitekey="6Ld9RYMUAAAAALq0qS5nGJoErAmcUXipy8U42WsK"></div>
           </form>
         </div>
         <div class="col-md-5 col-md-push-1">
@@ -198,6 +199,15 @@
   <script src="js/scripts.min.js"></script>
   <script src="js/main.min.js"></script>
   <script src="js/custom.js"></script>
+  <script>
+    var form = document.getElementById('contact-form');
+      form.addEventListener("submit", function (event) {
+        if (grecaptcha.getResponse() === '') {
+          event.preventDefault();
+          alert('Please check the reCAPTCHA');
+        }
+      }, false);
+  </script>
 </body>
 
 </html>
