@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/custom.css">
   <link rel="shortcut icon" href="img/assets/gtkd-favicon.ico" type="image/x-icon">
   <link rel="icon" href="img/assets/gtkd-favicon.ico" type="image/x-icon">
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 
   <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
@@ -79,9 +80,45 @@
     <section id="next-section" class="probootstrap-section">
       <div class="container">
         <div class="col-md-6">
+          <form action="submit-form.php" method="post" class="probootstrap-form">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="fname">First Name</label>
+                  <input type="text" class="form-control" id="fname" name="fname" placeholder="Required" required>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="lname">Last Name</label>
+                  <input type="text" class="form-control" id="lname" name="lname" placeholder="Required" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Required" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" class="form-control" id="subject" name="subject" placeholder="Required" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea cols="30" rows="10" class="form-control" id="message" name="message" placeholder="Required"
+                required></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" class="btn btn-primary" id="submit" name="submit" value="Send Message">
+            </div>
+            <div class="g-recaptcha" data-sitekey="6Ld9RYMUAAAAALq0qS5nGJoErAmcUXipy8U42WsK"></div>
+          </form>
+        </div>
+        <div class="col-md-5 col-md-push-1">
           <h3 class="mt0">Get In Touch</h3>
           <ul class="probootstrap-contact-info">
-            <li><i class="icon-location2"></i> <span>St Alfege's Church Hall, Greenwich Church St, Greenwich, London, SE10 9BJ</span></li>
+            <li><i class="icon-location2"></i> <span>St Alfege's Church Hall, Greenwich Church St, Greenwich, London,
+                SE10 9BJ</span></li>
             <li><i class="icon-mail"></i><span><a href="mailto:enquiry@greenwichtaekwondo.com"><span>enquiry@greenwichtaekwondo.com</span></a></span></li>
             <li><i class="icon-phone2"></i><span>+44 7942 231 967</span></li>
           </ul>
@@ -90,7 +127,7 @@
     </section>
 
   </main>
-  
+
   <!-- FOOTER -->
   <footer class="probootstrap-footer">
     <div class="probootstrap-backtotop"><a href="#" class="js-backtotop"><i class="icon-chevron-thin-up"></i></a></div>
@@ -145,7 +182,7 @@
             </ul>
           </div>
         </div>
-  
+
       </div>
       <div class="row">
         <div class="col-md-12 text-center border-top">
