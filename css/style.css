@@ -29,18 +29,18 @@ body {
 }
 
 ::-moz-selection {
-  background: #000000;
-  color: #ffffff;
+  background: #96c7f5;
+  color: #000;
 }
 
 ::selection {
-  background: #000000;
-  color: #ffffff;
+  background: #96c7f5;
+  color: #000;
 }
 
 ::-moz-selection {
-  background: #000000;
-  color: #ffffff;
+  background: #96c7f5;
+  color: #000;
 }
 
 h1, h2, .heading-with-icon, h3, h4 {
