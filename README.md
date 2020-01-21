@@ -1,9 +1,9 @@
 # Greenwich Taekwondo Website
-New and improved Greenwich Taekwondo Website
+New and improved Greenwich Taekwondo Website. Please note, this site is not automatically updated to the domain, greenwichtaekwondo.com, but only on github pages. To update the live site, you will need to download the contents of this site as a zip folder and upload on the hosting site.
 
-Original: https://greenwichtaekwondo.com/index.htm
+---
 
-### To-Do
+### Features
 - [x] Homepage
 - [x] About Taekwon-Do page
 - [x] About the Club & Training page
@@ -13,5 +13,5 @@ Original: https://greenwichtaekwondo.com/index.htm
 - [x] Members area (theory)
 - [x] Gallery
 
-### In progress
+### Potential Improvements
 - Need more up-to-date photos
