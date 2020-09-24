@@ -7,12 +7,15 @@
     <meta name="description" content="Greenwich Taekwon-Do Website">
     <meta name="keywords" content="greenwich taekwondo taekwon-do tkd martial arts">
     
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Rubik:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/styles-merged.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="shortcut icon" href="img/assets/gtkd-favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/assets/gtkd-favicon.ico" type="image/x-icon">
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
@@ -55,12 +58,45 @@
     </div>
   </header>
   <!-- END: header -->
+
+  <!-- START: COVID modal -->
+  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Important Notice</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Please note that our Thursday classes have been moved to Tuesdays as we have a new venue:
+          </p>
+          <p>
+            Greenwich West Community & Arts Centre, 141 Greenwich High Road, London, SE10 8JA.
+          </p>
+          <p>
+            Classes times remain the same as on Thursdays.
+            <ul>
+              <li>6:15pm - 7:15pm (Children)</li>
+              <li>7:30pm - 9pm (Adults)</li>
+            </ul>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END: COVID modal -->
   
   <!-- START: section -->
   <section class="probootstrap-intro" style="background-image: url(img/assets/itf-bg-blur.png);" data-stellar-background-ratio="0.5">
     <div class="container">
       <div class="row">
-        <div class="col-md-9 probootstrap-intro-text">
+        <div class="col-xl-10 col-lg-12 probootstrap-intro-text">
           <h1 class="probootstrap-animate" data-animate-effect="fadeIn"><span>Greenwich</span>Taekwon-Do</h1>
           <div class="probootstrap-subtitle probootstrap-animate" data-animate-effect="fadeIn">
             <h2>ITF Taekwon-Do Club</h2>
@@ -177,6 +213,21 @@
   <script src="js/scripts.min.js"></script>
   <script src="js/main.min.js"></script>
   <script src="js/custom.js"></script>
+  <script type="text/javascript">
+    $(window).on('load', function () {
+      $('#staticBackdrop').modal('show');
+    });
+    $("a#contact-link").click(function () {
+        $('#staticBackdrop').modal('hide')
+      });
+  </script>
+  <!--[if lt IE 9]>
+  <script>
+    document.createElement('announcement-container');
+    document.createElement('announcement-banner-header');
+    document.createElement('covid-modal');
+  </script>
+  <![endif]-->
 
   </body>
 </html>
