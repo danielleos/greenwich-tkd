@@ -1228,6 +1228,24 @@ background-size: 100% 100%;
 .offset { 
   padding-top: 150px;
 }
+.about_covid-banner {
+  background-color: #96c7f5;
+  max-width: 100vw;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+  color: black;
+  margin-top: 50px;
+}
+.about_covid-banner-link {
+  color: black;
+  text-decoration: underline;
+}
+.about_covid-banner-link:hover {
+  color: rgb(83, 80, 80);
+  text-decoration: underline;
+}
 /* ######################################## */
 /* ######### END OF ABOUT US PAGE ######### */
 /* ######################################## */
