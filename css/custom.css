@@ -918,6 +918,64 @@ background-size: 100% 100%;
   }
 }
 
+@media only screen and (max-width: 750px) {
+  .instructors > h1 {
+    display: none;
+  }
+  
+  .instructors > h2 {
+    font-size: 3.4em;
+    color: white;
+    line-height: 80%;
+    margin-bottom: -20px;
+  }
+
+  .quiz-left-top {
+    height: 50%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .quiz-right-top {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .quiz-right-bottom {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .quiz-container {
+    text-align: center;
+    background: black;
+    display: block;
+    justify-content: space-evenly;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow: inherit;
+  }
+  .quiz-card {
+    margin-top: 12%;
+    width: 100%;
+    height: inherit;
+  }
+
+  .quiz-button, .quiz-button-nohov, .next  {
+    width: 100%;
+  }
+  .lives {
+    margin-top: 120px;
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+    color: orange;
+    font-weight: bold;
+  }
+}
+
 /* ####################################### */
 /* ############ END OF QUIZ ############## */
 /* ####################################### */
