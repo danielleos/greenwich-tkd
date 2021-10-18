@@ -14,10 +14,9 @@ Hosting site: Stack CP
 - [x] About Taekwon-Do page
 - [x] About the Club & Training page
 - [x] Contact page
-- [x] News page
 - [x] Events page (basic calendar)
 - [x] Members area (theory)
-- [x] Gallery
+- [x] Quiz page (WiP)
 
 ### Potential Improvements
 - Need more up-to-date photos
