@@ -725,6 +725,7 @@ $('#password-modal').modal({
 	keyboard: false
 });
 function passwordEntry() {
+	// TODO: do better security...
 	var pword = document.getElementById("psw").value;
 	if (pword == "Charyot2021") {
 		$('#password-modal').modal('toggle');
