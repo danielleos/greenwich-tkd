@@ -686,10 +686,8 @@ body.modal-open .modalcontent {
 }
 
 .quiz-right-bottom td {
+    border: none;
     border-bottom: solid .2px DimGray;
-    border-top: none;
-    border-left: none;
-    border-right: none;
 }
 
 
