@@ -1401,7 +1401,7 @@ const questions = [
       "question": "What is connecting motion?",
       "micah": "Two movements connected with a single sine-wave\nand only one breath",
       "fu1": "Two or more techniques performed with the movements between being sped up, but without rushing",
-      "fu2": "Two or more techniques performed with no pause in\nbetween, ith one inhalation",
+      "fu2": "Two or more techniques performed with no pause in\nbetween, with one inhalation",
       "fu3": "A single movement where the execution time is the most efficient"
     },
     {
