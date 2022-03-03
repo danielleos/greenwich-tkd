@@ -668,6 +668,29 @@ body.modal-open .modalcontent {
   margin-right: 10%;
 }
 
+.quiz-right-bottom table {
+  width: 90%;
+  justify-content: center;
+  margin-bottom: 5%;
+  font-family: 'Press Start 2P';
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  border-style: hidden;
+}
+
+.quiz-right-bottom th {
+  border: none;
+  color: orange;
+  text-align: center;
+}
+
+.quiz-right-bottom td {
+    border: none;
+    border-bottom: solid .2px DimGray;
+}
+
+
 .quiz-right-bottom-box {
   display: flex;
   position: relative;
@@ -692,12 +715,19 @@ body.modal-open .modalcontent {
   cursor: pointer;
 }
 
+.hidden {
+  display: none;
+}
+
+.beltDone {
+  opacity: 0.3;
+}
+
 #white {
   background: #EEF0F2;
 }
 
 #yellow-tag {
-  opacity: 0.5;
   background: linear-gradient(
   to bottom,
   #EEF0F2,
@@ -709,12 +739,10 @@ background-size: 100% 100%;
 }
 
 #yellow {
-  opacity: 0.5;
   background: #FFE840;
 }
 
 #green-tag {
-  opacity: 0.5;
   background: linear-gradient(
   to bottom,
   #FFE840,
@@ -726,12 +754,10 @@ background-size: 100% 100%;
 }
 
 #green {
-  opacity: 0.5;
   background: #11A84D;
 }
 
 #blue-tag {
-  opacity: 0.5;
   background: linear-gradient(
   to bottom,
   #11A84D,
@@ -743,12 +769,10 @@ background-size: 100% 100%;
 }
 
 #blue {
-  opacity: 0.5;
   background: #0A30FF;
 }
 
 #red-tag {
-  opacity: 0.5;
   background: linear-gradient(
   to bottom,
   #0A30FF,
@@ -760,12 +784,10 @@ background-size: 100% 100%;
 }
 
 #red {
-  opacity: 0.5;
   background: #FF0200;
 }
 
 #black-tag {
-  opacity: 0.5;
   background: linear-gradient(
   to bottom,
   #FF0200,
@@ -777,7 +799,7 @@ background-size: 100% 100%;
 }
 
 #black1 {
-  opacity: 0.5;
+  opacity: 0.3;
   background: #000000;
 }
 
@@ -792,7 +814,7 @@ background-size: 100% 100%;
 }
 
 #black2 {
-  opacity: 0.5;
+  opacity: 0.3;
   background: #000000;
 }
 
@@ -817,7 +839,7 @@ background-size: 100% 100%;
   display: flex;
   flex-wrap: wrap;
   margin-left: 10%;
-  justify-content: center;
+  justify-content: left;
 }
 
 .lives {
@@ -838,6 +860,10 @@ background-size: 100% 100%;
   border: 1px solid white;
   text-align: center;
   color: white;
+}
+
+.quiz-small {
+  height: 40px;
 }
 
 .quiz-button:hover {
@@ -893,6 +919,28 @@ background-size: 100% 100%;
   cursor: pointer;
 }
 
+#scoreButton {
+  background: #000;
+  color: white;
+  border: 1px solid white
+}
+
+.enterScore {
+  color: white;
+}
+
+#scoreInput {
+  width: 28%;
+  background: #000;
+  font-family: 'Press Start 2P';
+  text-transform: uppercase;
+  font-size: 28px;
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  margin: 10px 0px 20px 0px;
+}
+
 @media only screen and (max-width: 1053px) {
   .quiz-card {
     margin-top: 12%;
@@ -936,6 +984,11 @@ background-size: 100% 100%;
     margin-left: 5%;
   }
 
+  .quiz-left-bottom {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
   .quiz-right-top {
     margin-right: 5%;
     margin-left: 5%;
@@ -959,7 +1012,7 @@ background-size: 100% 100%;
     overflow: inherit;
   }
   .quiz-card {
-    margin-top: 12%;
+    margin-top: 6%;
     width: 100%;
     height: inherit;
   }
@@ -975,6 +1028,15 @@ background-size: 100% 100%;
   .quiz-button, .quiz-button-nohov{
     margin-bottom: 10px;
     height: 60px;
+  }
+
+  #score {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .quiz-right-bottom table {
+    width: 100%;
   }
 }
 
@@ -1069,11 +1131,13 @@ background-size: 100% 100%;
   border: none;
   width: 100%;
 }
+
 @media only screen and (max-width: 768px) {
 	.panel {
     max-width: 100%;
 	}
 }
+
 @media only screen and (max-width: 992px) {
 	.panel {
     max-width: 100%;
