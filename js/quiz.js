@@ -282,5 +282,4 @@ function selectDifficulty(grade) {
   for (var i = 0; i < items2.length; i++) {
     items2[i].addEventListener("click", function() { nextQuestion(this, 'fu'); }, false);
   };
-
 };
