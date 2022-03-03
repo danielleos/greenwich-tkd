@@ -10,7 +10,7 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Rubik:300,400,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press Start 2P|Inconsolata|Rubik:300,400,700,900" rel="stylesheet">
   <link rel="stylesheet" href="css/styles-merged.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/custom.css">
@@ -73,7 +73,7 @@
           <h2>Grading<br>Quiz</h2>
         </div>
       </div>
-      <div class="quiz-left-bottom">
+      <div class="quiz-left-bottom" id="score">
       </div>
     </div>
     <div class="quiz-card" id="card-right">
@@ -83,35 +83,36 @@
       <div class="quiz-right-top">
         <p id="quiz-right-top">Choose your current grade to set the difficulty:</p>
       </div>
-      <div class="quiz-right-bottom" id="quiz-right-bottom">
+      <div class="quiz-right-bottom hidden" id="quiz-right-bottom-1"></div>
+      <div class="quiz-right-bottom" id="quiz-right-bottom-2">
         <div class="quiz-right-bottom-box" onclick="selectDifficulty('white')">
           <div class="quiz-right-bottom-box-inner" id="white"></div>
         </div>
-        <div class="quiz-right-bottom-box">
+        <div class="quiz-right-bottom-box" onclick="selectDifficulty('yellow-tag')">
           <div class="quiz-right-bottom-box-inner" id="yellow-tag"></div>
         </div>
-        <div class="quiz-right-bottom-box">
+        <div class="quiz-right-bottom-box" onclick="selectDifficulty('yellow')">
           <div class="quiz-right-bottom-box-inner" id="yellow"></div>
         </div>
-        <div class="quiz-right-bottom-box">
+        <div class="quiz-right-bottom-box" onclick="selectDifficulty('green-tag')">
           <div class="quiz-right-bottom-box-inner" id="green-tag"></div>
         </div>
-        <div class="quiz-right-bottom-box">
+        <div class="quiz-right-bottom-box" onclick="selectDifficulty('green')">
           <div class="quiz-right-bottom-box-inner" id="green"></div>
         </div>
-        <div class="quiz-right-bottom-box">
+        <div class="quiz-right-bottom-box" onclick="selectDifficulty('blue-tag')">
           <div class="quiz-right-bottom-box-inner" id="blue-tag"></div>
         </div>
-        <div class="quiz-right-bottom-box">
+        <div class="quiz-right-bottom-box" onclick="selectDifficulty('blue')">
           <div class="quiz-right-bottom-box-inner" id="blue"></div>
         </div>
-        <div class="quiz-right-bottom-box">
+        <div class="quiz-right-bottom-box" onclick="selectDifficulty('red-tag')">
           <div class="quiz-right-bottom-box-inner" id="red-tag"></div>
         </div>
-        <div class="quiz-right-bottom-box">
+        <div class="quiz-right-bottom-box" onclick="selectDifficulty('red')">
           <div class="quiz-right-bottom-box-inner" id="red"></div>
         </div>
-        <div class="quiz-right-bottom-box">
+        <div class="quiz-right-bottom-box" onclick="selectDifficulty('black-tag')">
           <div class="quiz-right-bottom-box-inner" id="black-tag"></div>
         </div>
         <div class="quiz-right-bottom-box">
@@ -125,13 +126,84 @@
           </div>
         </div>
       </div>
+      <div class="quiz-right-bottom hidden" id="quiz-right-bottom-3">
+
+        <table>
+          <tr>
+            <th>RANK</th>
+            <th>NAME</th>
+            <th>SCORE</th>
+          </tr>
+          <tr>
+            <td>1st</td>
+            <td id="scoreName1"></td>
+            <td id="scoreScore1"></td>
+          </tr>
+          <tr>
+            <td>2nd</td>
+            <td id="scoreName2"></td>
+            <td id="scoreScore2"></td>
+          </tr>
+          <tr>
+            <td>3rd</td>
+            <td id="scoreName3"></td>
+            <td id="scoreScore3"></td>
+          </tr>
+          <tr>
+            <td>4th</td>
+            <td id="scoreName4"></td>
+            <td id="scoreScore4"></td>
+          </tr>
+          <tr>
+            <td>5th</td>
+            <td id="scoreName5"></td>
+            <td id="scoreScore5"></td>
+          </tr>
+          <tr>
+            <td>6th</td>
+            <td id="scoreName6"></td>
+            <td id="scoreScore6"></td>
+          </tr>
+          <tr>
+            <td>7th</td>
+            <td id="scoreName7"></td>
+            <td id="scoreScore7"></td>
+          </tr>
+          <tr>
+            <td>8th</td>
+            <td id="scoreName8"></td>
+            <td id="scoreScore8"></td>
+          </tr>
+          <tr>
+            <td>9th</td>
+            <td id="scoreName9"></td>
+            <td id="scoreScore9"></td>
+          </tr>
+          <tr>
+            <td>10th</td>
+            <td id="scoreName10"></td>
+            <td id="scoreScore10"></td>
+          </tr>
+        </table>
+        <div class='quiz-button quiz-small' onClick="copyScore()">Copy your score to your clipboard</div>
+        <div class='quiz-button quiz-small' onClick=history.go(0)>Another go?</div>
+      </div>
+      <div class="quiz-right-bottom hidden" id="quiz-right-bottom-4">        
+        <div class="enterScore">
+          Enter your initials:<br>
+          <input id="scoreInput" type="text" required="required" minlength="3" maxlength="3"></input><br>
+          <input id="scoreButton" type="submit" onclick="enterScore()"></input>
+        </div>
+      </div>
     </div>
   </div>
 
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
   <script src="js/scripts.min.js"></script>
   <script src="js/main.min.js"></script>
+  <script src="js/data.js"></script>
   <script src="js/quiz.js"></script>
-
 
 </body>
 
