@@ -439,7 +439,7 @@ const questions = [
       "micah": "It is a block which makes contact with your opponents inner forearm to expose the inside portion of their body",
       "fu1": "It is a block which makes contact with your opponents outer forearm to expose the outside portion of their body",
       "fu2": "It is a block which makes contact with your opponents inner forearm to expose the inside portion of your body",
-      "fu3": "It is a block which makes contact with your opponents outer forearm to expose the lower portion of their body"
+      "fu3": "It is a block which makes contact with your opponents outer forearm to expose the lower portion of your body"
     },
     {
       "grade": "yellow-tag",
@@ -448,7 +448,7 @@ const questions = [
       "micah": "It is a block which makes contact with your opponents outer forearm to expose the outside portion of their body",
       "fu1": "It is a block which makes contact with your opponents inner forearm to expose the inside portion of their body",
       "fu2": "It is a block which makes contact with your opponents inner forearm to expose the inside portion of your body",
-      "fu3": "It is a block which makes contact with your opponents outer forearm to expose the lower portion of their body"
+      "fu3": "It is a block which makes contact with your opponents outer forearm to expose the lower portion of your body"
     },
     {
       "grade": "yellow-tag",
