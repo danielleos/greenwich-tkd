@@ -2,6 +2,7 @@
 var errors = 0;
 var corrects = 0;
 var questionno = 0;
+var questionTotal = 0;
 var old = [];
 var answers = [];
 var answerToggle = 0;
@@ -91,6 +92,7 @@ return a;
 function selectDifficulty(grade) {
     // Change question number to 1
     questionno++;
+    questionTotal++;
     // Filter questions by chosen grade
     var gradeQuestions = questions.filter(function (el) {
       return el.grade === grade;
@@ -148,26 +150,35 @@ function selectDifficulty(grade) {
   // Define a function for when user gets to end
   function completeQuiz() {
 
+    // Check if it's the end of the quiz
+    if (questionTotal > 299) {
+      // End quiz
+      document.getElementById("quiz-right-bottom-1").innerHTML += "<div id='next' class='next'>See your score</div>";
+      document.getElementById("next").addEventListener("click", function() { endQuiz(); }, false);
+    // Otherwise, carry on
+    } else {
+
     // Reset questions
     questionno = 0;
 
     document.getElementById("quiz-header").innerHTML = "You've answered all the questions";
     document.getElementById("quiz-right-top").innerHTML = "Now try another grade";
     document.getElementById("quiz-right-bottom-1").innerHTML = "<div class='quiz-button' id='nextRound'>More questions</div>";
-    
+
     const nextRoundButton = document.querySelector("#nextRound");
 
     nextRoundButton.addEventListener("click", function () {
       
     // Grey out the completed grade
     document.getElementById(grade).classList.add("beltDone");
-  
+
     // Show selection screen
     document.getElementById("quiz-right-bottom-1").classList.add("hidden");
     document.getElementById("quiz-header").innerHTML = "Pick your grade";
     document.getElementById("quiz-right-top").innerHTML = "<p id='quiz-right-top'>Choose your current grade to set the difficulty:</p>";
     document.getElementById("quiz-right-bottom-2").classList.remove("hidden");
     });
+   };
   };
 
   // Brief intermission before end of the quiz
@@ -230,6 +241,7 @@ function selectDifficulty(grade) {
     if (errors == 0) {
         document.getElementById("lives").innerHTML = "  ";
         questionno++;
+        questionTotal++;
         // Check if it's the end of the quiz
         if (questionno == 31) {
           completeQuiz();
@@ -242,6 +254,7 @@ function selectDifficulty(grade) {
     } else if (errors == 1) {
         document.getElementById("lives").innerHTML = "X";
         questionno++;
+        questionTotal++;
         // Check if it's the end of the quiz
         if (questionno == 31) {
           completeQuiz();
@@ -254,6 +267,7 @@ function selectDifficulty(grade) {
     } else if (errors == 2) {
         document.getElementById("lives").innerHTML = "XX";
         questionno++;
+        questionTotal++;
         // Check if it's the end of the quiz
         if (questionno == 31) {
           completeQuiz();
@@ -267,6 +281,7 @@ function selectDifficulty(grade) {
         // End quiz
         document.getElementById("lives").innerHTML = "XXX";
         questionno++;
+        questionTotal++;
         document.getElementById("quiz-right-bottom-1").innerHTML += "<div id='next' class='next'>See your score</div>";
         document.getElementById("next").addEventListener("click", function() { endQuiz(); }, false);
     };
