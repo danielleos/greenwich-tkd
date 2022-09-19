@@ -304,7 +304,7 @@ const questions = [
       "micah": "Niunja So, An palmok kaunde makgi",
       "fu1": "Niunja So, An joomuk kaunde makgi",
       "fu2": "Niunja So, An palmok nopunde makgi",
-      "fu3": "Niunja So, An palmok kaunde makgi"
+      "fu3": "Niunja So, An palmok najunde makgi"
     },
     {
       "grade": "yellow-tag",
@@ -340,7 +340,7 @@ const questions = [
       "micah": "Middle",
       "fu1": "Low",
       "fu2": "High",
-      "fu3": "C"
+      "fu3": "Left"
     },
     {
       "grade": "yellow-tag",
@@ -544,7 +544,7 @@ const questions = [
       "grade": "yellow",
       "id": "yellow1",
       "question": "What is the diagram of Dan-Gun?",
-      "micah": "An I shape",
+      "micah": "A capital 'i'",
       "fu1": "A Z shape",
       "fu2": "A circle",
       "fu3": "A cross"
@@ -590,7 +590,7 @@ const questions = [
       "id": "yellow6",
       "question": "What level punch are you performing in pattern Dan-Gun?",
       "micah": "Nopunde",
-      "fu1": "Nijunde",
+      "fu1": "Najunde",
       "fu2": "Kaunde",
       "fu3": "Middle"
     },
@@ -903,7 +903,7 @@ const questions = [
     {
       "grade": "green-tag",
       "id": "green-tag11",
-      "question": "How many Tulgis are there in pattern Do-san",
+      "question": "How many Tulgis are there in pattern Do-san?",
       "micah": "1",
       "fu1": "2",
       "fu2": "3",
@@ -912,16 +912,16 @@ const questions = [
     {
       "grade": "green-tag",
       "id": "green-tag12",
-      "question": "What is the pattern diagram for Do-San",
+      "question": "What is the pattern diagram for Do-San?",
       "micah": "A step shape",
-      "fu1": "An I shape",
+      "fu1": "A capital 'i'",
       "fu2": "The Scholar",
       "fu3": "The Admiral"
     },
     {
       "grade": "green-tag",
       "id": "green-tag13",
-      "question": "What does Sun mean in English ",
+      "question": "What does Sun mean in English?",
       "micah": "Straight",
       "fu1": "Upwards",
       "fu2": "Twin",
@@ -1165,7 +1165,7 @@ const questions = [
       "grade": "green",
       "id": "green10",
       "question": "What is the meaning of Won-Hyo?",
-      "micah": "Won-Hyo was the noted monk who introduced Buddhism to the Silla\nDynasty in the year 686 AD",
+      "micah": "Won-Hyo was the noted monk who introduced Buddhism to the Silla Dynasty in the year 686 AD",
       "fu1": "Won-Hyo was the noted monk who introduced Neo-Confucianism to the Silla Dynasty in the year 686 AD",
       "fu2": "Won-Hyo was the noted monk who introduced Confucianism to the Silla Dynasty in the year 686 AD",
       "fu3": "Won-Hyo was the noted monk who introduced Neo-Confucianism to the Silla Dynasty in the year 868 AD"
@@ -1219,7 +1219,7 @@ const questions = [
       "grade": "green",
       "id": "green16",
       "question": "What is the pattern diagram for Won-Hyo",
-      "micah": "An I shape",
+      "micah": "A capital 'i'",
       "fu1": "A Z shape",
       "fu2": "The Scholar",
       "fu3": "The Admiral"
@@ -1399,9 +1399,9 @@ const questions = [
       "grade": "blue-tag",
       "id": "blue-tag6",
       "question": "What is connecting motion?",
-      "micah": "Two movements connected with a single sine-wave\nand only one breath",
+      "micah": "Two movements connected with a single sine-wave and only one breath",
       "fu1": "Two or more techniques performed with the movements between being sped up, but without rushing",
-      "fu2": "Two or more techniques performed with no pause in\nbetween, with one inhalation",
+      "fu2": "Two or more techniques performed with no pause in between, with one inhalation",
       "fu3": "A single movement where the execution time is the most efficient"
     },
     {
@@ -1742,8 +1742,8 @@ const questions = [
       "id": "blue14",
       "question": "Who did Ahn Joong-Gun assasinate?",
       "micah": "Hiro Bumi Ito",
-      "fu1": "Yoshihide Suga ",
-      "fu2": "Shinzo Abe",
+      "fu1": "Ahn Joong-Gun",
+      "fu2": "Ahn Chang-Ho",
       "fu3": "Lui-Shung"
     },
     {
