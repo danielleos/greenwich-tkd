@@ -859,6 +859,7 @@ background-size: 100% 100%;
   min-height: 80px;
   border: 1px solid white;
   text-align: center;
+  padding: 2px 8px;
   color: white;
 }
 
