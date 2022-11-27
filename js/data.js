@@ -3,7 +3,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white1",
-      "question": "What does Tae Kwon-Do literally mean?",
+    "question": "What does Taekwon-Do literally mean?",
       "micah": "Foot Hand Art",
       "fu1": "Hand Foot Art",
       "fu2": "The Hand of Foot or Art",
@@ -12,7 +12,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white2",
-      "question": "Who is the Father and founder of Tae Kwon-Do?",
+      "question": "Who is the father and founder of Taekwon-Do?",
       "micah": "General Choi Hong Hi 9th Dan",
       "fu1": "Grand Master Haeng Ung Lee 10th Dan",
       "fu2": "Grand Master Haeng Ung Lee 9th Dan",
@@ -21,7 +21,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white3",
-      "question": "In which country did Tae Kwon-Do originate?",
+      "question": "In which country did Taekwon-Do originate?",
       "micah": "Korea",
       "fu1": "Japan",
       "fu2": "China",
@@ -30,7 +30,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white4",
-      "question": "What is the first tenet of Tae Kwon-Do?",
+      "question": "What is the first tenet of Taekwon-Do?",
       "micah": "Courtesy",
       "fu1": "Indomitable Spirit",
       "fu2": "Perseverance",
@@ -39,7 +39,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white5",
-      "question": "What is the second tenet of Tae Kwon-Do?",
+      "question": "What is the second tenet of Taekwon-Do?",
       "micah": "Integrity",
       "fu1": "Courtesy",
       "fu2": "Indomitable Spirit",
@@ -48,7 +48,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white6",
-      "question": "What is the third tenet of Tae Kwon-Do?",
+      "question": "What is the third tenet of Taekwon-Do?",
       "micah": "Perseverance",
       "fu1": "Integrity",
       "fu2": "Courtesy",
@@ -57,7 +57,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white7",
-      "question": "What is the fourth tenet of Tae Kwon-Do?",
+      "question": "What is the fourth tenet of Taekwon-Do?",
       "micah": "Self Control",
       "fu1": "Indomitable Spirit",
       "fu2": "Integrity",
@@ -66,7 +66,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white8",
-      "question": "What is the fifth tenet of Tae Kwon-Do?",
+      "question": "What is the fifth tenet of Taekwon-Do?",
       "micah": "Indomitable Spirit",
       "fu1": "Perseverance",
       "fu2": "Self Control",
@@ -75,16 +75,16 @@ const questions = [
     {
       "grade": "white",
       "id": "white9",
-      "question": "What does White Belt signify?",
-      "micah": "Innocence – as the beginner has no previous knowledge of Tae Kwon-Do",
-      "fu1": "A clean start – as the beginner is forgiven from all previous transgressions",
-      "fu2": "Persil – good luck keeping that dobok sparkling white",
-      "fu3": "Purity – as the beginner has no previous knowledge of Tae Kwon-Do"
+      "question": "What does the colour white signify?",
+      "micah": "Innocence - as the beginner has no previous knowledge of Taekwon-Do",
+      "fu1": "A clean start - as the beginner is forgiven from all previous transgressions",
+      "fu2": "Persil - good luck keeping that dobok sparkling white",
+      "fu3": "Purity - as the beginner has no previous knowledge of Taekwon-Do"
     },
     {
       "grade": "white",
       "id": "white10",
-      "question": "What is the title given to a 7th or 8th Degree Black Belt?",
+      "question": "What is the title given to a 7th or 8th Dan Black Belt?",
       "micah": "Master",
       "fu1": "Lord",
       "fu2": "Sensei",
@@ -93,7 +93,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white11",
-      "question": "What is the title given to a 9th Degree Black Belt?",
+      "question": "What is the title given to a 9th Dan Black Belt?",
       "micah": "Grand Master",
       "fu1": "Master",
       "fu2": "Sensei",
@@ -111,7 +111,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white13",
-      "question": "What is Master in Korean?",
+      "question": "What is 'Master' in Korean?",
       "micah": "Sahyun",
       "fu1": "Saseong",
       "fu2": "Oppa",
@@ -120,7 +120,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white14",
-      "question": "What is Grand Master in Korean?",
+      "question": "What is 'Grand Master' in Korean?",
       "micah": "Saseong",
       "fu1": "Sahyun",
       "fu2": "Appa",
@@ -129,7 +129,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white15",
-      "question": "What is Attention Stance in Korean?",
+      "question": "What is 'Attention Stance' in Korean?",
       "micah": "Charyot Sogi",
       "fu1": "Junbi Sogi",
       "fu2": "Narani Sogi",
@@ -138,7 +138,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white16",
-      "question": "What is Ready Stance in Korean?",
+      "question": "What is 'Ready Stance' in Korean?",
       "micah": "Junbi Sogi",
       "fu1": "Narani Sogi",
       "fu2": "Charyot Sogi",
@@ -156,7 +156,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white18",
-      "question": "What is Walking Stance in Korean?",
+      "question": "What is 'Walking Stance' in Korean?",
       "micah": "Gunnun Sogi",
       "fu1": "Junbi Sogi",
       "fu2": "Narani Sogi",
@@ -165,7 +165,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white19",
-      "question": "What is Sitting Stance in Korean?",
+      "question": "What is 'Sitting Stance' in Korean?",
       "micah": "Annun Sogi",
       "fu1": "Gunnun Sogi",
       "fu2": "Charyot Sogi",
@@ -174,7 +174,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white20",
-      "question": "What is Forefist in Korean?",
+      "question": "What is 'Forefist' in Korean?",
       "micah": "Ap Joomuk",
       "fu1": "Joomuk",
       "fu2": "Sonkal",
@@ -183,7 +183,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white21",
-      "question": "What does Palmok mean in English?",
+      "question": "What does 'Palmok' mean in English?",
       "micah": "Forearm",
       "fu1": "Fist",
       "fu2": "Forefist",
@@ -192,7 +192,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white22",
-      "question": "What is Knife-hand in Korean?",
+      "question": "What is 'Knife-hand' in Korean?",
       "micah": "Sonkal",
       "fu1": "Ap Joomuk",
       "fu2": "An Palmok",
@@ -201,7 +201,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white23",
-      "question": "Translate the following into Korean: Inner forearm, outer forearm",
+      "question": "Translate the following into Korean: 'Inner forearm, outer forearm'",
       "micah": "An palmok, bakat palmok",
       "fu1": "Bakat palmok, an palmok",
       "fu2": "Anuro palmok, bakuro palmok",
@@ -210,7 +210,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white24",
-      "question": "How do you say 4-directional punch in Korean?",
+      "question": "How do you say '4-directional Punch' in Korean?",
       "micah": "Saju Jirugi",
       "fu1": "Saju Makgi",
       "fu2": "Saji Chagi",
@@ -219,7 +219,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white25",
-      "question": "How do you say 4-directional block in Korean?",
+      "question": "How do you say '4-directional Block' in Korean?",
       "micah": "Saju Makgi",
       "fu1": "Saju Jirugi",
       "fu2": "Saji Chagi",
@@ -264,7 +264,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white30",
-      "question": "When was Tae Kwon Do officially recognised?",
+      "question": "When was Taekwon-Do officially recognised?",
       "micah": "11th April 1955",
       "fu1": "12th April 1955",
       "fu2": "11th April 1956",
@@ -273,16 +273,16 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag1",
-      "question": "What is the diagram of Chonji?",
-      "micah": "A cross",
-      "fu1": "A square",
-      "fu2": "A circle",
-      "fu3": "A capital 'i'"
+      "question": "What is the diagram of Chon-Ji?",
+      "micah": "A cross (十)",
+      "fu1": "A square (口)",
+      "fu2": "A circle (〇)",
+      "fu3": "A capital 'i' (工)"
     },
     {
       "grade": "yellow-tag",
       "id": "yellowtag2",
-      "question": "What does Chonji literally mean?",
+      "question": "What does Chon-Ji literally mean?",
       "micah": "Heaven and the Earth",
       "fu1": "Moon and stars",
       "fu2": "Heaven and hell",
@@ -291,7 +291,7 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag3",
-      "question": "How many movements does Chonji have?",
+      "question": "How many movements does Chon-Ji have?",
       "micah": "19",
       "fu1": "20",
       "fu2": "21",
@@ -300,7 +300,7 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag4",
-      "question": "What is the 9th movement of Chonji?",
+      "question": "What is the 9th movement of Chon-Ji?",
       "micah": "Niunja So, An palmok kaunde makgi",
       "fu1": "Niunja So, An joomuk kaunde makgi",
       "fu2": "Niunja So, An palmok nopunde makgi",
@@ -309,7 +309,7 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag5",
-      "question": "What is the last movement of Chonji?",
+      "question": "What is the last movement of Chon-Ji?",
       "micah": "Gunnun so, baro jirugi",
       "fu1": "Annun so, baro jirugi",
       "fu2": "Narani so, baro jirugi",
@@ -336,7 +336,7 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag8",
-      "question": "What section punch are you executing in pattern Chon-Ji?",
+      "question": "What heights are the punches in pattern Chon-Ji?",
       "micah": "Middle",
       "fu1": "Low",
       "fu2": "High",
@@ -345,7 +345,7 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag9",
-      "question": "What is an inner forearm block called in Korean?",
+      "question": "How do you say 'inner forearm block' in Korean?",
       "micah": "An palmok makgi",
       "fu1": "Baro jirugi",
       "fu2": "Bandae jirugi",
@@ -354,29 +354,29 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag10",
-      "question": "What is an outer forearm block called in Korean?",
+      "question": " How do you say'outer forearm block' in Korean?",
       "micah": "Bakat palmok makgi",
-      "fu1": "An palmok Makgi",
+      "fu1": "An palmok makgi",
       "fu2": "Baro jirugi",
       "fu3": "Bandae jirugi"
     },
     {
       "grade": "yellow-tag",
       "id": "yellowtag11",
-      "question": "What is an obverse punch called in Korean?",
+      "question": " How do you say 'obverse punch' in Korean?",
       "micah": "Baro jirugi",
       "fu1": "Bakat palmok makgi",
-      "fu2": "An palmok Makgi",
+      "fu2": "An palmok makgi",
       "fu3": "Bandae jirugi"
     },
     {
       "grade": "yellow-tag",
       "id": "yellowtag12",
-      "question": "What is a reverse punch called in Korean?",
+      "question": "How do you say 'reverse punch' in Korean?",
       "micah": "Bandae jirugi",
       "fu1": "Baro jirugi",
       "fu2": "Bakat palmok makgi",
-      "fu3": "An palmok Makgi"
+      "fu3": "An palmok makgi"
     },
     {
       "grade": "yellow-tag",
@@ -390,16 +390,16 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag14",
-      "question": "What does the colour of your belt signify?",
+      "question": "What does the colour white signify?",
       "micah": "Innocence and that the beginning student has no previous knowledge of Taekwon-Do",
       "fu1": "Patience",
       "fu2": "Purity",
-      "fu3": "Tae Kwon-Do"
+      "fu3": "Taekwon-Do"
     },
     {
       "grade": "yellow-tag",
       "id": "yellowtag15",
-      "question": "What is front snap kick in Korean?",
+      "question": "How do you say 'front snap kick' in Korean?",
       "micah": "Apcha busigi",
       "fu1": "Baro jirugi",
       "fu2": "Gunnun junbi sogi",
@@ -408,7 +408,7 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag16",
-      "question": "What is obverse punch in Korean?",
+      "question": "How do you say 'obverse punch' in Korean?",
       "micah": "Baro jirugi",
       "fu1": "Bandae jirugi",
       "fu2": "Gunnun junbi sogi",
@@ -417,7 +417,7 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag17",
-      "question": "What is reverse punch in Korean?",
+      "question": "How do you say 'reverse punch' in Korean?",
       "micah": "Bandae jirugi",
       "fu1": "Gunnun junbi sogi",
       "fu2": "Baro jirugi",
@@ -426,7 +426,7 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag18",
-      "question": "What is walking ready stance in Korean?",
+      "question": "How do you say 'walking ready stance' in Korean?",
       "micah": "Gunnun junbi sogi",
       "fu1": "Baro jirugi",
       "fu2": "Bandae jirugi",
@@ -435,7 +435,7 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag19",
-      "question": "Describe what an inward block is",
+      "question": "Describe what an 'inward' block is",
       "micah": "It is a block which makes contact with your opponents inner forearm to expose the inside portion of their body",
       "fu1": "It is a block which makes contact with your opponents outer forearm to expose the outside portion of their body",
       "fu2": "It is a block which makes contact with your opponents inner forearm to expose the inside portion of your body",
@@ -444,7 +444,7 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag20",
-      "question": "Describe what an outward block is",
+      "question": "Describe what an 'outward' block is",
       "micah": "It is a block which makes contact with your opponents outer forearm to expose the outside portion of their body",
       "fu1": "It is a block which makes contact with your opponents inner forearm to expose the inside portion of their body",
       "fu2": "It is a block which makes contact with your opponents inner forearm to expose the inside portion of your body",
@@ -453,7 +453,7 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag21",
-      "question": "What is an Anuro makgi?",
+      "question": "How do you say 'anuro makgi' in English?",
       "micah": "Inward block",
       "fu1": "Outward block",
       "fu2": "Inside block",
@@ -462,7 +462,7 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag22",
-      "question": "What is a Bakuro makgi?",
+      "question": "How do you say 'bakuro makgi' in English?",
       "micah": "Outward block",
       "fu1": "Inside block",
       "fu2": "Inward block",
@@ -471,7 +471,7 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag23",
-      "question": "What does Niunja sogi mean?",
+      "question": "What does 'niunja sogi' mean in English?",
       "micah": "L-stance",
       "fu1": "Walking stance",
       "fu2": "Fixed stance",
@@ -480,7 +480,7 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag24",
-      "question": "What does Narani junbi sogi mean?",
+      "question": "What does 'narani junbi sogi' mean in English?",
       "micah": "Parallel ready stance",
       "fu1": "Fixed stance",
       "fu2": "Bending ready stance",
@@ -489,7 +489,7 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag25",
-      "question": "Which foot moves when when you return to parallel ready stance at the end of Chonji?",
+      "question": "Which foot moves when when you return to parallel ready stance at the end of Chon-Ji?",
       "micah": "Left",
       "fu1": "Right",
       "fu2": "Does not matter",
@@ -498,16 +498,16 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag26",
-      "question": "What is the name of your next pattern after Chonji?",
+      "question": "What is the name of your next pattern after Chon-Ji?",
       "micah": "Dan-Gun",
       "fu1": "Do-San",
       "fu2": "Won-Hyo",
-      "fu3": "Chonji 2"
+      "fu3": "Chon-Ji 2"
     },
     {
       "grade": "yellow-tag",
       "id": "yellowtag27",
-      "question": "What number is Yul + Ahop?",
+      "question": "What number do you get if you add 'Yul' with 'Ahop'?",
       "micah": "19",
       "fu1": "21",
       "fu2": "17",
@@ -543,11 +543,11 @@ const questions = [
     {
       "grade": "yellow",
       "id": "yellow1",
-      "question": "What is the diagram of Dan-Gun?",
-      "micah": "A capital 'i'",
-      "fu1": "A Z shape",
-      "fu2": "A circle",
-      "fu3": "A cross"
+      "question": "What shape is the diagram of Dan-Gun?",
+      "micah": "A capital 'i' (工)",
+      "fu1": "A 'Z' shape",
+      "fu2": "A circle (〇)",
+      "fu3": "A cross (十)"
     },
     {
       "grade": "yellow",
@@ -570,7 +570,7 @@ const questions = [
     {
       "grade": "yellow",
       "id": "yellow4",
-      "question": "What does Daebi makgi mean?",
+      "question": "What does 'daebi makgi' mean in English?",
       "micah": "Guarding block",
       "fu1": "Rising block",
       "fu2": "Blocking block",
@@ -588,7 +588,7 @@ const questions = [
     {
       "grade": "yellow",
       "id": "yellow6",
-      "question": "What level punch are you performing in pattern Dan-Gun?",
+      "question": "What height are the punches in Dan-Gun?",
       "micah": "Nopunde",
       "fu1": "Najunde",
       "fu2": "Kaunde",
@@ -597,7 +597,7 @@ const questions = [
     {
       "grade": "yellow",
       "id": "yellow7",
-      "question": "How many different blocks are there in the pattern and what are they called in Korean?",
+      "question": "How many different blocks are there in Dan-Gun and what are they called in Korean?",
       "micah": "4 (Sonkal daebi makgi, an palmok najunde makgi, sang palmok makgi, bakat palmok chookyo makgi)",
       "fu1": "3 (Sonkal daebi makgi, an palmok najunde makgi, sang palmok makgi)",
       "fu2": "2 (Sonkal daebi makgi, an palmok najunde makgi)",
@@ -606,7 +606,7 @@ const questions = [
     {
       "grade": "yellow",
       "id": "yellow8",
-      "question": "What is the Korean for three step sparring?",
+      "question": "What is the Korean for 'Three step sparring'?",
       "micah": "Sambo matsogi",
       "fu1": "Jayu matsogi",
       "fu2": "Ban-jayu matsogi",
@@ -615,34 +615,34 @@ const questions = [
     {
       "grade": "yellow",
       "id": "yellow9",
-      "question": "Explain the difference between inside and outside blocks?",
+      "question": "Explain the difference between 'inside' and 'outside' blocks?",
       "micah": "An inside block is a block directed at the inner portion of the attacking arm or foot. An Outside block is a block directed at the outside portion of the attacking arm or foot prohibiting the opponent from utilising his other arm/foot in a combination attack.",
-      "fu1": "Outside refers to an attack on the inside of your opponent’s body, inside refers to the outside",
+      "fu1": "Outside refers to an attack on the inside of your opponent's body, inside refers to the outside",
       "fu2": "Inside refers to a block moving from the outside of your body to the inside, and vice versa",
       "fu3": "Outside refers to a block moving from the outside of your body to the inside, and vice versa"
     },
     {
       "grade": "yellow",
       "id": "yellow10",
-      "question": "Explain the difference between inward and outward blocks?",
+      "question": "Explain the difference between 'inward' and 'outward' blocks?",
       "micah": "Inward refers to a blocking tool moving from an outward to an inward trajectory towards the chest line. An outward block is when the blocking tool reaches the target from an inward to outward trajectory.",
       "fu1": "Outward refers to a block moving from the outside of your body to the inside, and vice versa",
-      "fu2": "Inward refers to an attack on the inside of your opponent’s body, outside refers to the outside",
-      "fu3": "Outward refers to an attack on the inside of your opponent’s body, inside refers to the outside"
+      "fu2": "Inward refers to an attack on the inside of your opponent's body, outside refers to the outside",
+      "fu3": "Outward refers to an attack on the inside of your opponent's body, inside refers to the outside"
     },
     {
       "grade": "yellow",
       "id": "yellow11",
-      "question": "What does the colour of yellow belt signify?",
-      "micah": "The earth from which a plant sprouts as the taekwon-do foundation is laid",
-      "fu1": "The plant from which earth sprouts as the taekwon-do foundation is laid",
-      "fu2": "The plant from which earth sprouts as the taekwon-do foundation is finely honed to an expert level",
-      "fu3": "Fear"
+      "question": "How moves are there in Chon-Ji & Dan-Gun combined?",
+      "micah": "40",
+      "fu1": "39",
+      "fu2": "41",
+      "fu3": "38"
     },
     {
       "grade": "yellow",
       "id": "yellow12",
-      "question": "What is the outer forearm low block called in Korean?",
+      "question": "How do you say 'outer forearm low block' in Korean?",
       "micah": "Najunde bakat palmok makgi",
       "fu1": "Kaunde bakat palmok makgi",
       "fu2": "Najunde anuro palmok makgi",
@@ -651,7 +651,7 @@ const questions = [
     {
       "grade": "yellow",
       "id": "yellow13",
-      "question": "What is the rising block called in Korean?",
+      "question": "How do you say 'rising block' in Korean?",
       "micah": "Chookyo makgi",
       "fu1": "Palmok daebi makgi",
       "fu2": "Bakat palmok makgi",
@@ -660,7 +660,7 @@ const questions = [
     {
       "grade": "yellow",
       "id": "yellow14",
-      "question": "What is continuous motion in Korean?",
+      "question": "What is 'continuous motion' in Korean?",
       "micah": "Yongsok dongjak",
       "fu1": "Barun dongjak",
       "fu2": "Yongyol dongjak",
@@ -669,7 +669,7 @@ const questions = [
     {
       "grade": "yellow",
       "id": "yellow15",
-      "question": "Why do we wrap our belt around the waist once?",
+      "question": "Why do we wrap our belt around the waist only once?",
       "micah": "To pursue one goal, to serve one master with unshakeable loyalty, to gain victory in one blow",
       "fu1": "To pursue one goal and gain victory in one blow",
       "fu2": "To serve one master at a time. Typcially Micah",
@@ -678,7 +678,7 @@ const questions = [
     {
       "grade": "yellow",
       "id": "yellow16",
-      "question": "What is the Korean for thrust?",
+      "question": "What is Korean for 'thrust'?",
       "micah": "Tulgi",
       "fu1": "Taerigi",
       "fu2": "Jirugi",
@@ -696,7 +696,7 @@ const questions = [
     {
       "grade": "yellow",
       "id": "yellow18",
-      "question": "What is the Korean for the number 20?",
+      "question": "What is Korean for the number twenty (20)?",
       "micah": "Sumul",
       "fu1": "Sorun",
       "fu2": "Mahun",
@@ -705,7 +705,7 @@ const questions = [
     {
       "grade": "yellow",
       "id": "yellow19",
-      "question": "What is Ilgop multiplied by Dool?",
+      "question": "What is 'Ilgop' multiplied by 'Dool'?",
       "micah": "Yul-net",
       "fu1": "Yul-set",
       "fu2": "Yul-tasot",
@@ -714,7 +714,7 @@ const questions = [
     {
       "grade": "yellow",
       "id": "yellow20",
-      "question": "What does Busigi mean in Korean?",
+      "question": "What does 'Busigi' mean in English?",
       "micah": "Snap",
       "fu1": "Bending",
       "fu2": "Rising",
@@ -723,7 +723,7 @@ const questions = [
     {
       "grade": "yellow",
       "id": "yellow21",
-      "question": "What does Sang palmok mean?",
+      "question": "What does 'Sang palmok' mean in English?",
       "micah": "Twin forearm",
       "fu1": "Dual elbow",
       "fu2": "Combination backfirst",
@@ -751,7 +751,7 @@ const questions = [
       "grade": "yellow",
       "id": "yellow24",
       "question": "Which of the following is not part of the oath?",
-      "micah": "I shall strive for a more peaceful world",
+      "micah": "I shall strive for more peace in the world",
       "fu1": "I shall observe the tenets of Taekwon-Do",
       "fu2": "I shall be a champion of freedom and justice",
       "fu3": "I shall never misuse Taekwon-Do"
@@ -759,7 +759,7 @@ const questions = [
     {
       "grade": "yellow",
       "id": "yellow25",
-      "question": "What is the ninth move of Dan-gun?",
+      "question": "What is the ninth (9th) move of Dan-Gun?",
       "micah": "Niunja so sang palmok makgi",
       "fu1": "Gunnun so bakat palmok chookyo makgi",
       "fu2": "Niunja so sonkal kaunde daebi makgi",
@@ -768,7 +768,7 @@ const questions = [
     {
       "grade": "yellow",
       "id": "yellow26",
-      "question": "What is the sixteenth move of Dan-Gun?",
+      "question": "What is the sixteenth (16th) move of Dan-Gun?",
       "micah": "Gunnun so bakat palmok chookyo makgi",
       "fu1": "Niunja so sang palmok makgi",
       "fu2": "Niunja so sonkal kaunde daebi makgi",
@@ -777,7 +777,7 @@ const questions = [
     {
       "grade": "yellow",
       "id": "yellow27",
-      "question": "What is the seventh move of Dan-Gun?",
+      "question": "What is the seventh (7th) move of Dan-Gun?",
       "micah": "Walking stance high punch",
       "fu1": "L-stance twin forearm block",
       "fu2": "Walking stance outer forearm rising block",
@@ -786,7 +786,7 @@ const questions = [
     {
       "grade": "yellow",
       "id": "yellow28",
-      "question": "What is the ninth move of Dan-Gun?",
+      "question": "What is the ninth move (9th) of Dan-Gun?",
       "micah": "L-stance twin forearm block",
       "fu1": "Walking stance high punch",
       "fu2": "Walking stance outer forearm rising block",
@@ -795,7 +795,7 @@ const questions = [
     {
       "grade": "yellow",
       "id": "yellow29",
-      "question": "Which of the following is not part of Dan-Gun?",
+      "question": "Which of the following movements is not part of Dan-Gun?",
       "micah": "Walking stance middle punch",
       "fu1": "Walking stance high punch",
       "fu2": "L-stance twin forearm block",
@@ -808,7 +808,7 @@ const questions = [
       "micah": "Dan-Gun",
       "fu1": "Kihap",
       "fu2": "Sijak",
-      "fu3": "Chonji"
+      "fu3": "Chon-Ji"
     },
     {
       "grade": "green-tag",
@@ -831,7 +831,7 @@ const questions = [
     {
       "grade": "green-tag",
       "id": "green-tag3",
-      "question": "Whats the weight distribution of Niunja sogi?",
+      "question": "Whats the weight distribution of a 'niunja sogi'?",
       "micah": "70% on the rear, 30% on the front",
       "fu1": "30% on the rear, 70% on the front",
       "fu2": "50% on the rear, 50% on the front",
@@ -840,7 +840,7 @@ const questions = [
     {
       "grade": "green-tag",
       "id": "green-tag4",
-      "question": "How long is a walking stance?",
+      "question": "How long is a walking stance (and where is it measured from)?",
       "micah": "1.5 shoulder widths from big toe to big toe",
       "fu1": "1 shoulder widths from big toe to big toe",
       "fu2": "2.5 shoulder widths from big toe to big toe",
@@ -849,7 +849,7 @@ const questions = [
     {
       "grade": "green-tag",
       "id": "green-tag5",
-      "question": "What does wen and orun mean?",
+      "question": "What do 'wen' and 'orun' mean?",
       "micah": "Left and right",
       "fu1": "Right and left",
       "fu2": "Up and down",
@@ -858,7 +858,7 @@ const questions = [
     {
       "grade": "green-tag",
       "id": "green-tag6",
-      "question": "What is Korean for Parallel ready stance?",
+      "question": "What is Korean for 'Parallel ready stance'?",
       "micah": "Narani junbi sogi",
       "fu1": "Junbi sogi",
       "fu2": "Narani sogi",
@@ -867,7 +867,7 @@ const questions = [
     {
       "grade": "green-tag",
       "id": "green-tag7",
-      "question": "What does Barun dongjak mean?",
+      "question": "What does 'Barun dongjak' mean in English?",
       "micah": "Fast motion",
       "fu1": "Slow motion",
       "fu2": "Continuous motion",
@@ -876,7 +876,7 @@ const questions = [
     {
       "grade": "green-tag",
       "id": "green-tag8",
-      "question": "How many patterns are there in Taekwon-Do?",
+      "question": "How many patterns are there in Taekwon-Do (colour belt and black belt)?",
       "micah": "24",
       "fu1": "25",
       "fu2": "34",
@@ -885,7 +885,7 @@ const questions = [
     {
       "grade": "green-tag",
       "id": "green-tag9",
-      "question": "What motion are moves 15 and 16 of Do-San performed in?",
+      "question": "What type of motion are moves 15 and 16 of Do-San performed in?",
       "micah": "Barun Dongjak (fast motion)",
       "fu1": "Yongsok Dongjak (continuous motion)",
       "fu2": "Yongyol dongjak (Connecting motion)",
@@ -903,7 +903,7 @@ const questions = [
     {
       "grade": "green-tag",
       "id": "green-tag11",
-      "question": "How many Tulgis are there in pattern Do-san?",
+      "question": "How many tulgis are there in pattern Do-San?",
       "micah": "1",
       "fu1": "2",
       "fu2": "3",
@@ -912,11 +912,11 @@ const questions = [
     {
       "grade": "green-tag",
       "id": "green-tag12",
-      "question": "What is the pattern diagram for Do-San?",
+      "question": "What shape is the pattern diagram for Do-San?",
       "micah": "A step shape",
-      "fu1": "A capital 'i'",
-      "fu2": "The Scholar",
-      "fu3": "The Admiral"
+      "fu1": "A capital 'i' (工)",
+      "fu2": "The Scholar (士)",
+      "fu3": "The Admiral (将)"
     },
     {
       "grade": "green-tag",
@@ -1011,7 +1011,7 @@ const questions = [
     {
       "grade": "green-tag",
       "id": "green-tag23",
-      "question": "Which foot moves when when you return to parallel ready stance at the end of Do-san?",
+      "question": "Which foot moves when when you return to parallel ready stance at the end of Do-San?",
       "micah": "Right",
       "fu1": "Left",
       "fu2": "Does not matter",
@@ -1020,7 +1020,7 @@ const questions = [
     {
       "grade": "green-tag",
       "id": "green-tag24",
-      "question": "Which motion is used in Do-san?",
+      "question": "Which motion is used in Do-San?",
       "micah": "Barun dongjak (fast motion)",
       "fu1": "Yongsok Dongjak (continuous motion)",
       "fu2": "Neurin Dongjak (slow motion)",
@@ -1047,7 +1047,7 @@ const questions = [
     {
       "grade": "green-tag",
       "id": "green-tag27",
-      "question": "I am in Do-san twice, but Dan-gun four times. What am I?",
+      "question": "I am in Do-San twice, but Dan-Gun four times. What am I?",
       "micah": "A rising block",
       "fu1": "A spot turn",
       "fu2": "A front snap kick",
@@ -1056,7 +1056,7 @@ const questions = [
     {
       "grade": "green-tag",
       "id": "green-tag28",
-      "question": "In Do-san, how many breaths do you take during the fast-motion technique?",
+      "question": "In Do-San, how many breaths do you take during the fast-motion technique?",
       "micah": "2",
       "fu1": "1",
       "fu2": "3",
@@ -1084,10 +1084,10 @@ const questions = [
       "grade": "green",
       "id": "green1",
       "question": "What does the colour green signify?",
-      "micah": "The plantʼs growth – as Taekwon-Do skills begin to develop.",
-      "fu1": "The earth – from which a plant sprouts and takes root as the Taekwon-Do",
-      "fu2": "Creativity – but don't tell yellow belts",
-      "fu3": "Jealousy – Because blue belts don't clash as much with natural skin tones"
+      "micah": "The plantʼs growth - as Taekwon-Do skills begin to develop.",
+      "fu1": "The earth - from which a plant sprouts and takes root as the Taekwon-Do",
+      "fu2": "Creativity - but don't tell yellow belts",
+      "fu3": "Jealousy - Because blue belts don't clash as much with natural skin tones"
     },
     {
       "grade": "green",
@@ -1101,7 +1101,7 @@ const questions = [
     {
       "grade": "green",
       "id": "green3",
-      "question": "What does Moa jumbi sogi A symbolise?",
+      "question": "What does Moa junbi sogi A symbolise?",
       "micah": "Peace over war",
       "fu1": "War over peace",
       "fu2": "War equals peace",
@@ -1110,7 +1110,7 @@ const questions = [
     {
       "grade": "green",
       "id": "green4",
-      "question": "What is the distance between the hands and philtrum in Moa Jumbi Sogi A",
+      "question": "What is the distance between the hands and philtrum (top lip) in 'Moa junbi sogi A'",
       "micah": "30cm",
       "fu1": "20cm",
       "fu2": "25cm",
@@ -1219,24 +1219,24 @@ const questions = [
       "grade": "green",
       "id": "green16",
       "question": "What is the pattern diagram for Won-Hyo",
-      "micah": "A capital 'i'",
+      "micah": "A capital 'i' (工)",
       "fu1": "A Z shape",
-      "fu2": "The Scholar",
-      "fu3": "The Admiral"
+      "fu2": "The Scholar (士)",
+      "fu3": "The Admiral (将)"
     },
     {
       "grade": "green",
       "id": "green17",
-      "question": "In Moa junbi sogi A, how close are our toes?",
+      "question": "In 'moa junbi sogi A', how close are our toes?",
       "micah": "They're touching",
-      "fu1": "Should-width",
+      "fu1": "Should-width apart",
       "fu2": "A small gap (5cm)",
       "fu3": "So close you'd think they were touching but they must never touch"
     },
     {
       "grade": "green",
       "id": "green18",
-      "question": "What does Yopcha jirugi mean?",
+      "question": "What does 'Yopcha jirugi' mean in English?",
       "micah": "Side piercing kick",
       "fu1": "Front snap kick",
       "fu2": "Side piercing stirke",
@@ -1245,7 +1245,7 @@ const questions = [
     {
       "grade": "green",
       "id": "green19",
-      "question": "Which statement about Bending ready stance A is true",
+      "question": "Which statement about 'bending ready stance A' is true?",
       "micah": "Your standing foot should be 90° to where you are facing",
       "fu1": "Weight distribution is 90/10",
       "fu2": "The raised leg is the leading leg",
@@ -1254,7 +1254,7 @@ const questions = [
     {
       "grade": "green",
       "id": "green20",
-      "question": "What does Balkal mean?",
+      "question": "What does 'balkal' meanin English?",
       "micah": "Foot-sword",
       "fu1": "Ball of the foot",
       "fu2": "Fingertip",
@@ -1263,16 +1263,16 @@ const questions = [
     {
       "grade": "green",
       "id": "green21",
-      "question": "How many techniques does a circular block block in Won-Hyo?",
+      "question": "How many techniques can a circular block block in Won-Hyo?",
       "micah": "1 or 2",
-      "fu1": "1",
-      "fu2": "2",
+      "fu1": "Only 1",
+      "fu2": "Only 2",
       "fu3": "0"
     },
     {
       "grade": "green",
       "id": "green22",
-      "question": "What is knife-hand high inward strike in Korean?",
+      "question": "What is 'knife-hand high inward strike' in Korean?",
       "micah": "Sonkal nopunde anuro taerigi",
       "fu1": "Sonkal nopunde anuro tulgi",
       "fu2": "Sonkal nopunde bakuro tulgi",
@@ -1290,7 +1290,7 @@ const questions = [
     {
       "grade": "green",
       "id": "green24",
-      "question": "Translate this: Najunde apcha busigi",
+      "question": "Translate this to English: 'Najunde apcha busigi'",
       "micah": "Low front snap kick",
       "fu1": "Low side front snap kick",
       "fu2": "High front snap kick",
@@ -1299,7 +1299,7 @@ const questions = [
     {
       "grade": "green",
       "id": "green25",
-      "question": "What is the first move in Won-Hyo?",
+      "question": "What is the first (1st) move in Won-Hyo?",
       "micah": "L-stance twin forearm block",
       "fu1": "L-stance knife-hand high inward strike",
       "fu2": "Fixed stance middle side punch",
@@ -1308,7 +1308,7 @@ const questions = [
     {
       "grade": "green",
       "id": "green26",
-      "question": "What is the second move in Won-Hyo?",
+      "question": "What is the second (2nd) move in Won-Hyo?",
       "micah": "L-stance knife-hand high inward strike",
       "fu1": "L-stance twin forearm block",
       "fu2": "Fixed stance middle side punch",
@@ -1326,7 +1326,7 @@ const questions = [
     {
       "grade": "green",
       "id": "green28",
-      "question": "What is the ninth move in Won-Hyo?",
+      "question": "What is the ninth (9th) move in Won-Hyo?",
       "micah": "L-stance knife-hand middle guarding block",
       "fu1": " L-stance twin forearm block",
       "fu2": "Low front snap kick",
@@ -1335,7 +1335,7 @@ const questions = [
     {
       "grade": "green",
       "id": "green29",
-      "question": "How high should the fingertips be when forming a Kaunde Sonkal Daebi Magki",
+      "question": "How high should the fingertips be when forming a 'kaunde sonkal daebi magki'?",
       "micah": "Shoulder",
       "fu1": "Eye",
       "fu2": "Chest",
@@ -1354,10 +1354,10 @@ const questions = [
       "grade": "blue-tag",
       "id": "blue-tag1",
       "question": "What does blue signify?",
-      "micah": "The Heaven – towards which the\nplant matures into a\ntowering tree as training in\nTaekwon-Do progresses",
-      "fu1": "The Sky – towards which the\nplant matures into a\ntowering tree as training in\nTaekwon-Do finishes",
-      "fu2": "The Ocean – vast and unexplored like your understanding of\nTaekwon-Do",
-      "fu3": "Timeless pop classics – Obviously Simon Webbe had all the talent but you could rely on Lee Ryan for a decent high note"
+      "micah": "The Heaven - towards which the plant matures into a towering tree as training in Taekwon-Do progresses",
+      "fu1": "The Sky - towards which the plant matures into a towering tree as training in Taekwon-Do finishes",
+      "fu2": "The Ocean - vast and unexplored like your understanding of Taekwon-Do",
+      "fu3": "Timeless pop classics - Obviously Simon Webbe had all the talent but you could rely on Lee Ryan for a decent high note"
     },
     {
       "grade": "blue-tag",
@@ -1380,16 +1380,16 @@ const questions = [
     {
       "grade": "blue-tag",
       "id": "blue-tag4",
-      "question": "Which one of the following is not a training secret of Taekwon-Do?",
+      "question": "Which one of the following is NOT a training secret of Taekwon-Do?",
       "micah": "To study the human anatomy",
       "fu1": "To choose the appropriate attacking tool for each vital spot",
-      "fu2": "To keep both arms and\nlegs bent slightly while\na movement is in\nmotion",
-      "fu3": "To exhale briefly at\nthe moment of each\nblow without exception"
+      "fu2": "To keep both arms and legs bent slightly while a movement is in motion",
+      "fu3": "To exhale briefly at the moment of each blow without exception"
     },
     {
       "grade": "blue-tag",
       "id": "blue-tag5",
-      "question": "Which one of the following encompasses the theory of power?",
+      "question": "Which one of the following acronyms represents the theory of power?",
       "micah": "CREMBS",
       "fu1": "CRAMBS",
       "fu2": "CRAMPS",
@@ -1398,7 +1398,7 @@ const questions = [
     {
       "grade": "blue-tag",
       "id": "blue-tag6",
-      "question": "What is connecting motion?",
+      "question": "How do we describe 'connecting motion'?",
       "micah": "Two movements connected with a single sine-wave and only one breath",
       "fu1": "Two or more techniques performed with the movements between being sped up, but without rushing",
       "fu2": "Two or more techniques performed with no pause in between, with one inhalation",
@@ -1407,18 +1407,18 @@ const questions = [
     {
       "grade": "blue-tag",
       "id": "blue-tag7",
-      "question": "What is fast motion?",
+      "question": "How do we describe 'fast motion'?",
       "micah": "Two or more techniques performed with increased verlocity between movements, but without rushing",
-      "fu1": "Two movements connected with a single sine-wave\nand only one breath",
-      "fu2": "Two or more techniques performed with no pause in\nbetween, with one inhalation",
+      "fu1": "Two movements connected with a single sine-wave and only one breath",
+      "fu2": "Two or more techniques performed with no pause in between, with one inhalation",
       "fu3": "A single movement where the execution time is the most efficient"
     },
     {
       "grade": "blue-tag",
       "id": "blue-tag8",
-      "question": "What is continuous motion?",
-      "micah": "Two or more techniques performed without pause in\nbetween techniques, with one one inhalation and many exhalations",
-      "fu1": "Two movements connected with a single sine-wave\nand only one breath",
+      "question": "How do we describe 'continuous motion'?",
+      "micah": "Two or more techniques performed without pause in between techniques, with one one inhalation and many exhalations",
+      "fu1": "Two movements connected with a single sine-wave and only one breath",
       "fu2": "Two or more techniques performed with the movements between being sped up, but without rushing",
       "fu3": "A single movement where the execution time is the most efficient"
     },
@@ -1435,7 +1435,7 @@ const questions = [
       "grade": "blue-tag",
       "id": "blue-tag10",
       "question": "What is the significance of 1967?",
-      "micah": "Taekwon-Do is brought to\nthe UK by Rhee Ki Ha",
+      "micah": "Taekwon-Do is brought to the UK by Rhee Ki Ha",
       "fu1": "ITF is founded",
       "fu2": "Taekwon-Do officially recognised",
       "fu3": "Greenwich TKD is founded"
@@ -1443,7 +1443,7 @@ const questions = [
     {
       "grade": "blue-tag",
       "id": "blue-tag11",
-      "question": "What is Palkup in English?",
+      "question": "What is 'Palkup' in English?",
       "micah": "Elbow",
       "fu1": "Knee",
       "fu2": "Forearm",
@@ -1452,11 +1452,11 @@ const questions = [
     {
       "grade": "blue-tag",
       "id": "blue-tag12",
-      "question": "How many degrees should your feet point inwards in a niunga sogi?",
-      "micah": "15",
-      "fu1": "25",
-      "fu2": "20",
-      "fu3": "45"
+      "question": "How many degrees should your feet point inwards in a 'niunja sogi'?",
+      "micah": "15°",
+      "fu1": "25°",
+      "fu2": "20°",
+      "fu3": "45°"
     },
     {
       "grade": "blue-tag",
@@ -1470,7 +1470,7 @@ const questions = [
     {
       "grade": "blue-tag",
       "id": "blue-tag14",
-      "question": "What does Sambo mat sogi mean?",
+      "question": "What does 'sambo matsogi' mean?",
       "micah": "Three-step sparring",
       "fu1": "Semi-free sparring",
       "fu2": "Free sparring",
@@ -1479,7 +1479,7 @@ const questions = [
     {
       "grade": "blue-tag",
       "id": "blue-tag15",
-      "question": "What is X-stance in Korean?",
+      "question": "What is 'X-stance' in Korean?",
       "micah": "Kyocha sogi",
       "fu1": "Gunnun sogi",
       "fu2": "Soojik sogi",
@@ -1488,7 +1488,7 @@ const questions = [
     {
       "grade": "blue-tag",
       "id": "blue-tag16",
-      "question": "What is a Cha Olligi?",
+      "question": "Translate 'Cha Olligi' to English.",
       "micah": "Rising kick",
       "fu1": "Turning kick",
       "fu2": "Front kick",
@@ -1497,7 +1497,7 @@ const questions = [
     {
       "grade": "blue-tag",
       "id": "blue-tag17",
-      "question": "What does Sonbadak mean in Korean?",
+      "question": "What does 'sonbadak' mean in Korean?",
       "micah": "Palm",
       "fu1": "Hand",
       "fu2": "Elbow",
@@ -1506,7 +1506,7 @@ const questions = [
     {
       "grade": "blue-tag",
       "id": "blue-tag18",
-      "question": "Golcho refers to...",
+      "question": "'Golcho' refers to... (finish the sentence)",
       "micah": "a defensive technique",
       "fu1": "an attacking technique",
       "fu2": "A circular technique",
@@ -1515,7 +1515,7 @@ const questions = [
     {
       "grade": "blue-tag",
       "id": "blue-tag19",
-      "question": "Goro refers to...",
+      "question": "'Goro' refers to... (finish the sentence)",
       "micah": "an attacking technique",
       "fu1": "a defensive technique",
       "fu2": "A circular technique",
@@ -1524,7 +1524,7 @@ const questions = [
     {
       "grade": "blue-tag",
       "id": "blue-tag20",
-      "question": "When you refer to height you are talking about how high you should perform a technique in relation to...",
+      "question": "When you refer to height you are talking about how high you should perform a technique in relation to... (finish the sentence)",
       "micah": "Your own body",
       "fu1": "Your opponents body",
       "fu2": "Your instructors body",
@@ -1533,7 +1533,7 @@ const questions = [
     {
       "grade": "blue-tag",
       "id": "blue-tag21",
-      "question": "What is front elbow reverse strike in Korean?",
+      "question": "What is 'front elbow reverse strik'e in Korean?",
       "micah": "Ap palkup bandae taerigi",
       "fu1": "Bakat palkup bandae taerigi",
       "fu2": "Ap palkup anuro taerigi",
@@ -1560,7 +1560,7 @@ const questions = [
     {
       "grade": "blue-tag",
       "id": "blue-tag24",
-      "question": "Which of the following is not a reason we wrap our belt only once around our waists?",
+      "question": "Which of the following is NOT a reason we wrap our belt only once around our waists?",
       "micah": "To dedicate yourself to one martial art",
       "fu1": "To pursue one goal",
       "fu2": "To serve one master with unshakable loyalty",
@@ -1587,7 +1587,7 @@ const questions = [
     {
       "grade": "blue-tag",
       "id": "blue-tag27",
-      "question": "What is two-step sparring in Korean?",
+      "question": "What is 'two-step sparring' in Korean?",
       "micah": "Ibo matsogi",
       "fu1": "Ilbo matsogi",
       "fu2": "Sambo matsogi",
@@ -1596,7 +1596,7 @@ const questions = [
     {
       "grade": "blue-tag",
       "id": "blue-tag28",
-      "question": "What does Doo palmok mean?",
+      "question": "What does 'Doo palmok' mean in English?",
       "micah": "Double forearm",
       "fu1": "Triple forearm",
       "fu2": "Reverse forearm",
@@ -1614,7 +1614,7 @@ const questions = [
     {
       "grade": "blue-tag",
       "id": "blue-tag30",
-      "question": "What does Golcho makgi mean?",
+      "question": "What does 'Golcho makgi' mean in English?",
       "micah": "Hooking block",
       "fu1": "Rising block",
       "fu2": "Circular block",
@@ -1623,16 +1623,16 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue1",
-      "question": "What is the difference between a Tulgi and a Taerigi ?",
-      "micah": "Tulgi = Thrust\nTaerigi = Strike",
-      "fu1": "Tulgi = Strike\nTaerigi = Thrust",
-      "fu2": "Tulgi = Kick\nTaerigi = Punch",
-      "fu3": "Tulgi = Jump\nTaerigi = Shift"
+      "question": "What do 'Tulgi' and 'Taerigi' mean in English?",
+      "micah": "Tulgi = Thrust, Taerigi = Strike",
+      "fu1": "Tulgi = Strike, Taerigi = Thrust",
+      "fu2": "Tulgi = Kick, Taerigi = Punch",
+      "fu3": "Tulgi = Jump, Taerigi = Shift"
     },
     {
       "grade": "blue",
       "id": "blue2",
-      "question": "What is a Bandae Goro chagi?",
+      "question": "What is 'bandae goro chagi' in English?",
       "micah": "Reverse hooking kick (attacking version)",
       "fu1": "Reverse hooking kick (defensive version)",
       "fu2": "Hooking block (attacking version)",
@@ -1641,7 +1641,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue3",
-      "question": "What is a Nachuo sogi?",
+      "question": "What is 'Nachuo sogi' in English?",
       "micah": "Low stance",
       "fu1": "Long stance",
       "fu2": "Stuck stance",
@@ -1650,7 +1650,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue4",
-      "question": "What is the weight distribution of a dwitbal sogi?",
+      "question": "What is the weight distribution of a 'dwitbal sogi'?",
       "micah": "90/10",
       "fu1": "80/20",
       "fu2": "70/30",
@@ -1659,7 +1659,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue5",
-      "question": "Which line does a Giokja jirugi meet?",
+      "question": "Which line does a 'giokja jirugi' meet?",
       "micah": "Chest line",
       "fu1": "Solar plexus line",
       "fu2": "Shoulder line",
@@ -1686,7 +1686,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue8",
-      "question": "Which stance has a longer shoulder-width measurement, a Gunnun sogi or a Nachuo sogi?",
+      "question": "Which stance has a longer shoulder-width measurement, a 'gunnun sogi' or a 'nachuo sogi'?",
       "micah": "They are both one and a half shoulder-widths long but measured from different parts of the feet",
       "fu1": "They are both one and a half shoulder-widths long and measured from the same parts of the feet",
       "fu2": "Nachuo sogi",
@@ -1695,7 +1695,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue9",
-      "question": "How long is a low stance? Where is it measured from?",
+      "question": "How long is a low stance (and where is it measured from)?",
       "micah": "One and a half shoulder widths, from heel of front foot to big toe of back foot",
       "fu1": "Two shoulder widths, from heel of front foot to big toe of back foot",
       "fu2": "One and a half shoulder widths, from big toe of front foot to big toe of back foot",
@@ -1713,7 +1713,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue11",
-      "question": "What is one-step sparring in Korean?",
+      "question": "What is 'one-step sparring' in Korean?",
       "micah": "Ilbo matsogi",
       "fu1": "Ibo matsogi",
       "fu2": "Sambo matsogi",
@@ -1722,7 +1722,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue12",
-      "question": "How many movements are there in Joong-gun?",
+      "question": "How many movements are there in Joong-Gun?",
       "micah": "32",
       "fu1": "38",
       "fu2": "24",
@@ -1749,7 +1749,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue15",
-      "question": "What do the number of movements in Joong-gun represent?",
+      "question": "What do the number of movements in Joong-Gun represent?",
       "micah": "Ahn Joong-Gun's age when he was executed",
       "fu1": "Ahn Joong-Gun's age when he was sent to Lui-Shung prison",
       "fu2": "Ahn Joong-Gun's age when he killed the first Japanese governor-general of Korea",
@@ -1758,7 +1758,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue16",
-      "question": "What does Bandal son mean?",
+      "question": "What does 'bandal son' mean in English?",
       "micah": "Arc hand",
       "fu1": "Hand sword",
       "fu2": "Palm hand",
@@ -1767,7 +1767,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue17",
-      "question": "What is the first movement in Joong-gun?",
+      "question": "What is the first (1st) movement in Joong-Gun?",
       "micah": "Niunja so sonkal dung kaunde makgi",
       "fu1": "Niunja so sonkal kaunde makgi",
       "fu2": "Gunnen so sonkal kaunde makgi",
@@ -1776,7 +1776,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue18",
-      "question": "What height is the backfist side strike in Joong-Gun tul",
+      "question": "What height is the 'backfist side strike' in Joong-Gun",
       "micah": "Eye",
       "fu1": "Head",
       "fu2": "Shoulder",
@@ -1785,7 +1785,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue19",
-      "question": "What height are the yop cha jirugi's perfomed in Joong-Gun tul",
+      "question": "What height are the 'yop cha jirugis' perfomed in Joong-Gun",
       "micah": "Shoulder",
       "fu1": "Solar plexus",
       "fu2": "Head",
@@ -1794,7 +1794,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue20",
-      "question": "What height is the palm upward block in the Sonbadak noollo magki?",
+      "question": "What height is the 'palm upward block' in the 'Sonbadak noollo magki'?",
       "micah": "Solar plexus",
       "fu1": "Waist",
       "fu2": "Chest",
@@ -1803,7 +1803,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue21",
-      "question": "How heigh should the side front snap kicks be in Joong-Gun tul",
+      "question": "How heigh should the side front snap kicks be in Joong-Gun",
       "micah": "Below the belt",
       "fu1": "Solar plexus",
       "fu2": "Shoulder level",
@@ -1812,7 +1812,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue22",
-      "question": "Which foot moved back to close ready stance b at the end of Joong-Gun tul",
+      "question": "Which foot moved back to close ready stance b at the end of Joong-Gun",
       "micah": "Left",
       "fu1": "Right",
       "fu2": "Both",
@@ -1830,7 +1830,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue24",
-      "question": "How many fast-motion techniques are there in Joong-gun?",
+      "question": "How many fast-motion techniques are there in Joong-Gun?",
       "micah": "2",
       "fu1": "3",
       "fu2": "4",
@@ -1839,7 +1839,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue25",
-      "question": "How many slow-motion techniques are there in Joong-gun?",
+      "question": "How many slow-motion techniques are there in Joong-Gun?",
       "micah": "3",
       "fu1": "4",
       "fu2": "1",
@@ -1848,7 +1848,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue26",
-      "question": "What is U-shape block in Korean?",
+      "question": "What is 'U-shape block' in Korean?",
       "micah": "Digutja makgi",
       "fu1": "Ollyo makgi",
       "fu2": "Noollo makgi",
@@ -1857,7 +1857,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue27",
-      "question": "What is pressing block in Korean?",
+      "question": "What is 'pressing block' in Korean?",
       "micah": "Noollo makgi",
       "fu1": "Digutja makgi",
       "fu2": "Ollyo makgi",
@@ -1866,7 +1866,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue28",
-      "question": "What is upward block in Korean?",
+      "question": "What is 'upward block' in Korean?",
       "micah": "Ollyo makgi",
       "fu1": "Noollo makgi",
       "fu2": "Digutja makgi",
@@ -1875,7 +1875,7 @@ const questions = [
     {
       "grade": "blue",
       "id": "blue29",
-      "question": "What is upset punch in Korean?",
+      "question": "What is 'upset punch' in Korean?",
       "micah": "Dwijibo jirugi",
       "fu1": "Giokja jirugi",
       "fu2": "Sewo jirugi",
@@ -1920,7 +1920,7 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag4",
-      "question": "What does Red Belt signify?",
+      "question": "What does the colour red signify?",
       "micah": "Danger - cautioning the student to exercise control and warning the opponent to stay away",
       "fu1": "Blood - cautioning the student to exercise control unless they hurt themselves and others",
       "fu2": "Anger - cautioning the student to calm down by using self-control",
@@ -1930,15 +1930,15 @@ const questions = [
       "grade": "red-tag",
       "id": "red-tag5",
       "question": "What is the diagramatic symbol of Toi-Gye?",
-      "micah": "Scholar",
-      "fu1": "Professor",
-      "fu2": "Student",
-      "fu3": "Preacher"
+      "micah": "Scholar (士)",
+      "fu1": "Professor (生)",
+      "fu2": "Student (学)",
+      "fu3": "Preacher (説)"
     },
     {
       "grade": "red-tag",
       "id": "red-tag6",
-      "question": "What does Yopdwi Taerigi mean?",
+      "question": "What does 'Yopdwi Taerigi' mean in English?",
       "micah": "Side-back stike",
       "fu1": "Backwards strike",
       "fu2": "Side strike",
@@ -1947,7 +1947,7 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag7",
-      "question": "What does Doo Palmok Magki mean?",
+      "question": "What does 'doo palmok magki' mean in English?",
       "micah": "Double forearm block",
       "fu1": "Twin forearm block",
       "fu2": "Supported forearm block",
@@ -1956,7 +1956,7 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag8",
-      "question": "What are the 1st and 4th movements of Toi-Gye tul?",
+      "question": "What are the first (1st) and fourth (4th) movements of Toi-Gye?",
       "micah": "Niunja so an palmok kaunde makgi",
       "fu1": "Niunja so bakat palmok kaunde makgi",
       "fu2": "Annun so an palmok kaunde makgi",
@@ -1965,8 +1965,8 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag9",
-      "question": "What are the 2nd and 5th movements of Toi-Gye tul?",
-      "micah": "Gunnun so najunde dwijibun sonkut  tulgi",
+      "question": "What are the second (2nd) and fifth (5th) movements of Toi-Gye?",
+      "micah": "Gunnun so najunde dwijibun sonkut tulgi",
       "fu1": "Niunja so najunde dwijibun sonkut tulgi",
       "fu2": "Gunnun so najunde dwijibo  jirugi",
       "fu3": "Niunja so najunde dwijibo jirugi"
@@ -1974,7 +1974,7 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag10",
-      "question": "How many low side front snap kicks are there in Toi-Gye tul?",
+      "question": "How many low side front snap kicks are there in Toi-Gye?",
       "micah": "2",
       "fu1": "3",
       "fu2": "4",
@@ -1983,7 +1983,7 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag11",
-      "question": "How many middle front kicks are there in Toi-Gye tul?",
+      "question": "How many middle front kicks are there in Toi-Gye?",
       "micah": "1",
       "fu1": "2",
       "fu2": "none",
@@ -1992,7 +1992,7 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag12",
-      "question": "Which foot moves back to Moa junbi sogi B at the end of Toi-Gye tul?",
+      "question": "Which foot moves back to Moa junbi sogi B at the end of Toi-Gye?",
       "micah": "Left",
       "fu1": "Right",
       "fu2": "Both",
@@ -2001,7 +2001,7 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag13",
-      "question": "What is Ilbo Matsogi?",
+      "question": "What is 'Ilbo Matsogi' in English?",
       "micah": "One-step sparring",
       "fu1": "Two-step sparring",
       "fu2": "Two v one sparring",
@@ -2010,7 +2010,7 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag14",
-      "question": "What does Neurin Dongjak mean?",
+      "question": "What does 'Neurin Dongjak' mean in English?",
       "micah": "Slow motion",
       "fu1": "Fast motion",
       "fu2": "Connected motion",
@@ -2019,7 +2019,7 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag15",
-      "question": "What is free sparring in Korean?",
+      "question": "What is 'free sparring 'in Korean?",
       "micah": "Jayu matsogi",
       "fu1": "Ban-jayu matsogi",
       "fu2": "Idil matsogi",
@@ -2028,7 +2028,7 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag16",
-      "question": "What is the significance of 37?",
+      "question": "What is the significance of the number 37?",
       "micah": "37 represents the degrees latitude where Yi Hwang was born",
       "fu1": "37 represents the degrees longitude where Yi Hwang was born",
       "fu2": "37 represents the age of Yi Hwang when he died",
@@ -2046,7 +2046,7 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag18",
-      "question": "What does San Makgi mean in Korean?",
+      "question": "What does 'San Makgi' mean in English?",
       "micah": "W-shaped block",
       "fu1": "V-shaped block",
       "fu2": "Y-shaped block",
@@ -2064,7 +2064,7 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag20",
-      "question": "How many Sonkal Daebi Magki are there in Toi Gye?",
+      "question": "How many 'sonkal daebi magki' are there in Toi-Gye?",
       "micah": "4",
       "fu1": "8",
       "fu2": "2",
@@ -2082,7 +2082,7 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag22",
-      "question": "What is downward kick in Korean?",
+      "question": "What is 'downward kick' in Korean?",
       "micah": "Naeryo chagi",
       "fu1": "Ollyo chagi",
       "fu2": "Cha momchugi",
@@ -2091,34 +2091,34 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag23",
-      "question": "What is the first movement in Toi Gye?",
-      "micah": "Niunja so an palmok kaunde makgi",
-      "fu1": "Moa so orun dung joomuk\nyopdwi taerigi",
-      "fu2": "Gunnun so dwijibun sonkut najunde tulgi",
-      "fu3": "Gunnun so kyocha joomuk\nnoollo makgi"
+      "question": "How long should a shift be?",
+      "micah": "One (1) foot's width",
+      "fu1": "Two (2) feet's width",
+      "fu2": "One (1) foot's length",
+      "fu3": "One (1) shoulder width"
     },
     {
       "grade": "red-tag",
       "id": "red-tag24",
-      "question": "What is the second movement in Toi Gye?",
+      "question": "What is the second movement in Toi-Gye?", // repeat
       "micah": "Gunnun so dwijibun sonkut najunde tulgi",
       "fu1": "Niunja so an palmok kaunde makgi",
-      "fu2": "Moa so orun dung joomuk\nyopdwi taerigi",
-      "fu3": "Gunnun so kyocha joomuk\nnoollo makgi"
+      "fu2": "Moa so orun dung joomuk yopdwi taerigi",
+      "fu3": "Gunnun so kyocha joomuk noollo makgi"
     },
     {
       "grade": "red-tag",
       "id": "red-tag25",
-      "question": "What is the third movement in Toi Gye?",
-      "micah": "Moa so orun dung joomuk\nyopdwi taerigi",
+      "question": "What is the third (3rd) movement in Toi-Gye?",
+      "micah": "Moa so orun dung joomuk yopdwi taerigi",
       "fu1": "Gunnun so dwijibun sonkut najunde tulgi",
       "fu2": "Niunja so an palmok kaunde makgi",
-      "fu3": "Gunnun so kyocha joomuk\nnoollo makgi"
+      "fu3": "Gunnun so kyocha joomuk noollo makgi"
     },
     {
       "grade": "red-tag",
       "id": "red-tag26",
-      "question": "How many technques in Toi Gye are in sitting stance?",
+      "question": "How many technques in Toi-Gye are in sitting stance?",
       "micah": "6",
       "fu1": "7",
       "fu2": "8",
@@ -2127,7 +2127,7 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag27",
-      "question": "What ready stance do you start Toi Gye in?",
+      "question": "What ready stance do you start Toi-Gye in?",
       "micah": "Moa junbi sogi B",
       "fu1": "Moa junbi sogi A",
       "fu2": "Moa junbi sogi C",
@@ -2136,7 +2136,7 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag28",
-      "question": "What does Gurunun dongjak mean?",
+      "question": "What does 'Gurunun dongjak' mean in English?",
       "micah": "Stamping motion",
       "fu1": "Slow motion",
       "fu2": "Shifting motion",
@@ -2145,7 +2145,7 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag29",
-      "question": "What does Moorup ollyo chagi mean?",
+      "question": "What does 'Moorup ollyo chagi' mean in English?",
       "micah": "Knee upward kick",
       "fu1": "Knee rising kick",
       "fu2": "Knee snap kick",
@@ -2154,7 +2154,7 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag30",
-      "question": "How many elbow techniques are there in Toi Gye?",
+      "question": "How many elbow techniques are there in Toi-Gye?",
       "micah": "1",
       "fu1": "0",
       "fu2": "2",
@@ -2163,8 +2163,8 @@ const questions = [
     {
       "grade": "red",
       "id": "red1",
-      "question": "What is idil matsogi?",
-      "micah": "Two v one sparring",
+      "question": "What is 'idil matsogi' in English?",
+      "micah": "Two-vs-one (2-vs-1) sparring",
       "fu1": "Foot sparring",
       "fu2": "Semi-free sparring",
       "fu3": "Free sparring"
@@ -2173,15 +2173,15 @@ const questions = [
       "grade": "red",
       "id": "red2",
       "question": "How long should a slide be?",
-      "micah": "One shoulder width",
-      "fu1": "Two shoulder width",
-      "fu2": "One and a half shoulder widths",
-      "fu3": "One and a half metres"
+      "micah": "One (1) shoulder width",
+      "fu1": "Two (2) shoulder widths",
+      "fu2": "One and a half (1.5) shoulder widths",
+      "fu3": "One and a half metres (1.5m)"
     },
     {
       "grade": "red",
       "id": "red3",
-      "question": "What is the weigh distribution of a soojik sogi?",
+      "question": "What is the weigh distribution of a 'soojik sogi'?",
       "micah": "60/40",
       "fu1": "50/50",
       "fu2": "70/30",
@@ -2190,7 +2190,7 @@ const questions = [
     {
       "grade": "red",
       "id": "red4",
-      "question": "What is \"Integrity\" in korean?",
+      "question": "What is 'Integrity' in Korean?",
       "micah": "Yom Chi",
       "fu1": "Ye Ui",
       "fu2": "In Nae",
@@ -2199,7 +2199,7 @@ const questions = [
     {
       "grade": "red",
       "id": "red5",
-      "question": "What distance should the fist be to your umbilicus in Moa jumbi sogi b?",
+      "question": "What distance should your fist be to your belly-button in 'Moa junbi sogi B'?",
       "micah": "20cm",
       "fu1": "10cm",
       "fu2": "30cm",
@@ -2208,7 +2208,7 @@ const questions = [
     {
       "grade": "red",
       "id": "red6",
-      "question": "What does Mikulgi mean?",
+      "question": "What does 'Mikulgi' mean in English?",
       "micah": "Sliding",
       "fu1": "Jumping",
       "fu2": "Shifting",
@@ -2262,7 +2262,7 @@ const questions = [
     {
       "grade": "red",
       "id": "red12",
-      "question": "What does Pyun joomuk mean?",
+      "question": "What does 'pyun joomuk' mean in English?",
       "micah": "Open fist",
       "fu1": "Closed fist",
       "fu2": "Double fist",
@@ -2271,7 +2271,7 @@ const questions = [
     {
       "grade": "red",
       "id": "red13",
-      "question": "What is the meaning of the colour black?",
+      "question": "What is the significance of the colour black?",
       "micah": "Black is opposite to white, therefore, signifying the maturity and proficiency in Taekwon-Do. It also indicates the wearer’s imperviousness to darkness and fear.",
       "fu1": "Black signifies danger, cautioning the student to exercise control and warning the opponent to stay away.",
       "fu2": "Black signifies the lack of innocence compared to the beginner. It also represents restraint and sadness as the wearer must follow a lot of rules.",
@@ -2280,7 +2280,7 @@ const questions = [
     {
       "grade": "red",
       "id": "red14",
-      "question": "What does Miro makgi mean?",
+      "question": "What does 'miro makgi' mean?",
       "micah": "Pushing block",
       "fu1": "Pressing block",
       "fu2": "Crushing block",
@@ -2290,15 +2290,15 @@ const questions = [
       "grade": "red",
       "id": "red15",
       "question": "What is the pattern diagram for Hwa-Rang?",
-      "micah": "An ɪ shape",
-      "fu1": "A Z shape",
-      "fu2": "The Scholar",
-      "fu3": "The Admiral"
+      "micah": "A capital 'i' shape (工)",
+      "fu1": "A 'Z' shape",
+      "fu2": "The Scholar (士)",
+      "fu3": "The Admiral (将)"
     },
     {
       "grade": "red",
       "id": "red16",
-      "question": "What does Waebal sogi mean?",
+      "question": "What does 'Waebal sogi' mean in English?",
       "micah": "One-legged stance",
       "fu1": "Vertical stance",
       "fu2": "Wide fixed stance",
@@ -2307,7 +2307,7 @@ const questions = [
     {
       "grade": "red",
       "id": "red17",
-      "question": "In what motion are the Dollyo chagi performed in Hwa-Rang?",
+      "question": "In what motion are the 'dollyo chagis' performed in Hwa-Rang?",
       "micah": "Fast",
       "fu1": "Connected",
       "fu2": "Continuous",
@@ -2316,7 +2316,7 @@ const questions = [
     {
       "grade": "red",
       "id": "red18",
-      "question": "What is the first movement in Hwa-Rang?",
+      "question": "What is the first (1st) movement in Hwa-Rang?",
       "micah": "Annun so sonbadak kaunde yobap miro makgi",
       "fu1": "Niunja so sang palmok makgi",
       "fu2": "Annun so joomuk kaunde ap jirugi",
@@ -2325,7 +2325,7 @@ const questions = [
     {
       "grade": "red",
       "id": "red19",
-      "question": "What is the second movement in Hwa-Rang?",
+      "question": "What is the second (2nd) movement in Hwa-Rang?",
       "micah": "Annun so ap joomuk kaunde jirugi",
       "fu1": "Annun so sonbadak kaunde yobap miro makgi",
       "fu2": "Niunja so sang palmok makgi",
@@ -2334,7 +2334,7 @@ const questions = [
     {
       "grade": "red",
       "id": "red20",
-      "question": "What is the fourth movement in Hwa-Rang?",
+      "question": "What is the fourth (4th) movement in Hwa-Rang?",
       "micah": "Niunja so sang palmok makgi",
       "fu1": "Annun so joomuk kaunde ap jirugi",
       "fu2": "Annun so sonbadak kaunde yobap miro makgi",
@@ -2352,7 +2352,7 @@ const questions = [
     {
       "grade": "red",
       "id": "red22",
-      "question": "What does Ollyo jirugi mean?",
+      "question": "What does 'ollyo jirugi' mean?",
       "micah": "Upward punch",
       "fu1": "Downward punch",
       "fu2": "Falling punch",
@@ -2361,7 +2361,7 @@ const questions = [
     {
       "grade": "red",
       "id": "red23",
-      "question": "What does Naeryo taerigi mean?",
+      "question": "What does 'naeryo taerigi' mean?",
       "micah": "Downward strike",
       "fu1": "Upward strike",
       "fu2": "Falling strike",
@@ -2370,7 +2370,7 @@ const questions = [
     {
       "grade": "red",
       "id": "red24",
-      "question": "Translate this: Flying",
+      "question": "Translate this to Korean: 'Flying'",
       "micah": "Twimyo",
       "fu1": "Twiyo",
       "fu2": "Twiggi",
@@ -2379,7 +2379,7 @@ const questions = [
     {
       "grade": "red",
       "id": "red25",
-      "question": "Translate this: Jumping",
+      "question": "Translate this to Korean: 'Jumping'",
       "micah": "Twiggi",
       "fu1": "Twimyo",
       "fu2": "Twiyo",
@@ -2388,7 +2388,7 @@ const questions = [
     {
       "grade": "red",
       "id": "red26",
-      "question": "Translate this: Mid-air",
+      "question": "Translate this to Korean: 'Mid-air'",
       "micah": "Twiyo",
       "fu1": "Twiggi",
       "fu2": "Twimyo",
@@ -2397,11 +2397,11 @@ const questions = [
     {
       "grade": "red",
       "id": "red27",
-      "question": "Aside from Hwa-Rang, which other colour belt pattern do you do a X-fist pressing block in?",
-      "micah": "Toi Gye",
-      "fu1": "Joong Gun",
+      "question": "Aside from Hwa-Rang, which other colour belt pattern do you perform X-fist pressing block in?",
+      "micah": "Toi-Gye",
+      "fu1": "Joong-Gun",
       "fu2": "Yul-Gok",
-      "fu3": "Choong Moo"
+      "fu3": "Choong-Moo"
     },
     {
       "grade": "red",
@@ -2415,7 +2415,7 @@ const questions = [
     {
       "grade": "red",
       "id": "red29",
-      "question": "With which part of the foot do you perform a Golcho chagi?",
+      "question": "With which part of the foot do you perform a 'golcho chagi'?",
       "micah": "Yop baldung",
       "fu1": "Dwitchook",
       "fu2": "Balkal dung",
@@ -2424,7 +2424,7 @@ const questions = [
     {
       "grade": "red",
       "id": "red30",
-      "question": "With which part of the foot do you perform a Bandae Goro chagi?",
+      "question": "With which part of the foot do you perform a 'bandae goro chagi'?",
       "micah": "Dwitchook",
       "fu1": "Yop baldung",
       "fu2": "Dwit kumchi",
@@ -2433,11 +2433,11 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag1",
-      "question": "What is the meaning of the colour black?",
-      "micah": "Black is opposite to white, therefore, signifying the maturity and proficiency in Taekwon-Do. It also indicates the wearer’s imperviousness to darkness and fear.",
-      "fu1": "Black signifies danger, cautioning the student to exercise control and warning the opponent to stay away.",
-      "fu2": "Black signifies the lack of innocence compared to the beginner. It also represents restraint and sadness as the wearer must follow a lot of rules.",
-      "fu3": "Black belt signifies messiness as your white belt should now be covered in dirt from all the training."
+      "question": "How many colour-belt patterns have 19 moves?",
+      "micah": "9",
+      "fu1": "1",
+      "fu2": "4",
+      "fu3": "7"
     },
     {
       "grade": "black-tag",
@@ -2460,16 +2460,16 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag4",
-      "question": "What is the difference between Twimyo and Twiggi?",
-      "micah": "Twimyo = Flying\nTwiggi = Jumping",
-      "fu1": "Twimyo = Jumping\nTwiggi = Flying",
+      "question": "What do 'twimyo' and 'twiggi' mean in English?",
+      "micah": "Twimyo = Flying, Twiggi = Jumping",
+      "fu1": "Twimyo = Jumping, Twiggi = Flying",
       "fu2": "There is no difference",
-      "fu3": "Twimyo = Twin\nTwiggi = Double"
+      "fu3": "Twimyo = Twin, Twiggi = Double"
     },
     {
       "grade": "black-tag",
       "id": "black-tag5",
-      "question": "What does Momchau Makgi mean in Korean?",
+      "question": "What does 'momchau makgi' mean in English?",
       "micah": "Checking block",
       "fu1": "Catching block",
       "fu2": "Crossing block",
@@ -2478,7 +2478,7 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag6",
-      "question": "What height is the Doo Palmok Magki performed in Choong Moo?",
+      "question": "What height is the 'doo palmok magki' performed in Choong-Moo?",
       "micah": "High (fist at at eye level)",
       "fu1": "High (top of palm at eye level)",
       "fu2": "Middle (fist at shoulder level)",
@@ -2487,7 +2487,7 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag7",
-      "question": "What is the height of the second turning kick in Choong Moo?",
+      "question": "What is the height of the second (2nd) turning kick in Choong-Moo?",
       "micah": "Middle (shoulder level)",
       "fu1": "High (head level)",
       "fu2": "Middle (solar plexus level)",
@@ -2496,7 +2496,7 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag8",
-      "question": "What is the height of the first turning kick in Choong Moo?",
+      "question": "What is the height of the first (1st) turning kick in Choong-Moo?",
       "micah": "High (head level)",
       "fu1": "Middle (solar plexus level)",
       "fu2": "High (shoulder level)",
@@ -2505,7 +2505,7 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag9",
-      "question": "What is a Bituro Chagi?",
+      "question": "What is a 'bituro chagi'?",
       "micah": "Twisting kick",
       "fu1": "Split kick",
       "fu2": "Checking kick",
@@ -2514,7 +2514,7 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag10",
-      "question": "How many movements are there in Choong Moo?",
+      "question": "How many movements are there in Choong-Moo?",
       "micah": "30",
       "fu1": "31",
       "fu2": "32",
@@ -2523,7 +2523,7 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag11",
-      "question": "What are the heights of the side kicks in Choong Moo?",
+      "question": "What are the heights of the side kicks in Choong-Moo?",
       "micah": "Middle (shoulder level)",
       "fu1": "High (head level)",
       "fu2": "Low (waist level)",
@@ -2532,7 +2532,7 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag12",
-      "question": "How many different blocks are in Choong Moo?",
+      "question": "How many different blocks are in Choong-Moo?",
       "micah": "11",
       "fu1": "10",
       "fu2": "12",
@@ -2541,7 +2541,7 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag13",
-      "question": "How many types of motions are there in Choong Moo? And what are they?",
+      "question": "How many types of motions are there in Choong-Moo? And what are they?",
       "micah": "2 (Normal and Fast)",
       "fu1": "2 (Normal and Continuous)",
       "fu2": "3 (Normal, Fast and Continuous)",
@@ -2577,16 +2577,16 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag17",
-      "question": "How many patterns are there in total?",
-      "micah": "24",
-      "fu1": "15",
-      "fu2": "9",
-      "fu3": "27"
+      "question": "What does 'Boo-sabum-nim' mean in English?", // repeat
+      "micah": "Assistant Instructor",
+      "fu1": "Instructor",
+      "fu2": "Master",
+      "fu3": "Grand Master"
     },
     {
       "grade": "black-tag",
       "id": "black-tag18",
-      "question": "What does Saju-Tulgi mean?",
+      "question": "What does 'Saju-Tulgi' translate to in English?",
       "micah": "Four-directional thrust",
       "fu1": "Four-directional block",
       "fu2": "Four-directional punch",
@@ -2613,7 +2613,7 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag21",
-      "question": "What is a Kobukson?",
+      "question": "What is a 'kobukson'?",
       "micah": "An armoured battleship",
       "fu1": "A heavy cannon",
       "fu2": "A long wooden staff",
@@ -2631,7 +2631,7 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag23",
-      "question": "What does Kyocha sonkal mean?",
+      "question": "What does 'kyocha-sonkal' mean in English?",
       "micah": "X-knife-hand",
       "fu1": "X-knife-block",
       "fu2": "X-fist-hand",
@@ -2640,7 +2640,7 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag24",
-      "question": "In what stance do you do Digutja makgi in Choong-Moo?",
+      "question": "In what stance do you do 'digutja makgi' in Choong-Moo?",
       "micah": "Fixed stance",
       "fu1": "L-stance",
       "fu2": "Walking stance",
@@ -2658,7 +2658,7 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag26",
-      "question": "What does Ap taerigi mean?",
+      "question": "What does 'ap taerigi' mean?",
       "micah": "Front strike",
       "fu1": "Back strike",
       "fu2": "Side strike",
@@ -2667,7 +2667,7 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag27",
-      "question": "What does Dwitcha jirugi mean?",
+      "question": "What does 'dwitcha jirugi' mean?",
       "micah": "Back-piercing kick",
       "fu1": "Back kick",
       "fu2": "Reverse turning kick",
@@ -2676,7 +2676,7 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag28",
-      "question": "What does Kaunde ap makgi mean?",
+      "question": "What does 'kaunde ap makgi' mean?",
       "micah": "Middle front block",
       "fu1": "Rising front block",
       "fu2": "Middle rising block",
@@ -2685,7 +2685,7 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag29",
-      "question": "What does Sang sonbadak mean?",
+      "question": "What does 'sang sonbadak' mean?",
       "micah": "Twin palm",
       "fu1": "Double palm",
       "fu2": "Twin pressing",
@@ -2694,7 +2694,7 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag30",
-      "question": "Add up all the moves in all colour belt patterns. How many moves?",
+      "question": "Add up all the moves in all colour belt patterns. How many are there?",
       "micah": "258",
       "fu1": "312",
       "fu2": "276",
