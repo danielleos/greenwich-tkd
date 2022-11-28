@@ -86,7 +86,6 @@
 
 		$(window).resize(function(){
 			if ($(window).width() > 766) {
-				console.log('resizing');
 				$('body').removeClass('probootstrap-mobile-menu-active');
 				$('.probootstrap-burger-menu').removeClass('active');
 			} else {

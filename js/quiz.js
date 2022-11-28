@@ -28,7 +28,7 @@ function enterScore() {
        "GAY", "G4Y", "CNT", "TIT", "T1T", "FUQ", "POO", "P00", "SEX",
        "S3X", "A$$", "S3X", "$3X", "$EX", "A$S", "AS$", "KUM", "NOB",
        "N0B", "PO0", "P0O"].indexOf(scoreName) > -1) {
-    alert("The name you entered is banned. Your input and IP address have been logged and emailed to Mr Tran.")
+    alert("🚫 The name you entered is banned. Your input and IP address have been logged and emailed to Mr Tran 👀")
     return false;
   }
 
