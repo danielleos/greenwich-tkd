@@ -825,12 +825,12 @@ body.modal-open .modalcontent {
 #blue-tag,
 #red,
 #black-tag { 
-  color: #000;
+  color: #000 !important;
 }
 
 #blue,
 #red-tag { 
-  color: #fff;
+  color: #fff !important;
 }
 
 .quiz-right-bottom-box-inner > p.black-belt-roman-numeral {
