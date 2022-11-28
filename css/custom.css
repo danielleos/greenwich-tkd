@@ -714,6 +714,13 @@ body.modal-open .modalcontent {
   line-height: 1;
 }
 
+@media screen and (max-width: 500px) {
+  .quiz-right-bottom-box-inner {
+    padding: 2px;
+    font-size: 12px;
+  }
+}
+
 .quiz-right-bottom-box-inner:hover:not(.black-belt){
   position: absolute;
   border: 1px solid white;
@@ -1432,8 +1439,8 @@ body.modal-open .modalcontent {
   width:40%;
 }
 
-.fc-cards {
-}
+/* .fc-cards {
+} */
 
 .fc-card {
   display: flex;
