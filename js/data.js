@@ -103,10 +103,10 @@ const questions = [
       "grade": "white",
       "id": "white12",
       "question": "Name the 3 sections of the body in Korean.",
-      "micah": "Nopunde (High), Kaunde (Middle), Najunde (Low)",
-      "fu1": "Nopunde (Middle), Kaunde (High), Najunde (Low)",
-      "fu2": "Nopunde (Low), Kaunde (High), Najunde (Middle)",
-      "fu3": "Nopunde (High), Kaunde (Low), Najunde (Middle)"
+      "micah": "Nopunde = High<br>Kaunde = Middle<br>Najunde = Low",
+      "fu1": "Nopunde = Middle<br>Kaunde = High<br>Najunde = Low",
+      "fu2": "Nopunde = Low<br>Kaunde = High<br>Najunde = Middle",
+      "fu3": "Nopunde = High<br>Kaunde = Low<br>Najunde = Middle"
     },
     {
       "grade": "white",
@@ -147,7 +147,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white17",
-      "question": "What does Narani Sogi mean in English?",
+      "question": "What does 'Narani Sogi' mean in English?",
       "micah": "Parallel Stance",
       "fu1": "Ready Stance",
       "fu2": "Attention Stance",
@@ -228,7 +228,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white26",
-      "question": "Where should your fist or fingertips be for a middle block?",
+      "question": "For a middle block, how high should the fist or fingertips on the blocking hand be?",
       "micah": "Shoulder level",
       "fu1": "Eye level",
       "fu2": "Belt level",
@@ -237,7 +237,7 @@ const questions = [
     {
       "grade": "white",
       "id": "white27",
-      "question": "Where should your fist be for a middle punch?",
+      "question": "For a middle punch, how high should the fist on the punching hand be?",
       "micah": "Shoulder level",
       "fu1": "Belt level",
       "fu2": "Eye level",
@@ -247,10 +247,10 @@ const questions = [
       "grade": "white",
       "id": "white28",
       "question": "How wide and long is a walking stance?",
-      "micah": "Width: 1 shoulder width, Length: 1 and a half shoulder widths",
-      "fu1": "Width: 2 shoulder widths, Length: 1 and a half shoulder widths",
-      "fu2": "Width: 1 shoulder width, Length: 2 shoulder widths",
-      "fu3": "Width: 1 and a half shoulder widths, Length: 1 shoulder width"
+      "micah": "Width: 1 shoulder width<br>Length: 1 and a half shoulder widths",
+      "fu1": "Width: 2 shoulder widths<br>Length: 1 and a half shoulder widths",
+      "fu2": "Width: 1 shoulder width<br>Length: 2 shoulder widths",
+      "fu3": "Width: 1 and a half shoulder widths<br>Length: 1 shoulder width"
     },
     {
       "grade": "white",
@@ -301,19 +301,19 @@ const questions = [
       "grade": "yellow-tag",
       "id": "yellowtag4",
       "question": "What is the 9th movement of Chon-Ji?",
-      "micah": "Niunja So, An palmok kaunde makgi",
-      "fu1": "Niunja So, An joomuk kaunde makgi",
-      "fu2": "Niunja So, An palmok nopunde makgi",
-      "fu3": "Niunja So, An palmok najunde makgi"
+      "micah": "Niunja so an palmok kaunde makgi",
+      "fu1": "Niunja so an joomuk kaunde makgi",
+      "fu2": "Niunja so an palmok nopunde makgi",
+      "fu3": "Niunja so an palmok najunde makgi"
     },
     {
       "grade": "yellow-tag",
       "id": "yellowtag5",
       "question": "What is the last movement of Chon-Ji?",
-      "micah": "Gunnun so, baro jirugi",
-      "fu1": "Annun so, baro jirugi",
-      "fu2": "Narani so, baro jirugi",
-      "fu3": "Gunnun so, baro makgi"
+      "micah": "Gunnun so baro jirugi",
+      "fu1": "Annun so baro jirugi",
+      "fu2": "Narani so baro jirugi",
+      "fu3": "Gunnun so baro makgi"
     },
     {
       "grade": "yellow-tag",
@@ -382,10 +382,10 @@ const questions = [
       "grade": "yellow-tag",
       "id": "yellowtag13",
       "question": "Name all the stances you know in Korean",
-      "micah": "Charyot Sogi, Narani sogi, Annun Sogi, Gunnun Sogi, Niunja Sogi",
-      "fu1": "Charyot Sogi, Narani junbi sogi, Annun Sogi",
-      "fu2": "Charyot Sogi, Narani junbi sogi, Gunnun Sogi, Niunja Sogi",
-      "fu3": "Charyot Sogi, Narani junbi sogi, Annun Sogi, Gunnun Sogi, Ninja Sogi"
+      "micah": "Charyot Sogi<br>Narani sogi<br>Annun Sogi<br>Gunnun Sogi<br>Niunja Sogi",
+      "fu1": "Charyot Sogi<br>Narani junbi sogi<br>Annun Sogi",
+      "fu2": "Charyot Sogi<br>Narani junbi sogi<br>Gunnun Sogi<br>Niunja Sogi",
+      "fu3": "Charyot Sogi<br>Narani junbi sogi<br>Annun Sogi<br>Gunnun Sogi<br>Ninja Sogi"
     },
     {
       "grade": "yellow-tag",
@@ -435,20 +435,20 @@ const questions = [
     {
       "grade": "yellow-tag",
       "id": "yellowtag19",
-      "question": "Describe what an 'inward' block is",
-      "micah": "It is a block which makes contact with your opponents inner forearm to expose the inside portion of their body",
-      "fu1": "It is a block which makes contact with your opponents outer forearm to expose the outside portion of their body",
-      "fu2": "It is a block which makes contact with your opponents inner forearm to expose the inside portion of your body",
-      "fu3": "It is a block which makes contact with your opponents outer forearm to expose the lower portion of your body"
+      "question": "Describe what an 'inside' block is",
+      "micah": "It is a block which makes contact with an opponent's inner body part (e.g. forearm) to expose the inside portion of their body",
+      "fu1": "It is a block which makes contact with an opponent's outer body part (e.g. forearm) to expose the outside portion of their body",
+      "fu2": "It is a block which makes contact with an opponent's inner body part (e.g. forearm) to expose the inside portion of your body",
+      "fu3": "It is a block which makes contact with an opponent's outer body part (e.g. forearm) to expose the lower portion of your body"
     },
     {
       "grade": "yellow-tag",
       "id": "yellowtag20",
-      "question": "Describe what an 'outward' block is",
-      "micah": "It is a block which makes contact with your opponents outer forearm to expose the outside portion of their body",
-      "fu1": "It is a block which makes contact with your opponents inner forearm to expose the inside portion of their body",
-      "fu2": "It is a block which makes contact with your opponents inner forearm to expose the inside portion of your body",
-      "fu3": "It is a block which makes contact with your opponents outer forearm to expose the lower portion of your body"
+      "question": "Describe what an 'outside' block is",
+      "micah": "It is a block which makes contact with an opponent's outer body part (e.g. forearm) to expose the outside portion of their body",
+      "fu1": "It is a block which makes contact with an opponent's inner body part (e.g. forearm) to expose the inside portion of their body",
+      "fu2": "It is a block which makes contact with an opponent's inner body part (e.g. forearm) to expose the inside portion of your body",
+      "fu3": "It is a block which makes contact with an opponent's outer body part (e.g. forearm) to expose the lower portion of your body"
     },
     {
       "grade": "yellow-tag",
@@ -832,10 +832,10 @@ const questions = [
       "grade": "green-tag",
       "id": "green-tag3",
       "question": "Whats the weight distribution of a 'niunja sogi'?",
-      "micah": "70% on the rear, 30% on the front",
-      "fu1": "30% on the rear, 70% on the front",
-      "fu2": "50% on the rear, 50% on the front",
-      "fu3": "100% on the rear, 0% on the front"
+      "micah": "70% on the rear<br>30% on the front",
+      "fu1": "30% on the rear<br>70% on the front",
+      "fu2": "50% on the rear<br>50% on the front",
+      "fu3": "100% on the rear<br>0% on the front"
     },
     {
       "grade": "green-tag",
@@ -948,7 +948,7 @@ const questions = [
     {
       "grade": "green-tag",
       "id": "green-tag16",
-      "question": "When was the patriot Ahn Joong-Gun born and when did he die?",
+      "question": "What year was the patriot Ahn Joong-Gun born and when did he die?",
       "micah": "1876 to 1938",
       "fu1": "1838 to 1976",
       "fu2": "1786 to 1848",
@@ -1075,16 +1075,16 @@ const questions = [
       "grade": "green-tag",
       "id": "green-tag30",
       "question": "What are the tenets of Taekwon-Do?",
-      "micah": "Courtesy, Integrity, Perseverance, Self Control, Indomitable Spirit",
-      "fu1": "Courtesy, Integrity, Power, Self Control, Unyielding Spirit",
-      "fu2": "Courtesy, Integrity, Perseverance, Honour, Indomitable Spirit",
-      "fu3": "Courtesy, Integrity, Perseverance, Self Control, Unyielding Spirit"
+      "micah": "Courtesy<br>Integrity<br>Perseverance<br>Self Control<br>Indomitable Spirit",
+      "fu1": "Courtesy<br>Integrity<br>Power<br>Self Control<br>Unyielding Spirit",
+      "fu2": "Courtesy<br>Integrity<br>Perseverance<br>Honour<br>Indomitable Spirit",
+      "fu3": "Courtesy<br>Integrity<br>Perseverance<br>Self Control<br>Unyielding Spirit"
     },
     {
       "grade": "green",
       "id": "green1",
       "question": "What does the colour green signify?",
-      "micah": "The plantʼs growth - as Taekwon-Do skills begin to develop.",
+      "micah": "The plant's growth - as Taekwon-Do skills begin to develop.",
       "fu1": "The earth - from which a plant sprouts and takes root as the Taekwon-Do",
       "fu2": "Creativity - but don't tell yellow belts",
       "fu3": "Jealousy - Because blue belts don't clash as much with natural skin tones"
@@ -1201,10 +1201,10 @@ const questions = [
       "grade": "green",
       "id": "green14",
       "question": "What is CREMBS an acronym for?",
-      "micah": "Concentration, Reaction Force, Equilibrium, Mass, Breath Control, Speed",
-      "fu1": "Concentration, Reaction Force, Equilibrium, Momentum, Breath Control, Safety",
-      "fu2": "Creativity, Reaction Force, Equalness, Mass, Breath Control, Speed",
-      "fu3": "Charisma, Rhinestones, Elocution, Magnets, Bladder Control, Sympathy "
+      "micah": "Concentration<br>Reaction Force<br>Equilibrium<br>Mass<br>Breath Control<br>Speed",
+      "fu1": "Concentration<br>Reaction Force<br>Equilibrium<br>Momentum<br>Breath Control<br>Safety",
+      "fu2": "Creativity<br>Reaction Force<br>Equalness<br>Mass<br>Breath Control<br>Speed",
+      "fu3": "Charisma<br>Rhinestones<br>Elocution<br>Magnets<br>Bladder Control<br>Sympathy "
     },
     {
       "grade": "green",
@@ -1624,10 +1624,10 @@ const questions = [
       "grade": "blue",
       "id": "blue1",
       "question": "What do 'Tulgi' and 'Taerigi' mean in English?",
-      "micah": "Tulgi = Thrust, Taerigi = Strike",
-      "fu1": "Tulgi = Strike, Taerigi = Thrust",
-      "fu2": "Tulgi = Kick, Taerigi = Punch",
-      "fu3": "Tulgi = Jump, Taerigi = Shift"
+      "micah": "Tulgi = Thrust<br>Taerigi = Strike",
+      "fu1": "Tulgi = Strike<br>Taerigi = Thrust",
+      "fu2": "Tulgi = Kick<br>Taerigi = Punch",
+      "fu3": "Tulgi = Jump<br>Taerigi = Shift"
     },
     {
       "grade": "blue",
@@ -1696,10 +1696,10 @@ const questions = [
       "grade": "blue",
       "id": "blue9",
       "question": "How long is a low stance (and where is it measured from)?",
-      "micah": "One and a half shoulder widths, from heel of front foot to big toe of back foot",
-      "fu1": "Two shoulder widths, from heel of front foot to big toe of back foot",
-      "fu2": "One and a half shoulder widths, from big toe of front foot to big toe of back foot",
-      "fu3": "One and a half shoulder widths, from heel of front foot to heel of back foot"
+      "micah": "One and a half shoulder widths<br>(from heel of front foot to big toe of back foot)",
+      "fu1": "Two shoulder widths<br>(from heel of front foot to big toe of back foot)",
+      "fu2": "One and a half shoulder widths<br>(from big toe of front foot to big toe of back foot)",
+      "fu3": "One and a half shoulder widths<br>(from heel of front foot to heel of back foot)"
     },
     {
       "grade": "blue",
@@ -2038,10 +2038,10 @@ const questions = [
       "grade": "red-tag",
       "id": "red-tag17",
       "question": "How wide is a sitting stance and where is it measured from?",
-      "micah": "One and a half shoulder widths, from the inside of the feet",
-      "fu1": "One and a half shoulder widths, from the outside of the feet",
-      "fu2": "Two shoulder widths, from the inside of the feet",
-      "fu3": "Two shoulder widths, from the outside of the feet"
+      "micah": "One and a half shoulder widths<br>(from the inside of the feet)",
+      "fu1": "One and a half shoulder widths<br>(from the outside of the feet)",
+      "fu2": "Two shoulder widths<br>(from the inside of the feet)",
+      "fu3": "Two shoulder widths<br>(from the outside of the feet)"
     },
     {
       "grade": "red-tag",
@@ -2100,11 +2100,11 @@ const questions = [
     {
       "grade": "red-tag",
       "id": "red-tag24",
-      "question": "What is the second movement in Toi-Gye?", // repeat
-      "micah": "Gunnun so dwijibun sonkut najunde tulgi",
-      "fu1": "Niunja so an palmok kaunde makgi",
-      "fu2": "Moa so orun dung joomuk yopdwi taerigi",
-      "fu3": "Gunnun so kyocha joomuk noollo makgi"
+      "question": "How many times are you in a 'moa sogi' in Toi-Gye (including at junbi & paro)",
+      "micah": "5",
+      "fu1": "4",
+      "fu2": "6",
+      "fu3": "3"
     },
     {
       "grade": "red-tag",
@@ -2119,8 +2119,8 @@ const questions = [
       "grade": "red-tag",
       "id": "red-tag26",
       "question": "How many technques in Toi-Gye are in sitting stance?",
-      "micah": "6",
-      "fu1": "7",
+      "micah": "7",
+      "fu1": "6",
       "fu2": "8",
       "fu3": "9"
     },
@@ -2199,7 +2199,7 @@ const questions = [
     {
       "grade": "red",
       "id": "red5",
-      "question": "What distance should your fist be to your belly-button in 'Moa junbi sogi B'?",
+      "question": "What distance should your hands be to your belly-button in 'Moa junbi sogi B'?",
       "micah": "20cm",
       "fu1": "10cm",
       "fu2": "30cm",
@@ -2461,10 +2461,10 @@ const questions = [
       "grade": "black-tag",
       "id": "black-tag4",
       "question": "What do 'twimyo' and 'twiggi' mean in English?",
-      "micah": "Twimyo = Flying, Twiggi = Jumping",
-      "fu1": "Twimyo = Jumping, Twiggi = Flying",
+      "micah": "Twimyo = Flying<br>Twiggi = Jumping",
+      "fu1": "Twimyo = Jumping<br>Twiggi = Flying",
       "fu2": "There is no difference",
-      "fu3": "Twimyo = Twin, Twiggi = Double"
+      "fu3": "Twimyo = Twin<br>Twiggi = Double"
     },
     {
       "grade": "black-tag",
@@ -2577,7 +2577,7 @@ const questions = [
     {
       "grade": "black-tag",
       "id": "black-tag17",
-      "question": "What does 'Boo-sabum-nim' mean in English?", // repeat
+      "question": "What does 'Boo-sabum-nim' mean in English?",
       "micah": "Assistant Instructor",
       "fu1": "Instructor",
       "fu2": "Master",

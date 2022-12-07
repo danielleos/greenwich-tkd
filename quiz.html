@@ -28,6 +28,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"></script>
+    
+    <script src="https://kit.fontawesome.com/de7b822465.js" crossorigin="anonymous"></script>
 
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
@@ -73,7 +75,7 @@
     <div class="quiz-container">
       <div class="quiz-card" id="card-left">
         <div class="quiz-left-top">
-          <div class="lives" id="lives">
+          <div class="lives" id="lives"> <!-- Intentionally blank -->
               
           </div>
           <div class="instructors" id="instructors">
@@ -201,6 +203,7 @@
             Enter your initials:<br>
             <input id="scoreInput" type="text" required="required" minlength="3" maxlength="3"></input><br>
             <input id="scoreButton" type="submit" onclick="enterScore()"></input>
+            <a class="restart-link" href="/quiz.html"><i class="fa-solid fa-arrow-rotate-right"></i> Restart</a>
           </div>
         </div>
       </div>

@@ -666,6 +666,7 @@ body.modal-open .modalcontent {
   display: flex;
   flex-wrap: wrap;
   margin-right: 10%;
+  justify-content: flex-start;
 }
 
 .quiz-right-bottom table {
@@ -959,6 +960,15 @@ body.modal-open .modalcontent {
   margin: 10px 0px 20px 0px;
 }
 
+.restart-link {
+  display: block;
+  margin-top: 4px;
+}
+
+.restart-link:hover {
+  color: #2a72b6;
+}
+
 @media only screen and (max-width: 1080px) {
   .quiz-card {
     margin-top: 12%;
@@ -1015,6 +1025,7 @@ body.modal-open .modalcontent {
   .quiz-right-bottom {
     margin-right: 5%;
     margin-left: 5%;
+    justify-content: center;
   }
 
   .quiz-container {
@@ -1040,6 +1051,7 @@ body.modal-open .modalcontent {
   }
   .lives {
     margin-top: 120px;
+    margin-bottom: 12px;
     font-size: 2em;
   }
 
