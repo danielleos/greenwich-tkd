@@ -1,4 +1,3 @@
-
 // ON PAGE LOAD
 var content = document.getElementById("content");
 var modal = document.getElementById("modal");
