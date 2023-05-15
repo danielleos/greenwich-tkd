@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/randomiser.css">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+
+</head>
+
+<body>
+    <div class="big_container">
+        <div class="modal" id="modal">
+            <div class="modalContent">
+                <p class="modalTitle">SETTINGS</p>
+                <table>
+                    <tr>
+                        <td>Select your grade</td>
+                        <td>
+                            <select id="grades" name="Grades">
+                                <option value=18></option>
+                                <option value=0 class="colour">Yellow tag</option>
+                                <option value=1 class="colour">Yellow</option>
+                                <option value=2 class="colour">Green tag</option>
+                                <option value=3 class="colour">Green</option>
+                                <option value=4 class="colour">Blue tag</option>
+                                <option value=5 class="colour">Blue</option>
+                                <option value=6 class="colour">Red tag</option>
+                                <option value=7 class="colour">Red</option>
+                                <option value=8 class="colour">Black tag</option>
+                                <option value=11 class="black">1st Dan</option>
+                                <option value=14 class="black">2nd Dan</option>
+                                <option value=17 class="black">3rd Dan</option>
+                                <option value=20 class="black">4th Dan</option>
+                                <option value=22 class="black">5th Dan</option>
+                                <option value=23 class="black">6th Dan</option>
+                                <option value=23 class="black">7th Dan</option>
+                                <option value=23 class="black">8th Dan</option>
+                                <option value=23 class="black">9th Dan</option>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Colour belt patterns only</td>
+                        <td>
+                            <label class="switch">
+                                <input type="checkbox" id="colourBox">
+                                <span class="slider round"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Black belt patterns only</td>
+                        <td>
+                            <label class="switch">
+                                <input type="checkbox" id="blackBox">
+                                <span class="slider round"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>No repeats mode</td>
+                        <td>
+                            <label class="switch">
+                                <input type="checkbox" id="repeatsBox">
+                                <span class="slider round"></span>
+                            </label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="settings" id="close">SAVE</div>
+        </div>
+        <div id="content">
+            <div class="title">PATTERN RANDOMISER</div>
+            <div class="start" id="start">NEW PATTERN</div>
+            <div class="wheel_container" id="wheel_container">
+                <div class="wheel_card" id="wheel_content">
+                    <div id="wheel_tul">Chon-ji</div>
+                    <div id="wheel_moves"><span id="wheel_moves_span">19</span></div>
+                    <div id="wheel_belt_one"></div>
+                    <div id="wheel_belt_two"><span id="wheel_belt_two_span"></span></div>
+                    <div id="wheel_belt_three"></div>
+                    <div id="wheel_meaning">Chonji literally means 'the Heaven and the Earth'. In the Orient it is interpreted as the creation of the world or the beginning of human history, therefore, it is the initial pattern played by the beginner. This pattern consists of two similar parts, one to represent the Heaven and the other the Earth</div>
+                </div>
+                <div class="wheel_card" id="end_card">
+                    <div class="title">No patterns left</div>
+                    <div class="start" onClick="history.go(0);">START AGAIN</div>
+                </div>
+            </div>
+            <div class="settings" id="settings">SETTINGS</div>
+        </div>
+    </div>
+    <script src="js/randomiser.js"></script>
+</body>
+
+</html>

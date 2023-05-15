@@ -1,0 +1,259 @@
+html,
+body {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    background: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.big_container {
+    margin: 0 auto;
+    margin-top: 2vh;
+    max-width: 400px;
+}
+
+.title {
+    text-align: center;
+    font-size: 3vh;
+    height: 10vh;
+    line-height: 10vh;
+}
+
+.start {
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    height: 8vh;
+    line-height: 8vh;
+    width: 70%;
+    transition-duration: 0.2s;
+    box-shadow: 0 8px #666;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+.start:hover {
+    background: #1f1f1f;
+}
+
+.start:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.pressed {
+    color: grey;
+    border: 1px solid grey;
+}
+
+.wheel_container {
+    padding:10px;
+    margin: 0 auto;
+    text-align: center;
+    height: 60vh;
+
+}
+
+.settings {
+    cursor: pointer;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2vh;
+    text-align: center;
+    border: 1px solid #fff;
+    height: 7vh;
+    line-height: 7vh;
+}
+
+.settings:hover {
+    background: #1f1f1f;
+}
+
+.modal {
+    max-width: 400px;
+    display: none;
+    background: #000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    z-index: 1;
+    height: 80vh;
+    width: 90%;
+    height: calc(var(--vh, 1vh) * 80);
+}
+
+.modalTitle {
+    font-size: 2.7vh;
+    text-align: center;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    border: 1px solid #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 3px;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #3292a6;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #3292a6;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+#grades {
+    font-size: 2.4vh;
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 140px;
+}
+
+table {
+    font-size: 2.4vh;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td:nth-child(2) {
+    text-align: end;
+}
+
+tr {
+    height: 9vh;
+    border-bottom: 1pt solid #fff;
+}
+
+tr.bottom {
+    border-bottom: 1pt solid #000;
+}
+
+.wheel_card {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    align-content: center;
+    padding: 15px;
+    border: 1pt solid #fff;
+    margin-top: 2vh;
+    height: 55vh;
+}
+
+#wheel_tul {
+    width: 80%;
+    font-size: 6vh;
+    height: 6vh;
+    margin-bottom: 2vh;
+}
+
+#wheel_moves {
+    width: 20%;
+    font-size: 4vh;
+    height: 6vh;
+    text-align: right;
+    margin-bottom: 2vh;
+    align-self: flex-end;
+    position: relative;
+}
+
+#wheel_moves > span {
+    position: absolute;
+    bottom: 0;
+    right: 0;  
+}
+
+#wheel_belt_one {
+    width: 76%;
+    background: white;
+    height: 6vh;
+    border-top: 1pt solid #fff;
+    border-left: 1pt solid #fff;
+    border-bottom: 1pt solid #fff;
+}
+
+#wheel_belt_two {
+    display: flex;
+    justify-content: center;
+    width: 11.5%;
+    background: #e0ab25;
+    height: 6vh;
+    border-top: 1pt solid #fff;
+    border-bottom: 1pt solid #fff;
+    align-items: center
+}
+
+#wheel_belt_two_span {
+    color: #000;
+    font-family: "Georgia";
+    font-size: 4vh;
+}
+
+#wheel_belt_three {
+    width: 11.5%;
+    background: white;
+    height: 6vh;
+    border-top: 1pt solid #fff;
+    border-right: 1pt solid #fff;
+    border-bottom: 1pt solid #fff;
+}
+
+#wheel_meaning {
+    margin-top: 2vh;
+}
+
+#end_card {
+    display: none;
+}
