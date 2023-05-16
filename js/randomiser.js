@@ -9,6 +9,7 @@ var maximum = 8;
 var minimum = 0;
 var repeats = [];
 var repeatsToggle = 0;
+var testToggle = 0;
 
 // OPEN SETTINGS
 btn.onclick = function () {
@@ -20,6 +21,14 @@ btn.onclick = function () {
 span.onclick = function () {
     modal.style.display = "none";
     content.style.display = "block";
+}
+
+// REVEAL TEST YOURSELF
+wheelContainer.onclick = function () {
+   document.getElementById("wheel_moves_span").style.backgroundColor = "#1f1f1f";
+   document.getElementById("wheel_meaning_span").style.backgroundColor = "#1f1f1f";
+   document.getElementById("wheel_moves_span").style.color = "#ffffff";
+   document.getElementById("wheel_meaning_span").style.color = "#ffffff";
 }
 
 // DROPDOWN LISTENER
@@ -93,10 +102,17 @@ blackBox.addEventListener('change', function() {
    repeatsBox.addEventListener('change', function() {
    if (this.checked) {
       repeatsToggle = 1;
-      console.log({repeatsToggle}) 
    } else {
       repeatsToggle = 0;
-      console.log({repeatsToggle}) 
+   }});
+
+   // TEST YOURSELF CHECKBOX
+   var repeatsBox = document.getElementById("testBox");
+   repeatsBox.addEventListener('change', function() {
+   if (this.checked) {
+      testToggle = 1;
+   } else {
+      testToggle = 0;
    }});
 
 // NEW PATTERN
@@ -351,27 +367,42 @@ spinner.onclick = function () {
 
    var numberListFiltered = numberList.filter(item => !repeats.includes(item));
 
-    // IF THERE ARE PATTERNS LEFT...
-    if (numberListFiltered.length > 0) {
+   document.getElementById("wheel_content").style.opacity = 0;
 
-        var randomNumber = numberListFiltered[Math.floor(Math.random()*numberListFiltered.length)];
-        var dataFiltered = data[randomNumber]
+  setTimeout(function(){ 
 
-        document.getElementById("wheel_tul").innerHTML = dataFiltered.tul
-        document.getElementById("wheel_moves_span").innerHTML = dataFiltered.moves
-        document.getElementById("wheel_belt_one").style.background = dataFiltered.primary
-        document.getElementById("wheel_belt_two").style.background = dataFiltered.secondary
-        document.getElementById("wheel_belt_two_span").innerHTML = dataFiltered.dan
-        document.getElementById("wheel_belt_three").style.background = dataFiltered.primary
-        document.getElementById("wheel_meaning").innerHTML = dataFiltered.meaning
+   // IF THERE ARE PATTERNS LEFT...
+   if (numberListFiltered.length > 0) {
 
-        if (repeatsToggle === 1) {
-         repeats.push(randomNumber);
-        }
+      var randomNumber = numberListFiltered[Math.floor(Math.random()*numberListFiltered.length)];
+      var dataFiltered = data[randomNumber]
 
-    // IF THERE ARE NO MORE PATTERNS LEFT...
-    } else {
-        document.getElementById("wheel_content").style.display = "none";
-        document.getElementById("end_card").style.display = "block";
-    }
+      document.getElementById("wheel_tul_span").innerHTML = dataFiltered.tul
+      document.getElementById("wheel_moves_span").innerHTML = dataFiltered.moves
+      document.getElementById("wheel_belt_one").style.background = dataFiltered.primary
+      document.getElementById("wheel_belt_two").style.background = dataFiltered.secondary
+      document.getElementById("wheel_belt_two_span").innerHTML = dataFiltered.dan
+      document.getElementById("wheel_belt_three").style.background = dataFiltered.primary
+      document.getElementById("wheel_meaning_span").innerHTML = dataFiltered.meaning
+
+      if (testToggle === 1) {
+       document.getElementById("wheel_moves_span").style.backgroundColor = "#666666";
+       document.getElementById("wheel_meaning_span").style.backgroundColor = "#666666";
+       document.getElementById("wheel_moves_span").style.color = "#666666";
+       document.getElementById("wheel_meaning_span").style.color = "#666666";
+      }
+
+      if (repeatsToggle === 1) {
+       repeats.push(randomNumber);
+      }
+
+  // IF THERE ARE NO MORE PATTERNS LEFT...
+  } else {
+      document.getElementById("wheel_content").style.display = "none";
+      document.getElementById("end_card").style.display = "block";
+  }
+
+      document.getElementById("wheel_content").style.opacity = 1;
+   },300);
+
 }
