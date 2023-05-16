@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Rubik:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/randomiser.css">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
 
@@ -65,6 +66,15 @@
                             </label>
                         </td>
                     </tr>
+                    <tr>
+                        <td>Test yourself mode</td>
+                        <td>
+                            <label class="switch">
+                                <input type="checkbox" id="testBox">
+                                <span class="slider round"></span>
+                            </label>
+                        </td>
+                    </tr>
                 </table>
             </div>
             <div class="settings" id="close">SAVE</div>
@@ -74,15 +84,15 @@
             <div class="start" id="start">NEW PATTERN</div>
             <div class="wheel_container" id="wheel_container">
                 <div class="wheel_card" id="wheel_content">
-                    <div id="wheel_tul">Chon-ji</div>
+                    <div id="wheel_tul"><span id="wheel_tul_span">Chon-ji</span></div>
                     <div id="wheel_moves"><span id="wheel_moves_span">19</span></div>
                     <div id="wheel_belt_one"></div>
                     <div id="wheel_belt_two"><span id="wheel_belt_two_span"></span></div>
                     <div id="wheel_belt_three"></div>
-                    <div id="wheel_meaning">Chonji literally means 'the Heaven and the Earth'. In the Orient it is interpreted as the creation of the world or the beginning of human history, therefore, it is the initial pattern played by the beginner. This pattern consists of two similar parts, one to represent the Heaven and the other the Earth</div>
+                    <div id="wheel_meaning"><span id="wheel_meaning_span">Chonji literally means 'the Heaven and the Earth'. In the Orient it is interpreted as the creation of the world or the beginning of human history, therefore, it is the initial pattern played by the beginner. This pattern consists of two similar parts, one to represent the Heaven and the other the Earth</span></div>
                 </div>
                 <div class="wheel_card" id="end_card">
-                    <div class="title">No patterns left</div>
+                    <div class="title">That's all Folks!</div>
                     <div class="start" onClick="history.go(0);">START AGAIN</div>
                 </div>
             </div>

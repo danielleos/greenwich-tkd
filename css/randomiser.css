@@ -4,7 +4,7 @@ body {
     height: calc(var(--vh, 1vh) * 100);
     background: #000;
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Rubik", sans-serif;
     overflow: hidden;
 }
 
@@ -16,7 +16,7 @@ body {
 
 .title {
     text-align: center;
-    font-size: 3vh;
+    font-size: 1.3rem;
     height: 10vh;
     line-height: 10vh;
 }
@@ -56,7 +56,6 @@ body {
     margin: 0 auto;
     text-align: center;
     height: 60vh;
-
 }
 
 .settings {
@@ -90,7 +89,7 @@ body {
 }
 
 .modalTitle {
-    font-size: 2.7vh;
+    font-size: 1.3rem;
     text-align: center;
 }
 
@@ -155,7 +154,7 @@ input:checked+.slider:before {
 }
 
 #grades {
-    font-size: 2.4vh;
+    font-size: 1.3rem;
     background: #000;
     color: #fff;
     border: 1px solid #fff;
@@ -163,7 +162,6 @@ input:checked+.slider:before {
 }
 
 table {
-    font-size: 2.4vh;
     width: 100%;
     border-collapse: collapse;
 }
@@ -182,6 +180,7 @@ tr.bottom {
 }
 
 .wheel_card {
+    background: #1f1f1f;
     display: flex;
     flex-wrap: wrap;
     text-align: left;
@@ -190,18 +189,32 @@ tr.bottom {
     border: 1pt solid #fff;
     margin-top: 2vh;
     height: 55vh;
+    -webkit-transition: opacity .5s ease-in;
+    -moz-transition: opacity .5s ease-in;
+    -ms-transition: opacity .5s ease-in;
+    -o-transition: opacity .5s ease-in;
+    transition: opacity .5s ease-in;
 }
 
 #wheel_tul {
     width: 80%;
-    font-size: 6vh;
-    height: 6vh;
+    font-size: 2rem;
+    height: 6vw;
     margin-bottom: 2vh;
+    text-align: left;
+    align-self: flex-end;
+    position: relative;
+}
+
+#wheel_tul > span {
+    position: absolute;
+    bottom: 0;
+    left: 0;  
 }
 
 #wheel_moves {
     width: 20%;
-    font-size: 4vh;
+    font-size: 1.5rem;
     height: 6vh;
     text-align: right;
     margin-bottom: 2vh;
@@ -238,7 +251,7 @@ tr.bottom {
 #wheel_belt_two_span {
     color: #000;
     font-family: "Georgia";
-    font-size: 4vh;
+    font-size: 1.3rem;
 }
 
 #wheel_belt_three {
